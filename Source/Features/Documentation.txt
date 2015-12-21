@@ -1,0 +1,77 @@
+(1) Requirements ---------------------------------------------------------------
+
+Akaya is a calligraphic display typeface for contemporary use. This follows the new 
+orthography as commonly seen used today in non-academic settings. Akaya will however 
+support basic Sanskrit for both Kannada and Telugu scripts. The typeface is based on
+a hybrid model that tries to closely imitate the old way of writing--unaffected by 
+the constraints of hot-metal and photo-typesetting era. This would mostly mean 
+complex vattu placements which will be pretty complex for Telugu. The line spacing for
+Akaya will therefore be affected by this decision. This typeface is an experiment at 
+this stage to provide a good quality informal Kannada and Telugu display typeface.
+
+
+
+(1.a) GPOS
+      (1.a.1) Positioning of Below Base / Post Base forms without overlap (Mark to Mark positioning)
+      (1.a.2) 3 level Vattu Forms
+      
+      Generated Classes
+
+
+(1.b) GSUB 
+      Halant Forms
+      
+      Pre-base Forms (NONE)
+      
+      Pre-base Substitution
+      (1.b.c) Stylistic Sets (Ex. tlKU.alt, tlKUU.alt)
+      
+      Reph Forms (For Kannada)
+      
+      Below-base Forms
+      (1.b.a) Accurate ordering of Below Base forms based on input sequences (Accurate Chaining Sequences)
+      
+
+
+(2) Specification -----------------------------------
+
+Definition:
+===========
+
+tlSSMAC2.1  {appears after KA+Virama Eg., Lakshmi}
+tlSSMAC2    {appears after all other BaseConsonants+Virama}
+ౄ, ఀ,           {No support for vocalic RR vowel mark, Chandra Mark, Vocalic LL for Kannada and Telugu}
+tlLLLA ,tlRRA ( Only tlLLLA and tlLLL are supported. Similarly tlRRA and tlRR as they are archaic characters) 
+
+Alternates:
+===========
+
+Stylistic Set 2:
+----------------
+tlKU.alt
+tlKUU.alt
+tlNGU.alt
+tlNGUU.alt
+tnNN.alt
+
+
+(3) Design Documents ------------------------------------------------------------
+
+
+
+
+
+(4) Feature Files ----------------------------------------------------------------------
+ 
+Tables
+Sorting Order
+Groups/Classes
+--GSUB
+Features
+Lookups
+--GPOS
+Positioning
+Kerning Tables
+
+
+
