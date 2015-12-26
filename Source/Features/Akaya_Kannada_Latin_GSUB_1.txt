@@ -1,18 +1,219 @@
 ### ======================== Groups ======================== ###
 @BELOW_BASE_MARKS = [knmvR knAIlengthmark knKAc2 knKSSAc2 knKHAc2 knGAc2 knGHAc2 knNGAc2 knCAc2 knCHAc2 knJAc2 knJHAc2 knNYAc2 knTTAc2 knTTHAc2 knDDAc2 knDDHAc2 knNNAc2 knTAc2 knTYAc2 knTHAc2 knDAc2 knDHAc2 knNAc2 knPAc2 knPHAc2 knBAc2 knBHAc2 knMAc2 knYAc2 knRAc2 knLAc2 knVAc2 knSHAc2 knSSAc2 knSAc2 knHAc2 knLLAc2];
 @BELOW_BASE_MARKS_FOLLOWING = [knmvR.following knAIlengthmark.following knKAc2.following knKSSAc2.following knKHAc2.following knGAc2.following knGHAc2.following knNGAc2.following knCAc2.following knCHAc2.following knJAc2.following knJHAc2.following knNYAc2.following knTTAc2.following knTTHAc2.following knDDAc2.following knDDHAc2.following knNNAc2.following knTAc2.following knTYAc2.following knTHAc2.following knDAc2.following knDHAc2.following knNAc2.following knPAc2.following knPHAc2.following knBAc2.following knBHAc2.following knMAc2.following knYAc2.following knRAc2.following knLAc2.following knVAc2.following knSHAc2.following knSSAc2.following knSAc2.following knHAc2.following knLLAc2.following];
+@C2_PRECOMPOSED = [ knKSSAc2 knCHRAc2 knTTRAc2 knDRAc2 knDHRAc2];
 @COMBINING_MARKS = [knNukta @BELOW_BASE_MARKS @BELOW_BASE_MARKS_FOLLOWING];
 @NARROW_LETTERS = [knKA knKHA knTTHA knNA knSA knKI knGI knRI knVI knKE knKHE knTTHE knRE knK knKAU knKHAU knTTHAU knRAU];
 @MEDIUM_LETTERS = [knTA knTAA knTU knTUU knTHUU knTE knTO knTAU knT knGA knGE knNGA knJA knTHA knDA knDHA knRA knVA knKHI knNGI knJI knTTHI knTHI knDI knDHI knNI knSI knJE knNE knSE knLA knG knTTH knTH knD knDH knN knR knL knS knGAU knNGAU knJAU knTHAU knDAU knDHAU knNAU knLAU knSAU];
 @WIDE_LETTERS = [knGHA knCA knCHA knJHA knNYA knTTA knDDA knDDHA knNNA knPA knPHA knBA knBHA knMA knYA knSHA knSSA knHA knRRA knLLA knLLLA knKAA knKHAA knGAA knGHAA knNGAA knCAA knCHAA knJAA knJHAA knNYAA knTTAA knTTHAA knDDAA knDDHAA knNNAA knTHAA knDAA knDHAA knNAA knPAA knPHAA knBAA knBHAA knMAA knYAA knRAA knLAA knVAA knSHAA knSSAA knSAA knHAA knLLAA knGHI knCI knCHI knJHI knNYI knTTI knDDI knDDHI knNNI knTI knPI knPHI knBI knBHI knMI knYI knLI knSHI knSSI knHI knLLI knKU knKHU knGU knGHU knNGU knCU knCHU knJU knJHU knNYU knTTU knTTHU knDDU knDDHU knNNU knTHU knDU knDHU knNU knPU knPHU knBU knBHU knMU knYU knRU knLU knVU knSHU knSSU knSU knHU knLLU knKUU knKHUU knGUU knGHUU knNGUU knCUU knCHUU knJUU knJHUU knNYUU knTTUU knTTHUU knDDUU knDDHUU knNNUU knDUU knDHUU knNUU knPUU knPHUU knBUU knBHUU knMUU knYUU knRUU knLUU knVUU knSHUU knSSUU knSUU knHUU knLLUU knGHE knNGE knCE knCHE knJHE knNYE knTTE knDDE knDDHE knNNE knTHE knDE knDHE knPE knPHE knBE knBHE knME knYE knLE knVE knSHE knSSE knHE knLLE knKO knKHO knGO knGHO knNGO knCO knCHO knJO knJHO knNYO knTTE knTTO knTTHO knDDO knDDHO knNNO knTHO knDO knDHO knNO knPO knPHO knBO knBHO knMO knYO knRO knLO knVO knSHO knSSO knSO knHO knLLO knGHAU knCAU knCHAU knJHAU knNYAU knTTAU knDDAU knDDHAU knNNAU knPAU knPHAU knBAU knBHAU knMAU knYAU knVAU knSHAU knSSAU knHAU knLLAU knKH knGH knNG knC knCH knJ knJH knNY knTT knDD knDDH knNN knP knPH knB knBH knM knY knV knSH knSS knH knLL knDDHxA knPHxA];
+@TAC2 = [knTAc2.01 knTAc2 knTAc2.03];
+@RAC2 = [knRAc2 knRAc2.02 knRAc2.03];
 
 ### ======================== Language Systems ======================== ###
 languagesystem DFLT dflt;
-languagesystem knda dflt;
+languagesystem latn dflt;
+languagesystem latn CAT ;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
 languagesystem knd2 dflt;
-
-
+languagesystem knda dflt;
 ### ======================== Lookups ======================== ###
+
+#<<<<<<<<<<<< L A T I N >>>>>>>>>>>>>>
+
+
+#---------------
+
+lookup GSUB_LOOKUP_00012 
+{
+ lookupflag 0;
+    sub L periodcentered by Ldot;
+    sub l periodcentered by ldot;
+} GSUB_LOOKUP_00012;
+
+#---------------
+
+lookup GSUB_LOOKUP_00013 
+{
+ lookupflag 0;
+    sub A by ordfeminine;
+    sub O by ordmasculine;
+    sub a by ordfeminine;
+    sub o by ordmasculine;
+} GSUB_LOOKUP_00013;
+
+
+#---- LOCL ----
+
+lookup GSUB_LOOKUP_00002 
+{
+ lookupflag 0;
+    sub Scedilla by Scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub scedilla by scommaaccent;
+    sub tcedilla by tcommaaccent;
+} GSUB_LOOKUP_00002;
+
+
+lookup GSUB_LOOKUP_00003 
+{
+ lookupflag 0;
+    sub Scedilla by Scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub scedilla by scommaaccent;
+    sub tcedilla by tcommaaccent;
+} GSUB_LOOKUP_00003;
+
+
+lookup GSUB_LOOKUP_00004 
+{
+ lookupflag 0;
+    sub [l ]' lookup GSUB_LOOKUP_00012 [periodcentered ]' [l ] ;
+    sub [L ]' lookup GSUB_LOOKUP_00012 [periodcentered ]' [L ] ;
+} GSUB_LOOKUP_00004;
+
+#---- SUPS ----
+
+lookup GSUB_LOOKUP_00005 
+{
+ lookupflag 0;
+    sub one by onesuperior;
+    sub two by twosuperior;
+    sub three by threesuperior;
+    sub four by foursuperior;
+} GSUB_LOOKUP_00005;
+
+#---- FRAC ----
+
+lookup GSUB_LOOKUP_00006 
+{
+ lookupflag 0;
+    sub one slash two by onehalf;
+    sub one slash four by onequarter;
+    sub three slash four by threequarters;
+} GSUB_LOOKUP_00006;
+
+
+#---- ORDN ----
+
+lookup GSUB_LOOKUP_00007 
+{
+ lookupflag 0;
+    sub [zero one two three four five six seven eight nine ] [A a ]' lookup GSUB_LOOKUP_00013 ;
+    sub [zero one two three four five six seven eight nine ] [O o ]' lookup GSUB_LOOKUP_00013 ;
+} GSUB_LOOKUP_00007;
+
+
+#---- LNUM ----
+
+lookup GSUB_LOOKUP_00008 
+{
+ lookupflag 0;
+    sub zero by zero.lf;
+    sub one by one.lf;
+    sub two by two.lf;
+    sub three by three.lf;
+    sub four by four.lf;
+    sub five by five.lf;
+    sub six by six.lf;
+    sub seven by seven.lf;
+    sub eight by eight.lf;
+    sub nine by nine.lf;
+} GSUB_LOOKUP_00008;
+
+
+#---- ONUM ----
+
+lookup GSUB_LOOKUP_00009 
+{
+ lookupflag 0;
+    sub zero.lf by zero;
+    sub one.lf by one;
+    sub two.lf by two;
+    sub three.lf by three;
+    sub four.lf by four;
+    sub five.lf by five;
+    sub six.lf by six;
+    sub seven.lf by seven;
+    sub eight.lf by eight;
+    sub nine.lf by nine;
+} GSUB_LOOKUP_00009;
+
+
+#---- CASE ----
+
+lookup GSUB_LOOKUP_00010 
+{
+ lookupflag 0;
+    sub zero by zero.lf;
+    sub one by one.lf;
+    sub two by two.lf;
+    sub three by three.lf;
+    sub four by four.lf;
+    sub five by five.lf;
+    sub six by six.lf;
+    sub seven by seven.lf;
+    sub eight by eight.lf;
+    sub nine by nine.lf;
+} GSUB_LOOKUP_00010;
+
+#---- LIGA ----
+
+lookup GSUB_LOOKUP_00011 
+{
+ lookupflag 0;
+    sub f i by fi;
+    sub f l by fl;
+} GSUB_LOOKUP_00011;
+
+
+feature aalt {
+### import of lookup GSUB_LOOKUP_00000;
+    sub A by ordfeminine;
+    sub O by ordmasculine;
+    sub Scedilla by Scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub a by ordfeminine;
+    sub o by ordmasculine;
+    sub scedilla by scommaaccent;
+    sub tcedilla by tcommaaccent;
+    sub zero by zero.lf;
+    sub five by five.lf;
+    sub six by six.lf;
+    sub seven by seven.lf;
+    sub eight by eight.lf;
+    sub nine by nine.lf;
+    sub zero.lf by zero;
+    sub five.lf by five;
+    sub six.lf by six;
+    sub seven.lf by seven;
+    sub eight.lf by eight;
+    sub nine.lf by nine;
+### import of lookup GSUB_LOOKUP_00001;
+    sub one from [onesuperior one.lf];
+    sub two from [twosuperior two.lf];
+    sub three from [threesuperior three.lf];
+    sub four from [foursuperior four.lf];
+    sub one.lf from [one];
+    sub two.lf from [two];
+    sub three.lf from [three];
+    sub four.lf from [four];
+} aalt;
+
+#<<<<<<<<<<<< K A N N A D A >>>>>>>>>>>>>>
+
+#---- RPHF ----
+
+lookup rphf {
+  sub knRA knVirama by knReph;
+} rphf;
+
+#---- NUKT ----
+
+lookup nukt {
+   sub knDDHA knNukta by knDDHxA; 
+   sub knPHA knNukta by knPHxA;
+ } nukt;
 
 #---- BLWF ----
 
@@ -93,62 +294,12 @@ lookup blwf_knda {
 #---- BLWS ----
 
 lookup blws_1 {
-  sub @BELOW_BASE_MARKS @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
-} blws_1;
-
-lookup blws_2 {
   sub knKAc2 knSSAc2 by knKSSAc2;
   sub knCHAc2 knRAc2 by knCHRAc2;
   sub knTTAc2 knRAc2 by knTTRAc2;
   sub knDAc2 knRAc2 by knDRAc2;
   sub knDHAc2 knRAc2 by knDHRAc2;
-} blws_2;
-
-#---- NUKT ----
-
-lookup nukt {
-   sub knDDHA knNukta by knDDHxA; 
-   sub knPHA knNukta by knPHxA;
- } nukt;
- 
-#---- HALN ----
-
-lookup haln {
-  sub knKA knVirama by knK;
-  sub knKHA knVirama by knKH;
-  sub knGA knVirama by knG;
-  sub knGHA knVirama by knGH;
-  sub knNGA knVirama by knNG;
-  sub knCA knVirama by knC;
-  sub knCHA knVirama by knCH;
-  sub knJA knVirama by knJ;
-  sub knJHA knVirama by knJH;
-  sub knNYA knVirama by knNY;
-  sub knTTA knVirama by knTT;
-  sub knTTHA knVirama by knTTH;
-  sub knDDA knVirama by knDD;
-  sub knDDHA knVirama by knDDH;
-  sub knNNA knVirama by knNN;
-  sub knTA knVirama by knT;
-  sub knTHA knVirama by knTH;
-  sub knDA knVirama by knD;
-  sub knDHA knVirama by knDH;
-  sub knNA knVirama by knN;
-  sub knPA knVirama by knP;
-  sub knPHA knVirama by knPH;
-  sub knBA knVirama by knB;
-  sub knBHA knVirama by knBH;
-  sub knMA knVirama by knM;
-  sub knYA knVirama by knY;
-  sub knRA knVirama by knR;
-  sub knLA knVirama by knL;
-  sub knVA knVirama by knV;
-  sub knSHA knVirama by knSH;
-  sub knSSA knVirama by knSS;
-  sub knSA knVirama by knS;
-  sub knHA knVirama by knH;
-  sub knLLA knVirama by knLL;
-} haln;
+} blws_1;
 
 #---- PSTS ----
 
@@ -413,27 +564,155 @@ lookup psts_7 {
 
 lookup psts_8 {
   sub @MEDIUM_LETTERS knRAc2' by knRAc2.02;
+  sub @WIDE_LETTERS knRAc2' by knRAc2.03;
 } psts_8;
 
 lookup psts_9 {
-  sub @WIDE_LETTERS knRAc2' by knRAc2.03;
+  sub @NARROW_LETTERS knTAc2' by knTAc2.01;
+  sub @WIDE_LETTERS knTAc2' by knTAc2.03;
 } psts_9;
 
 lookup psts_10 {
-  sub @NARROW_LETTERS knTAc2' by knTAc2.01;
+  sub @NARROW_LETTERS @TAC2' @RAC2' by knTRAc2.01;
+  sub @MEDIUM_LETTERS @TAC2' @RAC2' by knTRAc2;
+  sub @WIDE_LETTERS @TAC2' @RAC2' by knTRAc2.03;
 } psts_10;
 
 lookup psts_11 {
-  sub @WIDE_LETTERS knTAc2' by knTAc2.03;
+  sub @BELOW_BASE_MARKS @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
+  sub [@TAC2 @RAC2] @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
+  sub @C2_PRECOMPOSED @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
 } psts_11;
 
-#---- RPHF ----
 
-lookup rphf {
-  sub knRA knVirama by knReph;
-} rphf;
+
+# lookup rphf_refer_1 {
+#     sub knmvR by knRAc2;
+# } rphf_refer_1;
+# 
+# lookup rphf_refer_2 {
+#     sub knReph by knmvR;
+# } rphf_refer_2;
+# 
+# lookup rphf_refer_3 {
+#     sub knmvRr by knRAc2;
+# } rphf_refer_3;
+# 
+# lookup rphf_refer_4 {
+#     sub knReph by knmvRr;
+# } rphf_refer_4;
+# 
+# lookup rphf_refer_5 {
+#     sub knAIlengthmark by knRAc2;
+# } rphf_refer_5;
+# 
+# lookup rphf_refer_6 {
+#     sub knReph by knAIlengthmark;
+# } rphf_refer_6;
+
+#---- HALN ----
+
+lookup haln {
+#lookupflag IgnoreMarks;
+  sub knKA knVirama by knK;
+  sub knKHA knVirama by knKH;
+  sub knGA knVirama by knG;
+  sub knGHA knVirama by knGH;
+  sub knNGA knVirama by knNG;
+  sub knCA knVirama by knC;
+  sub knCHA knVirama by knCH;
+  sub knJA knVirama by knJ;
+  sub knJHA knVirama by knJH;
+  sub knNYA knVirama by knNY;
+  sub knTTA knVirama by knTT;
+  sub knTTHA knVirama by knTTH;
+  sub knDDA knVirama by knDD;
+  sub knDDHA knVirama by knDDH;
+  sub knNNA knVirama by knNN;
+  sub knTA knVirama by knT;
+  sub knTHA knVirama by knTH;
+  sub knDA knVirama by knD;
+  sub knDHA knVirama by knDH;
+  sub knNA knVirama by knN;
+  sub knPA knVirama by knP;
+  sub knPHA knVirama by knPH;
+  sub knBA knVirama by knB;
+  sub knBHA knVirama by knBH;
+  sub knMA knVirama by knM;
+  sub knYA knVirama by knY;
+  sub knRA knVirama by knR;
+  sub knLA knVirama by knL;
+  sub knVA knVirama by knV;
+  sub knSHA knVirama by knSH;
+  sub knSSA knVirama by knSS;
+  sub knSA knVirama by knS;
+  sub knHA knVirama by knH;
+  sub knLLA knVirama by knLL;
+#lookupflag 0;
+} haln;
 
 ### ======================== Features ======================== ###
+
+
+
+feature case {
+        lookup GSUB_LOOKUP_00010;
+} case;
+
+feature frac {
+        lookup GSUB_LOOKUP_00006;
+} frac;
+
+feature liga {
+        lookup GSUB_LOOKUP_00011;
+} liga;
+
+feature lnum {
+        lookup GSUB_LOOKUP_00008;
+} lnum;
+
+feature onum {
+        lookup GSUB_LOOKUP_00009;
+} onum;
+
+feature ordn {
+        lookup GSUB_LOOKUP_00007;
+} ordn;
+
+feature sups {
+        lookup GSUB_LOOKUP_00005;
+} sups;
+
+feature locl {
+    script latn ; 
+    language CAT  ; 
+        lookup GSUB_LOOKUP_00004;
+    language MOL  ; 
+        lookup GSUB_LOOKUP_00003;
+    language ROM  ; 
+        lookup GSUB_LOOKUP_00002;
+} locl;
+
+
+#=======================================
+
+feature rphf {
+    script knda;
+        lookup rphf;
+    script knd2;
+        lookup rphf;
+} rphf;
+
+#-------------
+
+feature nukt {
+    script knda;
+        lookup nukt;
+    script knd2;
+        lookup nukt;
+} nukt;
+
+#-------------
 
 feature blwf {
 
@@ -452,29 +731,9 @@ feature blwf {
 feature blws {
     script knda;
         lookup blws_1;
-        lookup blws_2;
     script knd2;
         lookup blws_1;
-        lookup blws_2;
 } blws;
-
-#-------------
-
-feature nukt {
-    script knda;
-        lookup nukt;
-    script knd2;
-        lookup nukt;
-} nukt;
-
-#-------------
-
-feature haln {
-    script knda;
-        lookup haln;
-    script knd2;
-        lookup haln;
-} haln;
 
 #-------------
 
@@ -503,15 +762,16 @@ feature psts {
         lookup psts_9;
         lookup psts_10;
         lookup psts_11;
+
 } psts;
 
 #-------------
 
-feature rphf {
+feature haln {
     script knda;
-        lookup rphf;
+        lookup haln;
     script knd2;
-        lookup rphf;
-} rphf;
+        lookup haln;
+} haln;
 
 #-------------

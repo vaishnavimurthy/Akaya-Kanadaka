@@ -5,315 +5,1907 @@
 # Font PostScript name: AkayaKannada-Regular
 # Font version: 1.000
 # Font copyright: Copyright © 2015 by Vaishnavi Murthy. 
+#
+#
+#
 
 ### ======================== Language Systems ======================== ###
 languagesystem DFLT dflt;
-languagesystem knda dflt;
 languagesystem knd2 dflt;
+languagesystem knda dflt;
+languagesystem latn dflt;
+languagesystem latn CAT ;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+### ======================== Lookups ======================== ###
 
 
-### ============================= Lookups ============================= ###
-
-
-#--------------------------------------------------------------------------
-#   Feature "blwm": Below-base Mark Positioning 
+#*************************************************************************
+#   Feature "kern": Kerning 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
-#   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
-#--------------------------------------------------------------------------
+#   used in script: latn 
+#   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
+#*************************************************************************
+lookup GPOS_LOOKUP_00000 
+{
+ lookupflag 0;
+    pos \space \T <0 0 -20 0>;
+    pos \space \Tcaron <0 0 -20 0>;
+    pos \space \Tcedilla <0 0 -20 0>;
+    pos \space \Tcommaaccent <0 0 -20 0>;
+    pos \space \V <0 0 -30 0>;
+    pos \space \W <0 0 -30 0>;
+    pos \space \X <0 0 -10 0>;
+    pos \space \j <0 0 20 0>;
+    pos \space \jdotless <0 0 20 0>;
+    pos \B \lslash <0 0 -4 0>;
+    pos \C \idieresis <0 0 10 0>;
+    pos \Cacute \idieresis <0 0 10 0>;
+    pos \Ccaron \idieresis <0 0 10 0>;
+    pos \Ccedilla \idieresis <0 0 10 0>;
+    pos \D \period <0 0 -50 0>;
+    pos \Dcaron \period <0 0 -50 0>;
+    pos \Dcroat \period <0 0 -50 0>;
+    pos \Eth \period <0 0 -50 0>;
+    pos \F \space <0 0 -14 0>;
+    pos \F \edieresis <0 0 -65 0>;
+    pos \F \egrave <0 0 -70 0>;
+    pos \F \icircumflex <0 0 -10 0>;
+    pos \F \idieresis <0 0 30 0>;
+    pos \F \igrave <0 0 10 0>;
+    pos \F \imacron <0 0 10 0>;
+    pos \F \rcaron <0 0 -25 0>;
+    pos \G \lslash <0 0 8 0>;
+    pos \K \idieresis <0 0 10 0>;
+    pos \K \igrave <0 0 0 0>;
+    pos \K \imacron <0 0 0 0>;
+    pos \Kcommaaccent \idieresis <0 0 10 0>;
+    pos \Kcommaaccent \igrave <0 0 0 0>;
+    pos \Kcommaaccent \imacron <0 0 0 0>;
+    pos \L \space <0 0 -30 0>;
+    pos \L \T <0 0 -80 0>;
+    pos \L \V <0 0 -60 0>;
+    pos \Lacute \space <0 0 -30 0>;
+    pos \Lacute \T <0 0 -80 0>;
+    pos \Lacute \V <0 0 -60 0>;
+    pos \Lcaron \space <0 0 -30 0>;
+    pos \Lcaron \T <0 0 -80 0>;
+    pos \Lcaron \V <0 0 -60 0>;
+    pos \Lcommaaccent \space <0 0 -30 0>;
+    pos \Lcommaaccent \T <0 0 -80 0>;
+    pos \Lcommaaccent \V <0 0 -60 0>;
+    pos \Lslash \space <0 0 -30 0>;
+    pos \Lslash \T <0 0 -80 0>;
+    pos \Lslash \V <0 0 -60 0>;
+    pos \M \space <0 0 -5 0>;
+    pos \O \period <0 0 -50 0>;
+    pos \Oacute \period <0 0 -50 0>;
+    pos \Ocircumflex \period <0 0 -50 0>;
+    pos \Odieresis \period <0 0 -50 0>;
+    pos \Ograve \period <0 0 -50 0>;
+    pos \Ohungarumlaut \period <0 0 -50 0>;
+    pos \Omacron \period <0 0 -50 0>;
+    pos \Oslash \period <0 0 -50 0>;
+    pos \Otilde \period <0 0 -50 0>;
+    pos \P \space <0 0 -10 0>;
+    pos \P \icircumflex <0 0 20 0>;
+    pos \P \idieresis <0 0 10 0>;
+    pos \P \imacron <0 0 5 0>;
+    pos \S \lslash <0 0 2 0>;
+    pos \Sacute \lslash <0 0 2 0>;
+    pos \Scaron \lslash <0 0 2 0>;
+    pos \Scedilla \lslash <0 0 2 0>;
+    pos \Scommaaccent \lslash <0 0 2 0>;
+    pos \T \space <0 0 -35 0>;
+    pos \T \ccaron <0 0 -80 0>;
+    pos \T \ecaron <0 0 -80 0>;
+    pos \T \edieresis <0 0 -80 0>;
+    pos \T \egrave <0 0 -70 0>;
+    pos \T \emacron <0 0 -80 0>;
+    pos \T \gbreve <0 0 -80 0>;
+    pos \T \icircumflex <0 0 -10 0>;
+    pos \T \idieresis <0 0 20 0>;
+    pos \T \igrave <0 0 25 0>;
+    pos \T \imacron <0 0 0 0>;
+    pos \T \odieresis <0 0 -54 0>;
+    pos \T \ograve <0 0 -44 0>;
+    pos \T \omacron <0 0 -64 0>;
+    pos \T \otilde <0 0 -64 0>;
+    pos \T \scaron <0 0 -58 0>;
+    pos \T \udieresis <0 0 -78 0>;
+    pos \T \ugrave <0 0 -78 0>;
+    pos \T \ydieresis <0 0 -50 0>;
+    pos \T \zcaron <0 0 -56 0>;
+    pos \Tcaron \space <0 0 -35 0>;
+    pos \Tcaron \ccaron <0 0 -80 0>;
+    pos \Tcaron \ecaron <0 0 -80 0>;
+    pos \Tcaron \edieresis <0 0 -80 0>;
+    pos \Tcaron \egrave <0 0 -70 0>;
+    pos \Tcaron \emacron <0 0 -80 0>;
+    pos \Tcaron \gbreve <0 0 -80 0>;
+    pos \Tcaron \icircumflex <0 0 -10 0>;
+    pos \Tcaron \idieresis <0 0 20 0>;
+    pos \Tcaron \igrave <0 0 25 0>;
+    pos \Tcaron \imacron <0 0 0 0>;
+    pos \Tcaron \odieresis <0 0 -54 0>;
+    pos \Tcaron \ograve <0 0 -44 0>;
+    pos \Tcaron \omacron <0 0 -64 0>;
+    pos \Tcaron \otilde <0 0 -64 0>;
+    pos \Tcaron \scaron <0 0 -58 0>;
+    pos \Tcaron \udieresis <0 0 -78 0>;
+    pos \Tcaron \ugrave <0 0 -78 0>;
+    pos \Tcaron \ydieresis <0 0 -50 0>;
+    pos \Tcaron \zcaron <0 0 -56 0>;
+    pos \Tcedilla \space <0 0 -35 0>;
+    pos \Tcedilla \ccaron <0 0 -80 0>;
+    pos \Tcedilla \ecaron <0 0 -80 0>;
+    pos \Tcedilla \edieresis <0 0 -80 0>;
+    pos \Tcedilla \egrave <0 0 -70 0>;
+    pos \Tcedilla \emacron <0 0 -80 0>;
+    pos \Tcedilla \gbreve <0 0 -80 0>;
+    pos \Tcedilla \icircumflex <0 0 -10 0>;
+    pos \Tcedilla \idieresis <0 0 20 0>;
+    pos \Tcedilla \igrave <0 0 25 0>;
+    pos \Tcedilla \imacron <0 0 0 0>;
+    pos \Tcedilla \odieresis <0 0 -54 0>;
+    pos \Tcedilla \ograve <0 0 -44 0>;
+    pos \Tcedilla \omacron <0 0 -64 0>;
+    pos \Tcedilla \otilde <0 0 -64 0>;
+    pos \Tcedilla \scaron <0 0 -58 0>;
+    pos \Tcedilla \udieresis <0 0 -78 0>;
+    pos \Tcedilla \ugrave <0 0 -78 0>;
+    pos \Tcedilla \ydieresis <0 0 -50 0>;
+    pos \Tcedilla \zcaron <0 0 -56 0>;
+    pos \Tcommaaccent \space <0 0 -35 0>;
+    pos \Tcommaaccent \ccaron <0 0 -80 0>;
+    pos \Tcommaaccent \ecaron <0 0 -80 0>;
+    pos \Tcommaaccent \edieresis <0 0 -80 0>;
+    pos \Tcommaaccent \egrave <0 0 -70 0>;
+    pos \Tcommaaccent \emacron <0 0 -80 0>;
+    pos \Tcommaaccent \gbreve <0 0 -80 0>;
+    pos \Tcommaaccent \icircumflex <0 0 -10 0>;
+    pos \Tcommaaccent \idieresis <0 0 20 0>;
+    pos \Tcommaaccent \igrave <0 0 25 0>;
+    pos \Tcommaaccent \imacron <0 0 0 0>;
+    pos \Tcommaaccent \odieresis <0 0 -54 0>;
+    pos \Tcommaaccent \ograve <0 0 -44 0>;
+    pos \Tcommaaccent \omacron <0 0 -64 0>;
+    pos \Tcommaaccent \otilde <0 0 -64 0>;
+    pos \Tcommaaccent \scaron <0 0 -58 0>;
+    pos \Tcommaaccent \udieresis <0 0 -78 0>;
+    pos \Tcommaaccent \ugrave <0 0 -78 0>;
+    pos \Tcommaaccent \ydieresis <0 0 -50 0>;
+    pos \Tcommaaccent \zcaron <0 0 -56 0>;
+    pos \V \space <0 0 -20 0>;
+    pos \V \icircumflex <0 0 -12 0>;
+    pos \V \idieresis <0 0 -10 0>;
+    pos \V \igrave <0 0 -30 0>;
+    pos \V \imacron <0 0 -20 0>;
+    pos \W \space <0 0 -20 0>;
+    pos \W \icircumflex <0 0 -12 0>;
+    pos \W \idieresis <0 0 -10 0>;
+    pos \W \igrave <0 0 -30 0>;
+    pos \W \imacron <0 0 -20 0>;
+    pos \X \space <0 0 -45 0>;
+    pos \X \icircumflex <0 0 10 0>;
+    pos \X \idieresis <0 0 40 0>;
+    pos \X \igrave <0 0 20 0>;
+    pos \X \imacron <0 0 30 0>;
+    pos \X \rcaron <0 0 -20 0>;
+    pos \X \ydieresis <0 0 -55 0>;
+    pos \Y \space <0 0 -40 0>;
+    pos \Y \abreve <0 0 -110 0>;
+    pos \Y \adieresis <0 0 -100 0>;
+    pos \Y \agrave <0 0 -100 0>;
+    pos \Y \amacron <0 0 -120 0>;
+    pos \Y \atilde <0 0 -110 0>;
+    pos \Y \ecircumflex <0 0 -105 0>;
+    pos \Y \edieresis <0 0 -65 0>;
+    pos \Y \egrave <0 0 -75 0>;
+    pos \Y \emacron <0 0 -75 0>;
+    pos \Y \gbreve <0 0 -80 0>;
+    pos \Y \icircumflex <0 0 10 0>;
+    pos \Y \idieresis <0 0 40 0>;
+    pos \Y \igrave <0 0 40 0>;
+    pos \Y \imacron <0 0 30 0>;
+    pos \Y \ncaron <0 0 -100 0>;
+    pos \Y \ntilde <0 0 -80 0>;
+    pos \Y \ocircumflex <0 0 -90 0>;
+    pos \Y \odieresis <0 0 -40 0>;
+    pos \Y \ograve <0 0 -40 0>;
+    pos \Y \ohungarumlaut <0 0 -90 0>;
+    pos \Y \omacron <0 0 -50 0>;
+    pos \Y \otilde <0 0 -30 0>;
+    pos \Y \rcaron <0 0 -10 0>;
+    pos \Y \scaron <0 0 -40 0>;
+    pos \Y \ucircumflex <0 0 -110 0>;
+    pos \Y \udieresis <0 0 -65 0>;
+    pos \Y \ugrave <0 0 -60 0>;
+    pos \Y \uhungarumlaut <0 0 -90 0>;
+    pos \Y \umacron <0 0 -70 0>;
+    pos \Y \uring <0 0 -90 0>;
+    pos \Y \ydieresis <0 0 -44 0>;
+    pos \Y \zcaron <0 0 -46 0>;
+    pos \Y \zdotaccent <0 0 -96 0>;
+    pos \Yacute \space <0 0 -40 0>;
+    pos \Yacute \abreve <0 0 -110 0>;
+    pos \Yacute \adieresis <0 0 -100 0>;
+    pos \Yacute \agrave <0 0 -100 0>;
+    pos \Yacute \amacron <0 0 -120 0>;
+    pos \Yacute \atilde <0 0 -110 0>;
+    pos \Yacute \ecircumflex <0 0 -105 0>;
+    pos \Yacute \edieresis <0 0 -65 0>;
+    pos \Yacute \egrave <0 0 -75 0>;
+    pos \Yacute \emacron <0 0 -75 0>;
+    pos \Yacute \gbreve <0 0 -80 0>;
+    pos \Yacute \icircumflex <0 0 10 0>;
+    pos \Yacute \idieresis <0 0 40 0>;
+    pos \Yacute \igrave <0 0 40 0>;
+    pos \Yacute \imacron <0 0 30 0>;
+    pos \Yacute \ncaron <0 0 -100 0>;
+    pos \Yacute \ntilde <0 0 -80 0>;
+    pos \Yacute \ocircumflex <0 0 -90 0>;
+    pos \Yacute \odieresis <0 0 -40 0>;
+    pos \Yacute \ograve <0 0 -40 0>;
+    pos \Yacute \ohungarumlaut <0 0 -90 0>;
+    pos \Yacute \omacron <0 0 -50 0>;
+    pos \Yacute \otilde <0 0 -30 0>;
+    pos \Yacute \rcaron <0 0 -10 0>;
+    pos \Yacute \scaron <0 0 -40 0>;
+    pos \Yacute \ucircumflex <0 0 -110 0>;
+    pos \Yacute \udieresis <0 0 -65 0>;
+    pos \Yacute \ugrave <0 0 -60 0>;
+    pos \Yacute \uhungarumlaut <0 0 -90 0>;
+    pos \Yacute \umacron <0 0 -70 0>;
+    pos \Yacute \uring <0 0 -90 0>;
+    pos \Yacute \ydieresis <0 0 -44 0>;
+    pos \Yacute \zcaron <0 0 -46 0>;
+    pos \Yacute \zdotaccent <0 0 -96 0>;
+    pos \Ydieresis \space <0 0 -40 0>;
+    pos \Ydieresis \abreve <0 0 -110 0>;
+    pos \Ydieresis \adieresis <0 0 -100 0>;
+    pos \Ydieresis \agrave <0 0 -100 0>;
+    pos \Ydieresis \amacron <0 0 -120 0>;
+    pos \Ydieresis \atilde <0 0 -110 0>;
+    pos \Ydieresis \ecircumflex <0 0 -105 0>;
+    pos \Ydieresis \edieresis <0 0 -65 0>;
+    pos \Ydieresis \egrave <0 0 -75 0>;
+    pos \Ydieresis \emacron <0 0 -75 0>;
+    pos \Ydieresis \gbreve <0 0 -80 0>;
+    pos \Ydieresis \icircumflex <0 0 10 0>;
+    pos \Ydieresis \idieresis <0 0 40 0>;
+    pos \Ydieresis \igrave <0 0 40 0>;
+    pos \Ydieresis \imacron <0 0 30 0>;
+    pos \Ydieresis \ncaron <0 0 -100 0>;
+    pos \Ydieresis \ntilde <0 0 -80 0>;
+    pos \Ydieresis \ocircumflex <0 0 -90 0>;
+    pos \Ydieresis \odieresis <0 0 -40 0>;
+    pos \Ydieresis \ograve <0 0 -40 0>;
+    pos \Ydieresis \ohungarumlaut <0 0 -90 0>;
+    pos \Ydieresis \omacron <0 0 -50 0>;
+    pos \Ydieresis \otilde <0 0 -30 0>;
+    pos \Ydieresis \rcaron <0 0 -10 0>;
+    pos \Ydieresis \scaron <0 0 -40 0>;
+    pos \Ydieresis \ucircumflex <0 0 -110 0>;
+    pos \Ydieresis \udieresis <0 0 -65 0>;
+    pos \Ydieresis \ugrave <0 0 -60 0>;
+    pos \Ydieresis \uhungarumlaut <0 0 -90 0>;
+    pos \Ydieresis \umacron <0 0 -70 0>;
+    pos \Ydieresis \uring <0 0 -90 0>;
+    pos \Ydieresis \ydieresis <0 0 -44 0>;
+    pos \Ydieresis \zcaron <0 0 -46 0>;
+    pos \Ydieresis \zdotaccent <0 0 -96 0>;
+    pos \Z \icircumflex <0 0 5 0>;
+    pos \Z \idieresis <0 0 15 0>;
+    pos \Z \igrave <0 0 5 0>;
+    pos \Z \imacron <0 0 15 0>;
+    pos \Zacute \icircumflex <0 0 5 0>;
+    pos \Zacute \idieresis <0 0 15 0>;
+    pos \Zacute \igrave <0 0 5 0>;
+    pos \Zacute \imacron <0 0 15 0>;
+    pos \Zcaron \icircumflex <0 0 5 0>;
+    pos \Zcaron \idieresis <0 0 15 0>;
+    pos \Zcaron \igrave <0 0 5 0>;
+    pos \Zcaron \imacron <0 0 15 0>;
+    pos \Zdotaccent \icircumflex <0 0 5 0>;
+    pos \Zdotaccent \idieresis <0 0 15 0>;
+    pos \Zdotaccent \igrave <0 0 5 0>;
+    pos \Zdotaccent \imacron <0 0 15 0>;
+    pos \c \b <0 0 5 0>;
+    pos \cacute \b <0 0 5 0>;
+    pos \ccaron \b <0 0 5 0>;
+    pos \ccedilla \b <0 0 5 0>;
+    pos \dcaron \icircumflex <0 0 100 0>;
+    pos \dcaron \idieresis <0 0 100 0>;
+    pos \dcaron \igrave <0 0 80 0>;
+    pos \dcaron \imacron <0 0 90 0>;
+    pos \dcaron \o <0 0 0 0>;
+    pos \dcaron \odieresis <0 0 20 0>;
+    pos \dcaron \oslash <0 0 0 0>;
+    pos \dcaron \rcaron <0 0 40 0>;
+    pos \dcaron \ydieresis <0 0 20 0>;
+    pos \dcaron \zcaron <0 0 10 0>;
+    pos \f \space <0 0 -10 0>;
+    pos \f \adieresis <0 0 5 0>;
+    pos \f \agrave <0 0 15 0>;
+    pos \f \ccaron <0 0 17 0>;
+    pos \f \dcroat <0 0 -10 0>;
+    pos \f \ecaron <0 0 7 0>;
+    pos \f \ecircumflex <0 0 -3 0>;
+    pos \f \edieresis <0 0 27 0>;
+    pos \f \egrave <0 0 17 0>;
+    pos \f \emacron <0 0 7 0>;
+    pos \f \eth <0 0 10 0>;
+    pos \f \gbreve <0 0 14 0>;
+    pos \f \germandbls <0 0 20 0>;
+    pos \f \iacute <0 0 15 0>;
+    pos \f \icircumflex <0 0 30 0>;
+    pos \f \idieresis <0 0 20 0>;
+    pos \f \igrave <0 0 80 0>;
+    pos \f \imacron <0 0 30 0>;
+    pos \f \k <0 0 18 0>;
+    pos \f \lslash <0 0 30 0>;
+    pos \f \odieresis <0 0 50 0>;
+    pos \f \udieresis <0 0 30 0>;
+    pos \f \asterisk <0 0 90 0>;
+    pos \f \exclam <0 0 60 0>;
+    pos \f \question <0 0 70 0>;
+    pos \g \comma <0 0 -15 0>;
+    pos \gbreve \comma <0 0 -15 0>;
+    pos \gcommaaccent \comma <0 0 -15 0>;
+    pos \germandbls \slash <0 0 -20 0>;
+    pos \i \b <0 0 0 0>;
+    pos \iacute \b <0 0 0 0>;
+    pos \icircumflex \b <0 0 0 0>;
+    pos \idieresis \b <0 0 0 0>;
+    pos \idotless \b <0 0 0 0>;
+    pos \igrave \b <0 0 0 0>;
+    pos \imacron \b <0 0 0 0>;
+    pos \iogonek \b <0 0 0 0>;
+    pos \k \c <0 0 -10 0>;
+    pos \k \cacute <0 0 -10 0>;
+    pos \k \ccaron <0 0 -10 0>;
+    pos \k \ccedilla <0 0 -10 0>;
+    pos \k \e <0 0 -10 0>;
+    pos \k \eacute <0 0 -10 0>;
+    pos \k \ecaron <0 0 -10 0>;
+    pos \k \ecircumflex <0 0 -10 0>;
+    pos \k \edieresis <0 0 -10 0>;
+    pos \k \edotaccent <0 0 -10 0>;
+    pos \k \egrave <0 0 -10 0>;
+    pos \k \emacron <0 0 -10 0>;
+    pos \k \eogonek <0 0 -10 0>;
+    pos \k \q <0 0 -10 0>;
+    pos \lcaron \b <0 0 80 0>;
+    pos \lcaron \h <0 0 80 0>;
+    pos \lcaron \icircumflex <0 0 100 0>;
+    pos \lcaron \idieresis <0 0 100 0>;
+    pos \lcaron \igrave <0 0 80 0>;
+    pos \lcaron \imacron <0 0 90 0>;
+    pos \lcaron \k <0 0 80 0>;
+    pos \lcaron \kcommaaccent <0 0 80 0>;
+    pos \lcaron \l <0 0 80 0>;
+    pos \lcaron \lacute <0 0 80 0>;
+    pos \lcaron \lcaron <0 0 80 0>;
+    pos \lcaron \lcommaaccent <0 0 80 0>;
+    pos \lcaron \ldot <0 0 80 0>;
+    pos \lcaron \lslash <0 0 80 0>;
+    pos \lcaron \o <0 0 0 0>;
+    pos \lcaron \odieresis <0 0 20 0>;
+    pos \lcaron \oslash <0 0 0 0>;
+    pos \lcaron \rcaron <0 0 40 0>;
+    pos \lcaron \thorn <0 0 80 0>;
+    pos \lcaron \ydieresis <0 0 20 0>;
+    pos \lcaron \zcaron <0 0 10 0>;
+    pos \lslash \f <0 0 20 0>;
+    pos \lslash \fi <0 0 10 0>;
+    pos \lslash \fl <0 0 10 0>;
+    pos \r \space <0 0 -40 0>;
+    pos \racute \space <0 0 -40 0>;
+    pos \rcaron \space <0 0 -40 0>;
+    pos \rcommaaccent \space <0 0 -40 0>;
+    pos \tcaron \b <0 0 10 0>;
+    pos \tcaron \h <0 0 10 0>;
+    pos \tcaron \k <0 0 10 0>;
+    pos \tcaron \kcommaaccent <0 0 10 0>;
+    pos \tcaron \l <0 0 10 0>;
+    pos \tcaron \lacute <0 0 10 0>;
+    pos \tcaron \lcaron <0 0 10 0>;
+    pos \tcaron \lcommaaccent <0 0 10 0>;
+    pos \tcaron \ldot <0 0 10 0>;
+    pos \tcaron \lslash <0 0 10 0>;
+    pos \tcaron \thorn <0 0 10 0>;
+    pos \y \space <0 0 -20 0>;
+    pos \yacute \space <0 0 -20 0>;
+    pos \ydieresis \space <0 0 -20 0>;
+    pos \slash \f <0 0 -20 0>;
+ subtable;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -20 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \M] <0 0 -20 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -40 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \V \W] <0 0 -40 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \Y \Yacute \Ydieresis] <0 0 -50 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \g \gbreve \gcommaaccent] <0 0 -10 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \ordfeminine \ordmasculine] <0 0 -70 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 -40 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -16 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -34 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -8 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \v \w] <0 0 -20 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \y \yacute \ydieresis] <0 0 -10 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \f] <0 0 -20 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \fi] <0 0 -30 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \fl] <0 0 -30 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \p] <0 0 -13 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \slash] <0 0 20 0>;
+    pos [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde]
+        [ \x] <0 0 7 0>;
+    pos [ \B]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -60 0>;
+    pos [ \B]
+        [ \V \W] <0 0 -40 0>;
+    pos [ \B]
+        [ \Y \Yacute \Ydieresis] <0 0 -50 0>;
+    pos [ \B]
+        [ \g \gbreve \gcommaaccent] <0 0 -20 0>;
+    pos [ \B]
+        [ \ordfeminine \ordmasculine] <0 0 -50 0>;
+    pos [ \B]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 -20 0>;
+    pos [ \B]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -10 0>;
+    pos [ \B]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -10 0>;
+    pos [ \B]
+        [ \v \w] <0 0 -10 0>;
+    pos [ \B]
+        [ \y \yacute \ydieresis] <0 0 -10 0>;
+    pos [ \B]
+        [ \f] <0 0 -20 0>;
+    pos [ \B]
+        [ \fi] <0 0 -20 0>;
+    pos [ \B]
+        [ \fl] <0 0 -20 0>;
+    pos [ \B]
+        [ \x] <0 0 -10 0>;
+    pos [ \B]
+        [ \S \Sacute \Scaron \Scedilla \Scommaaccent] <0 0 -20 0>;
+    pos [ \B]
+        [ \Z \Zacute \Zcaron \Zdotaccent] <0 0 -30 0>;
+    pos [ \B]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+    pos [ \B]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -14 0>;
+    pos [ \B]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -40 0>;
+    pos [ \B]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -10 0>;
+    pos [ \B]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -17 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -20 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \M] <0 0 -10 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \g \gbreve \gcommaaccent] <0 0 -40 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -40 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -40 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -20 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \v \w] <0 0 -60 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \y \yacute \ydieresis] <0 0 -50 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \f] <0 0 -40 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \fi] <0 0 -30 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \fl] <0 0 -30 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \p] <0 0 -20 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -17 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -30 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -10 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
+         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+         \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
+         \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
+         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -10 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \Q] <0 0 -10 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -20 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \d \dcaron] <0 0 -20 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -25 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -20 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \dcroat] <0 0 -20 0>;
+    pos [ \C \Cacute \Ccaron \Ccedilla]
+        [ \eth] <0 0 -10 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -30 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \Y \Yacute \Ydieresis] <0 0 -10 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \g \gbreve \gcommaaccent] <0 0 -30 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \ordfeminine \ordmasculine] <0 0 -5 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -28 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -34 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -26 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \v \w] <0 0 -30 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \y \yacute \ydieresis] <0 0 -20 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \f] <0 0 -30 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \fi] <0 0 -30 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \fl] <0 0 -20 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \p] <0 0 -13 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \x] <0 0 -20 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -19 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -21 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -26 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
+         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+         \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
+         \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
+         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -23 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \d \dcaron] <0 0 -22 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -10 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \dcroat] <0 0 -20 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \eth] <0 0 -20 0>;
+    pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
+        [ \germandbls] <0 0 -20 0>;
+    pos [ \F]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -30 0>;
+    pos [ \F]
+        [ \g \gbreve \gcommaaccent] <0 0 -74 0>;
+    pos [ \F]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 20 0>;
+    pos [ \F]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -30 0>;
+    pos [ \F]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -40 0>;
+    pos [ \F]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -36 0>;
+    pos [ \F]
+        [ \v \w] <0 0 -20 0>;
+    pos [ \F]
+        [ \y \yacute \ydieresis] <0 0 -15 0>;
+    pos [ \F]
+        [ \f] <0 0 -40 0>;
+    pos [ \F]
+        [ \fi] <0 0 -50 0>;
+    pos [ \F]
+        [ \fl] <0 0 -50 0>;
+    pos [ \F]
+        [ \p] <0 0 -30 0>;
+    pos [ \F]
+        [ \slash] <0 0 -100 0>;
+    pos [ \F]
+        [ \x] <0 0 -40 0>;
+    pos [ \F]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -74 0>;
+    pos [ \F]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -140 0>;
+    pos [ \F]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -60 0>;
+    pos [ \F]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -60 0>;
+    pos [ \F]
+        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
+         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+         \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
+         \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
+         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -30 0>;
+    pos [ \F]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -75 0>;
+    pos [ \F]
+        [ \d \dcaron] <0 0 -72 0>;
+    pos [ \F]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -30 0>;
+    pos [ \F]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -26 0>;
+    pos [ \F]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -50 0>;
+    pos [ \F]
+        [ \dcroat] <0 0 -80 0>;
+    pos [ \F]
+        [ \eth] <0 0 -57 0>;
+    pos [ \F]
+        [ \germandbls] <0 0 -50 0>;
+    pos [ \F]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -30 0>;
+    pos [ \F]
+        [ \J] <0 0 -20 0>;
+    pos [ \F]
+        [ \j \jdotless] <0 0 -20 0>;
+    pos [ \G]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -40 0>;
+    pos [ \G]
+        [ \V \W] <0 0 -30 0>;
+    pos [ \G]
+        [ \Y \Yacute \Ydieresis] <0 0 -50 0>;
+    pos [ \G]
+        [ \g \gbreve \gcommaaccent] <0 0 -20 0>;
+    pos [ \G]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -10 0>;
+    pos [ \G]
+        [ \v \w] <0 0 -10 0>;
+    pos [ \G]
+        [ \y \yacute \ydieresis] <0 0 -4 0>;
+    pos [ \G]
+        [ \p] <0 0 -20 0>;
+    pos [ \G]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -20 0>;
+    pos [ \G]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
+    pos [ \G]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -50 0>;
+    pos [ \G]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -10 0>;
+    pos [ \G]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -10 0>;
+    pos [ \G]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -20 0>;
+    pos [ \G]
+        [ \d \dcaron] <0 0 -15 0>;
+    pos [ \G]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+    pos [ \H \I \Iacute \Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \N \Nacute
+         \Ncaron \Ncommaaccent \Ntilde]
+        [ \g \gbreve \gcommaaccent] <0 0 -10 0>;
+    pos [ \H \I \Iacute \Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \N \Nacute
+         \Ncaron \Ncommaaccent \Ntilde]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -10 0>;
+    pos [ \H \I \Iacute \Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \N \Nacute
+         \Ncaron \Ncommaaccent \Ntilde]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -15 0>;
+    pos [ \H \I \Iacute \Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \N \Nacute
+         \Ncaron \Ncommaaccent \Ntilde]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -8 0>;
+    pos [ \J]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -30 0>;
+    pos [ \J]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -10 0>;
+    pos [ \J]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -10 0>;
+    pos [ \K \Kcommaaccent]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -20 0>;
+    pos [ \K \Kcommaaccent]
+        [ \M] <0 0 -10 0>;
+    pos [ \K \Kcommaaccent]
+        [ \Y \Yacute \Ydieresis] <0 0 -10 0>;
+    pos [ \K \Kcommaaccent]
+        [ \g \gbreve \gcommaaccent] <0 0 -30 0>;
+    pos [ \K \Kcommaaccent]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -30 0>;
+    pos [ \K \Kcommaaccent]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -40 0>;
+    pos [ \K \Kcommaaccent]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -30 0>;
+    pos [ \K \Kcommaaccent]
+        [ \v \w] <0 0 -48 0>;
+    pos [ \K \Kcommaaccent]
+        [ \y \yacute \ydieresis] <0 0 -50 0>;
+    pos [ \K \Kcommaaccent]
+        [ \f] <0 0 -40 0>;
+    pos [ \K \Kcommaaccent]
+        [ \fi] <0 0 -40 0>;
+    pos [ \K \Kcommaaccent]
+        [ \fl] <0 0 -40 0>;
+    pos [ \K \Kcommaaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+    pos [ \K \Kcommaaccent]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
+    pos [ \K \Kcommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 20 0>;
+    pos [ \K \Kcommaaccent]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -20 0>;
+    pos [ \K \Kcommaaccent]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -20 0>;
+    pos [ \K \Kcommaaccent]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+    pos [ \K \Kcommaaccent]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -20 0>;
+    pos [ \K \Kcommaaccent]
+        [ \j \jdotless] <0 0 -20 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -20 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -110 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \V \W] <0 0 -80 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \Y \Yacute \Ydieresis] <0 0 -130 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \ordfeminine \ordmasculine] <0 0 -180 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 -30 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -10 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -40 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -30 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \v \w] <0 0 -44 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \y \yacute \ydieresis] <0 0 -48 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \f] <0 0 -40 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \fi] <0 0 -30 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \fl] <0 0 -40 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \p] <0 0 -20 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \Q] <0 0 -20 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -10 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -20 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \j \jdotless] <0 0 -10 0>;
+    pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
+        [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring] <0 0 -20 0>;
+    pos [ \M]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -20 0>;
+    pos [ \M]
+        [ \M] <0 0 -40 0>;
+    pos [ \M]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -30 0>;
+    pos [ \M]
+        [ \V \W] <0 0 -30 0>;
+    pos [ \M]
+        [ \Y \Yacute \Ydieresis] <0 0 -30 0>;
+    pos [ \M]
+        [ \g \gbreve \gcommaaccent] <0 0 -10 0>;
+    pos [ \M]
+        [ \ordfeminine \ordmasculine] <0 0 -30 0>;
+    pos [ \M]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 -20 0>;
+    pos [ \M]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -11 0>;
+    pos [ \M]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -20 0>;
+    pos [ \M]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -10 0>;
+    pos [ \M]
+        [ \v \w] <0 0 -10 0>;
+    pos [ \M]
+        [ \y \yacute \ydieresis] <0 0 -10 0>;
+    pos [ \M]
+        [ \fi] <0 0 -10 0>;
+    pos [ \M]
+        [ \fl] <0 0 -10 0>;
+    pos [ \M]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -18 0>;
+    pos [ \M]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -20 0>;
+    pos [ \M]
+        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
+         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+         \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
+         \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
+         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+    pos [ \M]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -7 0>;
+    pos [ \M]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -17 0>;
+    pos [ \M]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+    pos [ \M]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -10 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \M] <0 0 -15 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -30 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \V \W] <0 0 -20 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \Y \Yacute \Ydieresis] <0 0 -50 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \g \gbreve \gcommaaccent] <0 0 -20 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -10 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -6 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \v \w] <0 0 -8 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \x] <0 0 -20 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \Z \Zacute \Zcaron \Zdotaccent] <0 0 -20 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -32 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -5 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -70 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -14 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -16 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -16 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \d \dcaron] <0 0 -23 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -5 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \dcroat] <0 0 -20 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \eth] <0 0 -20 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -10 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \j \jdotless] <0 0 -5 0>;
+    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+         \Omacron \Oslash \Otilde]
+        [ \X] <0 0 -40 0>;
+    pos [ \P]
+        [ \M] <0 0 -30 0>;
+    pos [ \P]
+        [ \Y \Yacute \Ydieresis] <0 0 -10 0>;
+    pos [ \P]
+        [ \g \gbreve \gcommaaccent] <0 0 -59 0>;
+    pos [ \P]
+        [ \ordfeminine \ordmasculine] <0 0 20 0>;
+    pos [ \P]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -23 0>;
+    pos [ \P]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -20 0>;
+    pos [ \P]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -12 0>;
+    pos [ \P]
+        [ \f] <0 0 -20 0>;
+    pos [ \P]
+        [ \fi] <0 0 -20 0>;
+    pos [ \P]
+        [ \fl] <0 0 -20 0>;
+    pos [ \P]
+        [ \x] <0 0 -30 0>;
+    pos [ \P]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -77 0>;
+    pos [ \P]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -210 0>;
+    pos [ \P]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -47 0>;
+    pos [ \P]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -40 0>;
+    pos [ \P]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -70 0>;
+    pos [ \P]
+        [ \d \dcaron] <0 0 -70 0>;
+    pos [ \P]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -10 0>;
+    pos [ \P]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -30 0>;
+    pos [ \P]
+        [ \dcroat] <0 0 -58 0>;
+    pos [ \P]
+        [ \eth] <0 0 -50 0>;
+    pos [ \P]
+        [ \germandbls] <0 0 -20 0>;
+    pos [ \P]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -30 0>;
+    pos [ \Q]
+        [ \g \gbreve \gcommaaccent] <0 0 -20 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -20 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -20 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \V \W] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \Y \Yacute \Ydieresis] <0 0 -40 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \g \gbreve \gcommaaccent] <0 0 -30 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \ordfeminine \ordmasculine] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -15 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -37 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -25 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \v \w] <0 0 -30 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \y \yacute \ydieresis] <0 0 -24 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \f] <0 0 -30 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \fi] <0 0 -20 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \fl] <0 0 -20 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -16 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 20 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -20 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \Q] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \d \dcaron] <0 0 -11 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -12 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \dcroat] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \eth] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \germandbls] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \j \jdotless] <0 0 -10 0>;
+    pos [ \R \Racute \Rcaron \Rcommaaccent]
+        [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring] <0 0 -20 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \Y \Yacute \Ydieresis] <0 0 -20 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \g \gbreve \gcommaaccent] <0 0 -4 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -10 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \v \w] <0 0 -6 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \f] <0 0 -20 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \fi] <0 0 -20 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \fl] <0 0 -20 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \p] <0 0 -4 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -7 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -30 0>;
+    pos [ \S \Sacute \Scaron \Scedilla \Scommaaccent]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -10 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -40 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \M] <0 0 -50 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \V \W] <0 0 30 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \g \gbreve \gcommaaccent] <0 0 -130 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 40 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -95 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -111 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -98 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \v \w] <0 0 -95 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \y \yacute \ydieresis] <0 0 -100 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \f] <0 0 -80 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \fi] <0 0 -90 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \fl] <0 0 -80 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \p] <0 0 -100 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \x] <0 0 -90 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -116 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -130 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -98 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -106 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \Q] <0 0 -20 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -110 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \d \dcaron] <0 0 -107 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -40 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -90 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -94 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \dcroat] <0 0 -100 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \eth] <0 0 -80 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \germandbls] <0 0 -60 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -60 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \guillemetleft \guilsinglleft] <0 0 -110 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \guillemetright \guilsinglright] <0 0 -90 0>;
+    pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
+        [ \braceright \bracketright \parenright] <0 0 -10 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \M] <0 0 -30 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \g \gbreve \gcommaaccent] <0 0 -30 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -20 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -20 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \v \w] <0 0 -20 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \f] <0 0 -12 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \p] <0 0 -10 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \x] <0 0 -20 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -33 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -20 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -20 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -30 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \d \dcaron] <0 0 -33 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -20 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -16 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \dcroat] <0 0 -30 0>;
+    pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
+        [ \eth] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -30 0>;
+    pos [ \V \W]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \Y \Yacute \Ydieresis] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \g \gbreve \gcommaaccent] <0 0 -70 0>;
+    pos [ \V \W]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -40 0>;
+    pos [ \V \W]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -44 0>;
+    pos [ \V \W]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -35 0>;
+    pos [ \V \W]
+        [ \v \w] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \y \yacute \ydieresis] <0 0 -30 0>;
+    pos [ \V \W]
+        [ \f] <0 0 -50 0>;
+    pos [ \V \W]
+        [ \fi] <0 0 -30 0>;
+    pos [ \V \W]
+        [ \fl] <0 0 -30 0>;
+    pos [ \V \W]
+        [ \p] <0 0 -40 0>;
+    pos [ \V \W]
+        [ \x] <0 0 -46 0>;
+    pos [ \V \W]
+        [ \S \Sacute \Scaron \Scedilla \Scommaaccent] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -70 0>;
+    pos [ \V \W]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -130 0>;
+    pos [ \V \W]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -60 0>;
+    pos [ \V \W]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -56 0>;
+    pos [ \V \W]
+        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
+         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+         \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
+         \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
+         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \Q] <0 0 -10 0>;
+    pos [ \V \W]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -64 0>;
+    pos [ \V \W]
+        [ \d \dcaron] <0 0 -60 0>;
+    pos [ \V \W]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -40 0>;
+    pos [ \V \W]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -50 0>;
+    pos [ \V \W]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -44 0>;
+    pos [ \V \W]
+        [ \dcroat] <0 0 -57 0>;
+    pos [ \V \W]
+        [ \eth] <0 0 -60 0>;
+    pos [ \V \W]
+        [ \germandbls] <0 0 -30 0>;
+    pos [ \V \W]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -32 0>;
+    pos [ \V \W]
+        [ \j \jdotless] <0 0 -20 0>;
+    pos [ \V \W]
+        [ \guillemetleft \guilsinglleft] <0 0 -50 0>;
+    pos [ \V \W]
+        [ \guillemetright \guilsinglright] <0 0 -30 0>;
+    pos [ \X]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -20 0>;
+    pos [ \X]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 16 0>;
+    pos [ \X]
+        [ \g \gbreve \gcommaaccent] <0 0 -50 0>;
+    pos [ \X]
+        [ \ordfeminine \ordmasculine] <0 0 10 0>;
+    pos [ \X]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 30 0>;
+    pos [ \X]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -50 0>;
+    pos [ \X]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -70 0>;
+    pos [ \X]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -50 0>;
+    pos [ \X]
+        [ \v \w] <0 0 -68 0>;
+    pos [ \X]
+        [ \y \yacute \ydieresis] <0 0 -85 0>;
+    pos [ \X]
+        [ \f] <0 0 -50 0>;
+    pos [ \X]
+        [ \fi] <0 0 -50 0>;
+    pos [ \X]
+        [ \fl] <0 0 -60 0>;
+    pos [ \X]
+        [ \p] <0 0 -50 0>;
+    pos [ \X]
+        [ \x] <0 0 -20 0>;
+    pos [ \X]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -33 0>;
+    pos [ \X]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -30 0>;
+    pos [ \X]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -20 0>;
+    pos [ \X]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -33 0>;
+    pos [ \X]
+        [ \d \dcaron] <0 0 -33 0>;
+    pos [ \X]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -20 0>;
+    pos [ \X]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -50 0>;
+    pos [ \X]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -30 0>;
+    pos [ \X]
+        [ \dcroat] <0 0 -33 0>;
+    pos [ \X]
+        [ \eth] <0 0 -33 0>;
+    pos [ \X]
+        [ \germandbls] <0 0 -20 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \C \Cacute \Ccaron \Ccedilla] <0 0 -40 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \M] <0 0 -50 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 10 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \V \W] <0 0 20 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \g \gbreve \gcommaaccent] <0 0 -130 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \ordfeminine \ordmasculine] <0 0 20 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 40 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -110 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -103 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -120 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \v \w] <0 0 -111 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \y \yacute \ydieresis] <0 0 -114 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \f] <0 0 -80 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \fi] <0 0 -70 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \fl] <0 0 -70 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \p] <0 0 -120 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \x] <0 0 -108 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \S \Sacute \Scaron \Scedilla \Scommaaccent] <0 0 -10 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -140 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -150 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -130 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -116 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
+         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+         \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
+         \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
+         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -135 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \d \dcaron] <0 0 -130 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -30 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -120 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -120 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \dcroat] <0 0 -124 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \eth] <0 0 -80 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \germandbls] <0 0 -40 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -60 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \guillemetleft \guilsinglleft] <0 0 -120 0>;
+    pos [ \Y \Yacute \Ydieresis]
+        [ \guillemetright \guilsinglright] <0 0 -125 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \g \gbreve \gcommaaccent] <0 0 -30 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \ordfeminine \ordmasculine] <0 0 10 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -40 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -20 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \v \w] <0 0 -24 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \y \yacute \ydieresis] <0 0 -35 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \f] <0 0 -30 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \fi] <0 0 -40 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \fl] <0 0 -40 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -15 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 10 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -20 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -15 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -20 0>;
+    pos [ \Z \Zacute \Zcaron \Zdotaccent]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -8 0>;
+ subtable;
+    pos [ \b]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -50 0>;
+    pos [ \b]
+        [ \y \yacute \ydieresis] <0 0 -10 0>;
+    pos [ \c \cacute \ccaron \ccedilla]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -8 0>;
+    pos [ \c \cacute \ccaron \ccedilla]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
+    pos [ \c \cacute \ccaron \ccedilla]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -15 0>;
+    pos [ \c \cacute \ccaron \ccedilla]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -5 0>;
+    pos [ \c \cacute \ccaron \ccedilla]
+        [ \v \w] <0 0 -10 0>;
+    pos [ \d \l \lacute \lcommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 10 0>;
+    pos [ \d \l \lacute \lcommaaccent]
+        [ \y \yacute \ydieresis] <0 0 -9 0>;
+    pos [ \dcaron \lcaron]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 76 0>;
+    pos [ \dcaron \lcaron]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 50 0>;
+    pos [ \dcaron \lcaron]
+        [ \j \jdotless] <0 0 50 0>;
+    pos [ \dcaron \lcaron]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 20 0>;
+    pos [ \dcaron \lcaron]
+        [ \ordfeminine \ordmasculine] <0 0 60 0>;
+    pos [ \ae \e \eacute \ecaron \ecircumflex \edieresis \edotaccent \egrave \emacron \eogonek
+         \oe]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -20 0>;
+    pos [ \ae \e \eacute \ecaron \ecircumflex \edieresis \edotaccent \egrave \emacron \eogonek
+         \oe]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -8 0>;
+    pos [ \ae \e \eacute \ecaron \ecircumflex \edieresis \edotaccent \egrave \emacron \eogonek
+         \oe]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -4 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -50 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \y \yacute \ydieresis] <0 0 20 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -5 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \j \jdotless] <0 0 30 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \g \gbreve \gcommaaccent] <0 0 -3 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \braceright \bracketright \parenright] <0 0 10 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -7 0>;
+    pos [ \g \gbreve \gcommaaccent]
+        [ \p] <0 0 10 0>;
+    pos [ \j \jdotless]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -7 0>;
+    pos [ \j \jdotless]
+        [ \j \jdotless] <0 0 15 0>;
+    pos [ \k \kcommaaccent]
+        [ \y \yacute \ydieresis] <0 0 -6 0>;
+    pos [ \k \kcommaaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+    pos [ \k \kcommaaccent]
+        [ \emdash \endash \hyphen \softhyphen] <0 0 -10 0>;
+    pos [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \p]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -20 0>;
+    pos [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \p]
+        [ \v \w] <0 0 -5 0>;
+    pos [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \p]
+        [ \j \jdotless] <0 0 -10 0>;
+    pos [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \p]
+        [ \g \gbreve \gcommaaccent] <0 0 -5 0>;
+    pos [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \p]
+        [ \p] <0 0 -6 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -100 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \y \yacute \ydieresis] <0 0 5 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -28 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -20 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -30 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -16 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \v \w] <0 0 5 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -5 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \g \gbreve \gcommaaccent] <0 0 -22 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -20 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \d \dcaron] <0 0 -32 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 30 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -10 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -5 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -13 0>;
+    pos [ \r \racute \rcaron \rcommaaccent]
+        [ \x] <0 0 -15 0>;
+    pos [ \s \sacute \scaron \scedilla \scommaaccent]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -30 0>;
+    pos [ \s \sacute \scaron \scedilla \scommaaccent]
+        [ \y \yacute \ydieresis] <0 0 -4 0>;
+    pos [ \s \sacute \scaron \scedilla \scommaaccent]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -9 0>;
+    pos [ \t \tcaron \tcedilla \tcommaaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -6 0>;
+    pos [ \t \tcaron \tcedilla \tcommaaccent]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
+    pos [ \t \tcaron \tcedilla \tcommaaccent]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -8 0>;
+    pos [ \t \tcaron \tcedilla \tcommaaccent]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -11 0>;
+    pos [ \t \tcaron \tcedilla \tcommaaccent]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 40 0>;
+    pos [ \v \w]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -70 0>;
+    pos [ \v \w]
+        [ \y \yacute \ydieresis] <0 0 5 0>;
+    pos [ \v \w]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -9 0>;
+    pos [ \v \w]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 10 0>;
+    pos [ \v \w]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -5 0>;
+    pos [ \y \yacute \ydieresis]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -55 0>;
+    pos [ \y \yacute \ydieresis]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+    pos [ \y \yacute \ydieresis]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -10 0>;
+    pos [ \y \yacute \ydieresis]
+        [ \g \gbreve \gcommaaccent] <0 0 -10 0>;
+    pos [ \y \yacute \ydieresis]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -8 0>;
+    pos [ \y \yacute \ydieresis]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 20 0>;
+    pos [ \z \zacute \zcaron \zdotaccent]
+        [ \y \yacute \ydieresis] <0 0 -3 0>;
+    pos [ \z \zacute \zcaron \zdotaccent]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+    pos [ \z \zacute \zcaron \zdotaccent]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -10 0>;
+    pos [ \z \zacute \zcaron \zdotaccent]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -7 0>;
+    pos [ \f]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -40 0>;
+    pos [ \f]
+        [ \y \yacute \ydieresis] <0 0 20 0>;
+    pos [ \f]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+    pos [ \f]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 10 0>;
+    pos [ \f]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -13 0>;
+    pos [ \f]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -5 0>;
+    pos [ \f]
+        [ \j \jdotless] <0 0 30 0>;
+    pos [ \f]
+        [ \ordfeminine \ordmasculine] <0 0 90 0>;
+    pos [ \f]
+        [ \g \gbreve \gcommaaccent] <0 0 -6 0>;
+    pos [ \f]
+        [ \braceright \bracketright \parenright] <0 0 70 0>;
+    pos [ \f]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -5 0>;
+    pos [ \f]
+        [ \d \dcaron] <0 0 -12 0>;
+    pos [ \f]
+        [ \quotedblleft \quoteleft] <0 0 110 0>;
+    pos [ \lslash]
+        [ \y \yacute \ydieresis] <0 0 30 0>;
+    pos [ \lslash]
+        [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 10 0>;
+    pos [ \lslash]
+        [ \v \w] <0 0 40 0>;
+    pos [ \lslash]
+        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 10 0>;
+    pos [ \lslash]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 10 0>;
+    pos [ \x]
+        [ \y \yacute \ydieresis] <0 0 5 0>;
+    pos [ \x]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -5 0>;
+ subtable;
+    pos [ \guillemetright \guilsinglright]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -110 0>;
+    pos [ \guillemetright \guilsinglright]
+        [ \V \W] <0 0 -80 0>;
+    pos [ \guillemetright \guilsinglright]
+        [ \Y \Yacute \Ydieresis] <0 0 -120 0>;
+    pos [ \emdash \endash \hyphen \softhyphen]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -100 0>;
+    pos [ \emdash \endash \hyphen \softhyphen]
+        [ \V \W] <0 0 -50 0>;
+    pos [ \emdash \endash \hyphen \softhyphen]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 30 0>;
+    pos [ \braceleft \bracketleft \parenleft]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -10 0>;
+    pos [ \braceleft \bracketleft \parenleft]
+        [ \g \gbreve \gcommaaccent] <0 0 10 0>;
+    pos [ \braceleft \bracketleft \parenleft]
+        [ \j \jdotless] <0 0 130 0>;
+    pos [ \braceleft \bracketleft \parenleft]
+        [ \y \yacute \ydieresis] <0 0 10 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -80 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \V \W] <0 0 -80 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \Y \Yacute \Ydieresis] <0 0 -110 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \j \jdotless] <0 0 60 0>;
+    pos [ \quotedbl \quotedblleft \quoteleft]
+        [ \V \W] <0 0 20 0>;
+    pos [ \quotedbl \quotedblleft \quoteleft]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -90 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 20 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \V \W] <0 0 45 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \g \gbreve \gcommaaccent] <0 0 -120 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \y \yacute \ydieresis] <0 0 -40 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -130 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
+         \egrave \emacron \eogonek \q] <0 0 -130 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \d \dcaron] <0 0 -140 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -40 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -75 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \r \racute \rcaron \rcommaaccent] <0 0 -40 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -110 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -65 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -70 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \v \w] <0 0 -22 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \z \zacute \zcaron \zdotaccent] <0 0 -75 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \dcroat] <0 0 -140 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \eth] <0 0 -80 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \f] <0 0 -60 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \fi] <0 0 -70 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \fl] <0 0 -60 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \germandbls] <0 0 -60 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \p] <0 0 -40 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \x] <0 0 -55 0>;
+    pos [ \slash]
+        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -70 0>;
+    pos [ \slash]
+        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -70 0>;
+    pos [ \slash]
+        [ \d \dcaron] <0 0 -100 0>;
+    pos [ \slash]
+        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \Q] <0 0 -10 0>;
+} GPOS_LOOKUP_00000;
+
+
+#*************************************************************************
+#   Feature "kern": Kerning 
+#   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   used in script: latn 
+#   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
+#*************************************************************************
 lookup GPOS_LOOKUP_00001 
 {
  lookupflag 0;
-        # Offset to MarkCoverage table 12
-        # Offset to BaseCoverage table 122
-        # ClassCount 1
-        # ---------------
-        # MarkArray table
-        # ---------------
-    markClass [\knmvR ] <anchor 120 22> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knAIlengthmark ] <anchor 87 -17> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNukta ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knKAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knKHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knGAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knGHAc2 ] <anchor -136 -27> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNGAc2 ] <anchor -33 -27> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knCAc2 ] <anchor -65 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knCHAc2 ] <anchor -54 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knJAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knJHAc2 ] <anchor -163 5> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNYAc2 ] <anchor -158 11> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTTAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNNAc2 ] <anchor -71 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNAc2 ] <anchor 86 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knPAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knPHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knBAc2 ] <anchor -38 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knBHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knMAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knYAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2 ] <anchor -11 136> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knLAc2 ] <anchor -103 21> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knVAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knSHAc2 ] <anchor 22 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knSSAc2 ] <anchor 82 168> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knLLAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knKSSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2.01 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2.02 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2.02 ] <anchor 0 114> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2.04 ] <anchor -76 -359> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knCHRAc2 ] <anchor 11 149> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDHRAc2 ] <anchor 0 111> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDRAc2 ] <anchor 0 111> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTRAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTRAc2.01 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTRAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTTRAc2 ] <anchor 0 154> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTYAc2 ] <anchor -255 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTYAc2.following ] <anchor 225 0> @MARKS_CLASS_0_LUT0_SUB0;
-        # ---------------
-        # BaseArray table
-        # ---------------
-    pos base \knKHA 
-        <anchor 742 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHA 
-        <anchor 800 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHA 
-        <anchor 859 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHA 
-        <anchor 1099 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHA 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHA 
-        <anchor 727 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHA 
-        <anchor 754 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNA 
-        <anchor 631 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHA 
-        <anchor 790 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHA 
-        <anchor 807 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSA 
-        <anchor 761 -71> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSA 
-        <anchor 631 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKHAA 
-        <anchor 1160 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHAA 
-        <anchor 1128 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHAA 
-        <anchor 1217 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHAA 
-        <anchor 1535 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHAA 
-        <anchor 1109 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHAA 
-        <anchor 1045 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHAA 
-        <anchor 1067 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNAA 
-        <anchor 933 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHAA 
-        <anchor 1133 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHAA 
-        <anchor 1139 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSAA 
-        <anchor 1150 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSAA 
-        <anchor 933 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKHI 
-        <anchor 909 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHI 
-        <anchor 819 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHI 
-        <anchor 946 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHI 
-        <anchor 1142 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHI 
-        <anchor 773 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHI 
-        <anchor 734 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHI 
-        <anchor 750 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNI 
-        <anchor 632 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHI 
-        <anchor 820 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHI 
-        <anchor 828 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSI 
-        <anchor 806 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSI 
-        <anchor 632 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKHU 
-        <anchor 1043 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHU 
-        <anchor 2257 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHU 
-        <anchor 49 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHU 
-        <anchor 1431 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHU 
-        <anchor 1065 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHU 
-        <anchor 1010 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHU 
-        <anchor 1032 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNU 
-        <anchor 927 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHU 
-        <anchor 984 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHU 
-        <anchor 1091 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSU 
-        <anchor 1079 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSU 
-        <anchor 927 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKHUU 
-        <anchor 1382 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHUU 
-        <anchor 1378 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHUU 
-        <anchor 1429 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHUU 
-        <anchor 1713 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHUU 
-        <anchor 1358 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHUU 
-        <anchor 1349 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHUU 
-        <anchor 1327 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNUU 
-        <anchor 1233 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHUU 
-        <anchor 1335 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHUU 
-        <anchor 1391 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSUU 
-        <anchor 1412 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSUU 
-        <anchor 1233 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKHE 
-        <anchor 756 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHE 
-        <anchor 792 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHE 
-        <anchor 858 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHE 
-        <anchor 1123 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHE 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHE 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHE 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNE 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHE 
-        <anchor 815 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHE 
-        <anchor 824 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSE 
-        <anchor 788 -60> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSE 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKHO 
-        <anchor 1360 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHO 
-        <anchor 1364 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHO 
-        <anchor 1457 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHO 
-        <anchor 1479 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHO 
-        <anchor 1369 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHO 
-        <anchor 1327 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHO 
-        <anchor 1349 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNO 
-        <anchor 1221 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHO 
-        <anchor 1346 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHO 
-        <anchor 1383 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSO 
-        <anchor 1411 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSO 
-        <anchor 1221 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKHAU 
-        <anchor 1075 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGHAU 
-        <anchor 1127 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCHAU 
-        <anchor 1147 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJHAU 
-        <anchor 1467 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDHAU 
-        <anchor 1080 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTHAU 
-        <anchor 1036 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDHAU 
-        <anchor 1057 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knNAU 
-        <anchor 924 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPHAU 
-        <anchor 1115 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBHAU 
-        <anchor 1109 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSSAU 
-        <anchor 1093 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSAU 
-        <anchor 924 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knKH 
-        <anchor 760 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knGH 
-        <anchor 835 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knCH 
-        <anchor 892 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knJH 
-        <anchor 1167 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDDH 
-        <anchor 749 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knTH 
-        <anchor 786 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knDH 
-        <anchor 797 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knN 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knPH 
-        <anchor 813 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knBH 
-        <anchor 864 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knSS 
-        <anchor 739 -60> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-    pos base \knS 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos \space \quotedblleft <0 0 -30 0>;
+    pos \space \quoteleft <0 0 -30 0>;
+    pos \eight \seven <0 0 -10 0>;
+    pos \eight \three <0 0 -15 0>;
+    pos \five \eight <0 0 -10 0>;
+    pos \five \one <0 0 -10 0>;
+    pos \five \six <0 0 -10 0>;
+    pos \five \zero <0 0 -20 0>;
+    pos \five.lf \four.lf <0 0 10 0>;
+    pos \four \seven <0 0 -10 0>;
+    pos \four \two <0 0 10 0>;
+    pos \four.lf \seven.lf <0 0 -10 0>;
+    pos \four.lf \two.lf <0 0 -7 0>;
+    pos \nine \seven <0 0 -15 0>;
+    pos \nine.lf \one.lf <0 0 -6 0>;
+    pos \nine.lf \seven.lf <0 0 -15 0>;
+    pos \nine.lf \three.lf <0 0 -10 0>;
+    pos \nine.lf \two.lf <0 0 -15 0>;
+    pos \one \five <0 0 -10 0>;
+    pos \one \one <0 0 -20 0>;
+    pos \one \seven <0 0 -10 0>;
+    pos \one \six <0 0 -10 0>;
+    pos \one \three <0 0 -20 0>;
+    pos \one \slash <0 0 -20 0>;
+    pos \seven \eight <0 0 -10 0>;
+    pos \seven \four <0 0 -60 0>;
+    pos \seven \nine <0 0 -10 0>;
+    pos \seven \six <0 0 -10 0>;
+    pos \seven \zero <0 0 -20 0>;
+    pos \seven \colon <0 0 -14 0>;
+    pos \seven.lf \four.lf <0 0 -15 0>;
+    pos \seven.lf \one.lf <0 0 10 0>;
+    pos \seven.lf \six.lf <0 0 -10 0>;
+    pos \seven.lf \zero.lf <0 0 -10 0>;
+    pos \seven.lf \colon <0 0 -50 0>;
+    pos \six \five <0 0 -10 0>;
+    pos \six \four <0 0 -10 0>;
+    pos \six \seven <0 0 -10 0>;
+    pos \six \three <0 0 -10 0>;
+    pos \six.lf \four.lf <0 0 5 0>;
+    pos \six.lf \one.lf <0 0 -5 0>;
+    pos \six.lf \two.lf <0 0 -5 0>;
+    pos \three \eight <0 0 -8 0>;
+    pos \three \zero <0 0 -10 0>;
+    pos \two \nine <0 0 -10 0>;
+    pos \two \one <0 0 -10 0>;
+    pos \two \seven <0 0 -20 0>;
+    pos \two \three <0 0 -20 0>;
+    pos \two \zero <0 0 -20 0>;
+    pos \zero.lf \two.lf <0 0 -14 0>;
+    pos \colon \four <0 0 5 0>;
+    pos \colon \four.lf <0 0 33 0>;
+    pos \colon \one <0 0 20 0>;
+    pos \colon \one.lf <0 0 -24 0>;
+    pos \colon \seven.lf <0 0 -20 0>;
+    pos \colon \three.lf <0 0 10 0>;
+    pos \colon \two <0 0 15 0>;
+    pos \slash \five <0 0 -60 0>;
+    pos \slash \slash <0 0 -40 0>;
+ subtable;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \guillemetleft \guilsinglleft] <0 0 -20 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 -40 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \eight.lf] <0 0 5 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \five] <0 0 -20 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \five.lf] <0 0 30 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \four] <0 0 40 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \four.lf] <0 0 -40 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \nine] <0 0 -10 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \one] <0 0 -36 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \one.lf] <0 0 -40 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \seven] <0 0 -40 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \six] <0 0 -10 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \three.lf] <0 0 50 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \two] <0 0 30 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \two.lf] <0 0 40 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \zero] <0 0 -15 0>;
+    pos [ \comma \ellipsis \period \quotedblbase \quotesinglbase]
+        [ \zero.lf] <0 0 -10 0>;
+    pos [ \quotedbl \quotedblleft \quoteleft]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -160 0>;
+    pos [ \quotedbl \quotedblleft \quoteleft]
+        [ \exclamdown] <0 0 -40 0>;
+    pos [ \quotedbl \quotedblleft \quoteleft]
+        [ \questiondown] <0 0 -130 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -130 0>;
+    pos [ \quotesingle \quotedblright \quoteright]
+        [ \exclam] <0 0 -20 0>;
+    pos [ \exclam]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 20 0>;
+    pos [ \question]
+        [ \quotedbl \quotesingle \quotedblright \quoteright] <0 0 40 0>;
+    pos [ \question]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -60 0>;
+ subtable;
+    pos [ \eight]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -7 0>;
+    pos [ \eight.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -9 0>;
+    pos [ \five]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 10 0>;
+    pos [ \five.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -20 0>;
+    pos [ \nine.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -90 0>;
+    pos [ \one.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 10 0>;
+    pos [ \seven]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -100 0>;
+    pos [ \seven.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -90 0>;
+    pos [ \six]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -10 0>;
+    pos [ \six.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -20 0>;
+    pos [ \three]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -10 0>;
+    pos [ \three.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -30 0>;
+    pos [ \two]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 10 0>;
+    pos [ \two.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 5 0>;
+    pos [ \zero]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -17 0>;
+    pos [ \zero.lf]
+        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -30 0>;
 } GPOS_LOOKUP_00001;
+
+
+#*************************************************************************
+#   Feature "kern": Kerning 
+#   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   used in script: latn 
+#   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
+#*************************************************************************
+lookup GPOS_LOOKUP_00002 
+{
+ lookupflag 0;
+    pos \comma \space <0 0 -70 0>;
+    pos \ellipsis \space <0 0 -70 0>;
+    pos \period \space <0 0 -70 0>;
+    pos \quotesingle \space <0 0 -95 0>;
+    pos \quotesingle \edieresis <0 0 -90 0>;
+    pos \quotesingle \egrave <0 0 -100 0>;
+    pos \quotesingle \emacron <0 0 -100 0>;
+    pos \quotesingle \gbreve <0 0 -100 0>;
+    pos \quotesingle \scaron <0 0 -95 0>;
+    pos \quotedblbase \space <0 0 -70 0>;
+    pos \quotedblright \space <0 0 -95 0>;
+    pos \quotedblright \edieresis <0 0 -90 0>;
+    pos \quotedblright \egrave <0 0 -100 0>;
+    pos \quotedblright \emacron <0 0 -100 0>;
+    pos \quotedblright \gbreve <0 0 -100 0>;
+    pos \quotedblright \scaron <0 0 -95 0>;
+    pos \quoteright \space <0 0 -95 0>;
+    pos \quoteright \edieresis <0 0 -90 0>;
+    pos \quoteright \egrave <0 0 -100 0>;
+    pos \quoteright \emacron <0 0 -100 0>;
+    pos \quoteright \gbreve <0 0 -100 0>;
+    pos \quoteright \scaron <0 0 -95 0>;
+    pos \quotesinglbase \space <0 0 -70 0>;
+} GPOS_LOOKUP_00002;
 
 
 #*************************************************************************
 #   Feature "dist": Distances 
 #   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   used in script: latn 
 #   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
 #*************************************************************************
-lookup GPOS_LOOKUP_00000 
+lookup GPOS_LOOKUP_00003 
 {
-# lookupflag 8;
+ lookupflag 8;
     pos \knA \knLengthmark <0 0 10 0>;
     pos \knI \knGHA <0 0 15 0>;
     pos \knI \knTA <0 0 20 0>;
@@ -3755,37 +5347,875 @@ lookup GPOS_LOOKUP_00000
          \knRUU \knJHAU \knJH \knTTH \knR] <0 0 30 0>;
     pos [ \knCH \knJ \knTT]
         [ \knTA \knTAA \knTU \knTUU \knT] <0 0 10 0>;
-} GPOS_LOOKUP_00000;
+} GPOS_LOOKUP_00003;
 
 
+#*************************************************************************
+#   Feature "mark": Mark Positioning 
+#   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   used in script: latn 
+#   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
+#*************************************************************************
+lookup GPOS_LOOKUP_00004 
+{
+ lookupflag 0;
+        # Offset to MarkCoverage table 800
+        # Offset to BaseCoverage table 806
+        # ClassCount 1
+        # ---------------
+        # MarkArray table
+        # ---------------
+    markClass [\commaaccent ] <anchor -200 0> @MARKS_CLASS_0_LUT4_SUB0;
+        # ---------------
+        # BaseArray table
+        # ---------------
+    pos base \A 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Aacute 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Abreve 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Acircumflex 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Agrave 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Amacron 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Aogonek 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Aring 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Atilde 
+        <anchor 296 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \C 
+        <anchor 310 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Cacute 
+        <anchor 310 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ccaron 
+        <anchor 310 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ccedilla 
+        <anchor 310 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \D 
+        <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Dcaron 
+        <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Dcroat 
+        <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \E 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Eacute 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ecaron 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ecircumflex 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Edotaccent 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Egrave 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Emacron 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Eogonek 
+        <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Eth 
+        <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \F 
+        <anchor 245 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \G 
+        <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Gbreve 
+        <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Gcommaaccent 
+        <anchor 321 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \H 
+        <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \I 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Iacute 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Icircumflex 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Idieresis 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Idotaccent 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Igrave 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Imacron 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Iogonek 
+        <anchor 136 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \J 
+        <anchor 272 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \K 
+        <anchor 287 10> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Kcommaaccent 
+        <anchor 277 -262> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \L 
+        <anchor 247 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Lacute 
+        <anchor 247 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Lcaron 
+        <anchor 247 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Lcommaaccent 
+        <anchor 237 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ldot 
+        <anchor 247 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Lslash 
+        <anchor 247 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \N 
+        <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Nacute 
+        <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ncaron 
+        <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ncommaaccent 
+        <anchor 321 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ntilde 
+        <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \O 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \OE 
+        <anchor 733 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Oacute 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ocircumflex 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ograve 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ohungarumlaut 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Omacron 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Oslash 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Otilde 
+        <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \P 
+        <anchor 271 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Q 
+        <anchor 329 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \R 
+        <anchor 289 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Racute 
+        <anchor 289 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Rcaron 
+        <anchor 289 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Rcommaaccent 
+        <anchor 279 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Scommaaccent 
+        <anchor 233 -273> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \T 
+        <anchor 240 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Tcaron 
+        <anchor 240 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Tcedilla 
+        <anchor 240 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Tcommaaccent 
+        <anchor 230 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Thorn 
+        <anchor 129 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \U 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Uacute 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ucircumflex 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Ugrave 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Uhungarumlaut 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Umacron 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Uogonek 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Uring 
+        <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \V 
+        <anchor 315 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \W 
+        <anchor 478 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \X 
+        <anchor 330 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Y 
+        <anchor 298 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Yacute 
+        <anchor 298 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Z 
+        <anchor 288 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Zacute 
+        <anchor 288 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Zcaron 
+        <anchor 288 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Zdotaccent 
+        <anchor 288 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \a 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \aacute 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \abreve 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \acircumflex 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \agrave 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \amacron 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \aogonek 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \aring 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \atilde 
+        <anchor 258 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \b 
+        <anchor 260 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \c 
+        <anchor 200 -4> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \cacute 
+        <anchor 200 -4> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ccaron 
+        <anchor 200 -4> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ccedilla 
+        <anchor 200 -4> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \d 
+        <anchor 265 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \dcaron 
+        <anchor 265 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \dcroat 
+        <anchor 265 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \e 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \eacute 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ecaron 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ecircumflex 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \edotaccent 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \egrave 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \emacron 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \eogonek 
+        <anchor 228 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \f 
+        <anchor 158 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \g 
+        <anchor 232 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \gbreve 
+        <anchor 232 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \gcommaaccent 
+        <anchor 272 684> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \h 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \i 
+        <anchor 129 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \idotless 
+        <anchor 129 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \iogonek 
+        <anchor 129 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \k 
+        <anchor 245 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \kcommaaccent 
+        <anchor 235 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \l 
+        <anchor 118 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \lacute 
+        <anchor 118 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \lcaron 
+        <anchor 118 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \lcommaaccent 
+        <anchor 108 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ldot 
+        <anchor 118 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \lslash 
+        <anchor 133 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \m 
+        <anchor 399 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \n 
+        <anchor 271 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \nacute 
+        <anchor 271 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ncaron 
+        <anchor 271 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ncommaaccent 
+        <anchor 261 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ntilde 
+        <anchor 271 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \o 
+        <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \oacute 
+        <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ocircumflex 
+        <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \oe 
+        <anchor 216 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ograve 
+        <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ohungarumlaut 
+        <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \omacron 
+        <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \oslash 
+        <anchor 240 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \otilde 
+        <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \p 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \q 
+        <anchor 244 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \r 
+        <anchor 115 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \racute 
+        <anchor 115 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \rcaron 
+        <anchor 115 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \rcommaaccent 
+        <anchor 105 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \s 
+        <anchor 180 -2> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \sacute 
+        <anchor 180 -2> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \scaron 
+        <anchor 180 -2> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \scedilla 
+        <anchor 180 -2> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \scommaaccent 
+        <anchor 170 -274> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \t 
+        <anchor 175 -1> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \tcaron 
+        <anchor 175 -1> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \tcedilla 
+        <anchor 175 -1> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \tcommaaccent 
+        <anchor 165 -273> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \u 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \uacute 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ucircumflex 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \ugrave 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \uhungarumlaut 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \umacron 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \uogonek 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \uring 
+        <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \v 
+        <anchor 227 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \w 
+        <anchor 347 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \x 
+        <anchor 231 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \y 
+        <anchor 249 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \yacute 
+        <anchor 249 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \z 
+        <anchor 220 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \zacute 
+        <anchor 220 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \zcaron 
+        <anchor 220 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \zdotaccent 
+        <anchor 220 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+} GPOS_LOOKUP_00004;
+
+#*************************************************************************
+#   Feature "blwm": Below-base Mark Positioning 
+#   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
+#*************************************************************************
+lookup GPOS_LOOKUP_vottu 
+{
+ lookupflag 0;
+        # Offset to MarkCoverage table 12
+        # Offset to BaseCoverage table 122
+        # ClassCount 1
+        # ---------------
+        # MarkArray table
+        # ---------------
+    markClass [\knmvR ] <anchor 120 22> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knAIlengthmark ] <anchor 87 -17> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knNukta ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knKAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knKHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knGAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knGHAc2 ] <anchor -136 -27> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knNGAc2 ] <anchor -33 -27> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knCAc2 ] <anchor -65 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knCHAc2 ] <anchor -54 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knJAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knJHAc2 ] <anchor -163 5> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knNYAc2 ] <anchor -158 11> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTTAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knDDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knDDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knNNAc2 ] <anchor -71 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knNAc2 ] <anchor 86 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knPAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knPHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knBAc2 ] <anchor -38 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knBHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knMAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knYAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knRAc2 ] <anchor -11 136> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knLAc2 ] <anchor -103 21> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knVAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knSHAc2 ] <anchor 22 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knSSAc2 ] <anchor 82 168> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knLLAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knKSSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTAc2.01 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTAc2.02 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knRAc2.02 ] <anchor 0 114> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knRAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knRAc2.04 ] <anchor -76 -359> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knCHRAc2 ] <anchor 11 149> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knDHRAc2 ] <anchor 0 111> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knDRAc2 ] <anchor 0 111> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTRAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTRAc2.01 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTRAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTTRAc2 ] <anchor 0 154> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTYAc2 ] <anchor -255 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knTYAc2.following ] <anchor 225 0> @MARKS_CLASS_0_LUT0_SUB0;
+        # ---------------
+        # BaseArray table
+        # ---------------
+    pos base \knKHA 
+        <anchor 742 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHA 
+        <anchor 800 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHA 
+        <anchor 859 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHA 
+        <anchor 1099 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHA 
+        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHA 
+        <anchor 727 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHA 
+        <anchor 754 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNA 
+        <anchor 631 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHA 
+        <anchor 790 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHA 
+        <anchor 807 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSA 
+        <anchor 761 -71> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSA 
+        <anchor 631 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKHAA 
+        <anchor 1160 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHAA 
+        <anchor 1128 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHAA 
+        <anchor 1217 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHAA 
+        <anchor 1535 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHAA 
+        <anchor 1109 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHAA 
+        <anchor 1045 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHAA 
+        <anchor 1067 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNAA 
+        <anchor 933 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHAA 
+        <anchor 1133 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHAA 
+        <anchor 1139 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSAA 
+        <anchor 1150 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSAA 
+        <anchor 933 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKHI 
+        <anchor 909 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHI 
+        <anchor 819 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHI 
+        <anchor 946 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHI 
+        <anchor 1142 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHI 
+        <anchor 773 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHI 
+        <anchor 734 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHI 
+        <anchor 750 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNI 
+        <anchor 632 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHI 
+        <anchor 820 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHI 
+        <anchor 828 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSI 
+        <anchor 806 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSI 
+        <anchor 632 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKHU 
+        <anchor 1043 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHU 
+        <anchor 2257 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHU 
+        <anchor 49 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHU 
+        <anchor 1431 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHU 
+        <anchor 1065 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHU 
+        <anchor 1010 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHU 
+        <anchor 1032 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNU 
+        <anchor 927 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHU 
+        <anchor 984 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHU 
+        <anchor 1091 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSU 
+        <anchor 1079 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSU 
+        <anchor 927 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKHUU 
+        <anchor 1382 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHUU 
+        <anchor 1378 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHUU 
+        <anchor 1429 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHUU 
+        <anchor 1713 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHUU 
+        <anchor 1358 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHUU 
+        <anchor 1349 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHUU 
+        <anchor 1327 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNUU 
+        <anchor 1233 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHUU 
+        <anchor 1335 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHUU 
+        <anchor 1391 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSUU 
+        <anchor 1412 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSUU 
+        <anchor 1233 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKHE 
+        <anchor 756 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHE 
+        <anchor 792 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHE 
+        <anchor 858 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHE 
+        <anchor 1123 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHE 
+        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHE 
+        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHE 
+        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNE 
+        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHE 
+        <anchor 815 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHE 
+        <anchor 824 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSE 
+        <anchor 788 -60> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSE 
+        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKHO 
+        <anchor 1360 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHO 
+        <anchor 1364 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHO 
+        <anchor 1457 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHO 
+        <anchor 1479 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHO 
+        <anchor 1369 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHO 
+        <anchor 1327 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHO 
+        <anchor 1349 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNO 
+        <anchor 1221 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHO 
+        <anchor 1346 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHO 
+        <anchor 1383 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSO 
+        <anchor 1411 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSO 
+        <anchor 1221 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKHAU 
+        <anchor 1075 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGHAU 
+        <anchor 1127 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCHAU 
+        <anchor 1147 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJHAU 
+        <anchor 1467 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDHAU 
+        <anchor 1080 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTHAU 
+        <anchor 1036 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDHAU 
+        <anchor 1057 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knNAU 
+        <anchor 924 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPHAU 
+        <anchor 1115 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBHAU 
+        <anchor 1109 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSSAU 
+        <anchor 1093 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSAU 
+        <anchor 924 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knKH 
+        <anchor 760 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knGH 
+        <anchor 835 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knCH 
+        <anchor 892 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knJH 
+        <anchor 1167 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDDH 
+        <anchor 749 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knTH 
+        <anchor 786 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knDH 
+        <anchor 797 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knN 
+        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knPH 
+        <anchor 813 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knBH 
+        <anchor 864 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knSS 
+        <anchor 739 -60> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \knS 
+        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+} GPOS_LOOKUP_vottu;
+
+#*************************************************************************
+#   Feature "blwm": Below-base Mark Positioning 
+#   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   used in script: latn 
+#   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
+#*************************************************************************
+lookup GPOS_LOOKUP_00005 
+{
+ lookupflag 0;
+        # Offset to MarkCoverage table 70
+        # Offset to BaseCoverage table 206
+        # ClassCount 1
+        # ---------------
+        # MarkArray table
+        # ---------------
+    markClass [\commaaccent ] <anchor -200 0> @MARKS_CLASS_0_LUT5_SUB0;
+        # ---------------
+        # BaseArray table
+        # ---------------
+} GPOS_LOOKUP_00005;
 
 
+#*************************************************************************
+#   Feature "mkmk": Mark to Mark Positioning 
+#   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   used in script: latn 
+#   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_MARK_ATTACHMENT 
+#*************************************************************************
+lookup GPOS_LOOKUP_00006 
+{
+ lookupflag 256;
+        # Offset to MarkCoverage table 34
+        # Offset to BaseCoverage table 34
+        # ClassCount 1
+        # ---------------
+        # MarkArray table
+        # ---------------
+    markClass [\commaaccent ] <anchor -200 0> @MARKS_CLASS_0_LUT6_SUB0;
+        # ---------------
+        # BaseArray table
+        # ---------------
+    pos mark \commaaccent 
+        <anchor -210 -272> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+} GPOS_LOOKUP_00006;
 
-#***** Done. ******
 
-feature blwm {
+### ======================== Features ======================== ###
+
+feature kern {
+    script dflt;
+        lookup GPOS_LOOKUP_00000;
         lookup GPOS_LOOKUP_00001;
-    script knd2 ; 
+        lookup GPOS_LOOKUP_00002;
+    script knda;
+        lookup GPOS_LOOKUP_00000;
         lookup GPOS_LOOKUP_00001;
-    script knda ; 
+        lookup GPOS_LOOKUP_00002;
+    script knd2;
+        lookup GPOS_LOOKUP_00000;
         lookup GPOS_LOOKUP_00001;
-} blwm;
-
-#---------------------------------
+        lookup GPOS_LOOKUP_00002;
+} kern;
 
 feature dist {
-        lookup GPOS_LOOKUP_00000;
+    script dflt;
+        lookup GPOS_LOOKUP_00003;
+    script knda;
+        lookup GPOS_LOOKUP_00003;
+    script knd2;
+        lookup GPOS_LOOKUP_00003;
 } dist;
+
+feature mark {
+    script dflt;
+        lookup GPOS_LOOKUP_00004;
+    script knda;
+        lookup GPOS_LOOKUP_00004;
+    script knd2;
+        lookup GPOS_LOOKUP_00004;
+} mark;
+    
+feature blwm {
+    script dflt;
+        lookup GPOS_LOOKUP_vottu;
+        lookup GPOS_LOOKUP_00005;
+    script knda;
+        lookup GPOS_LOOKUP_vottu;
+        lookup GPOS_LOOKUP_00005;
+    script knd2;
+        lookup GPOS_LOOKUP_vottu;
+        lookup GPOS_LOOKUP_00005;
+} blwm;
+
+feature mkmk {
+    script dflt;
+        lookup GPOS_LOOKUP_00006;
+    script knda;
+        lookup GPOS_LOOKUP_00006;
+    script knd2;
+        lookup GPOS_LOOKUP_00006;
+
+} mkmk;
 
 #
 # Export of the GDEF table
 #
 
+@SIMPLE = [\knA \knAA \knI \knII 
+        \knU \knUU \knvR \knvRR \knvL 
+        \knE \knEE \knAI \knO \knOO 
+        \knAU \knKA \knKHA \knGA \knGHA 
+        \knNGA \knCA \knCHA \knJA \knJHA 
+        \knNYA \knTTA \knTTHA \knDDA \knDDHA 
+        \knNNA \knTA \knTHA \knDA \knDHA 
+        \knNA \knPA \knPHA \knBA \knBHA 
+        \knMA \knYA \knRA \knLA \knVA 
+        \knSHA \knSSA \knSA \knHA \knRRA 
+        \knLLA \knLLLA \knAvagraha \knReph \knK 
+        \knKH \knG \knGH \knNG \knC 
+        \knCH \knJ \knJH \knNY \knTT 
+        \knTTH \knDD \knDDH \knNN \knT 
+        \knTH \knD \knDH \knN \knP 
+        \knPH \knB \knBH \knM \knY 
+        \knR \knL \knV \knSH \knSS 
+        \knS \knH \knRR \knLL \knLLL 
+        \dottedcircle \A \AE \Aacute \Abreve 
+        \Acircumflex \Adieresis \Agrave \Amacron \Aogonek 
+        \Aring \Atilde \B \C \Cacute 
+        \Ccaron \Ccedilla \D \Dcaron \Dcroat 
+        \E \Eacute \Ecaron \Ecircumflex \Edieresis 
+        \Edotaccent \Egrave \Emacron \Eogonek \Eth 
+        \F \G \Gbreve \Gcommaaccent \H 
+        \I \Iacute \Icircumflex \Idieresis \Idotaccent 
+        \Igrave \Imacron \Iogonek \J \K 
+        \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent 
+        \Ldot \Lslash \M \N \Nacute 
+        \Ncaron \Ncommaaccent \Ntilde \O \OE 
+        \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut 
+        \Omacron \Oslash \Otilde \P \Q 
+        \R \Racute \Rcaron \Rcommaaccent \S 
+        \Sacute \Scaron \Scedilla \Scommaaccent \T 
+        \Tcaron \Tcedilla \Tcommaaccent \Thorn \U 
+        \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut 
+        \Umacron \Uogonek \Uring \V \W 
+        \X \Y \Yacute \Ydieresis \Z 
+        \Zacute \Zcaron \Zdotaccent \a \aacute 
+        \abreve \acircumflex \adieresis \ae \agrave 
+        \amacron \aogonek \aring \atilde \b 
+        \c \cacute \ccaron \ccedilla \d 
+        \dcaron \dcroat \e \eacute \ecaron 
+        \ecircumflex \edieresis \edotaccent \egrave \emacron 
+        \eogonek \eth \f \g \gbreve 
+        \gcommaaccent \germandbls \h \i \iacute 
+        \icircumflex \idieresis \idotless \igrave \imacron 
+        \iogonek \j \k \kcommaaccent \l 
+        \lacute \lcaron \lcommaaccent \ldot \lslash 
+        \m \n \nacute \ncaron \ncommaaccent 
+        \ntilde \o \oacute \ocircumflex \odieresis 
+        \oe \ograve \ohungarumlaut \omacron \oslash 
+        \otilde \p \q \r \racute 
+        \rcaron \rcommaaccent \s \sacute \scaron 
+        \scedilla \scommaaccent \t \tcaron \tcedilla 
+        \tcommaaccent \thorn \u \uacute \ucircumflex 
+        \udieresis \ugrave \uhungarumlaut \umacron \uogonek 
+        \uring \v \w \x \y 
+        \yacute \ydieresis \z \zacute \zcaron 
+        \zdotaccent \ordfeminine \ordmasculine \pi \cent 
+        \currency \dollar \euro \florin \inr 
+        \liraTurkish \ruble \sterling \yen \Ohm 
+        \approxequal \asciitilde \bulletoperator \divide \divisionslash 
+        \equal \greater \greaterequal \increment \infinity 
+        \integral \less \lessequal \logicalnot \micro 
+        \minus \multiply \notequal \partialdiff \percent 
+        \perthousand \plus \plusminus \product \radical 
+        \summation \lozenge \ampersand \asciicircum \at 
+        \bar \brokenbar \copyright \dagger \daggerdbl 
+        \degree \estimated \literSign \paragraph \registered 
+        \section \trademark ];
+@LIGATURES = [\fi \fl 
+        \knKAA\knKHAA\knGAA\knGHAA\knNGAA\knCAA\knCHAA\knJAA\knJHAA\knNYAA\knTTAA\knTTHAA\knDDAA\knDDHAA\knNNAA\knTAA\knTHAA\knDAA\knDHAA\knNAA\knPAA\knPHAA\knBAA\knBHAA\knMAA\knYAA\knRAA\knLAA\knVAA\knSHAA\knSSAA\knSAA\knHAA\knLLAA\knKI\knKHI\knGI\knGHI\knNGI\knCI\knCHI\knJI\knJHI\knNYI\knTTI\knTTHI\knDDI\knDDHI\knNNI\knTI\knTHI\knDI\knDHI\knNI\knPI\knPHI\knBI\knBHI\knMI\knYI\knRI\knLI\knVI\knSHI\knSSI\knSI\knHI\knLLI\knKU\knKHU\knGU\knGHU\knNGU\knCU\knCHU\knJU\knJHU\knNYU\knTTU\knTTHU\knDDU\knDDHU\knNNU\knTU\knTHU\knDU\knDHU\knNU\knPU\knPHU\knBU\knBHU\knMU\knYU\knRU\knLU\knVU\knSHU\knSSU\knSU\knHU\knLLU\knKUU\knKHUU\knGUU\knGHUU\knNGUU\knCUU\knCHUU\knJUU\knJHUU\knNYUU\knTTUU\knTTHUU\knDDUU\knDDHUU\knNNUU\knTUU\knTHUU\knDUU\knDHUU\knNUU\knPUU\knPHUU\knBUU\knBHUU\knMUU\knYUU\knRUU\knLUU\knVUU\knSHUU\knSSUU\knSUU\knHUU\knLLUU\knKE\knKHE\knGE\knGHE\knNGE\knCE\knCHE\knJE\knJHE\knNYE\knTTE\knTTHE\knDDE\knDDHE\knNNE\knTE\knTHE\knDE\knDHE\knNE\knPE\knPHE\knBE\knBHE\knME\knYE\knRE\knLE\knVE\knSHE\knSSE\knSE\knHE\knLLE\knKO\knKHO\knGO\knGHO\knNGO\knCO\knCHO\knJO\knJHO\knNYO\knTTO\knTTHO\knDDO\knDDHO\knNNO\knTO\knTHO\knDO\knDHO\knNO\knPO\knPHO\knBO\knBHO\knMO\knYO\knRO\knLO\knVO\knSHO\knSSO\knSO\knHO\knLLO\knKAU\knKHAU\knGAU\knGHAU\knNGAU\knCAU\knCHAU\knJAU\knJHAU\knNYAU\knTTAU\knTTHAU\knDDAU\knDDHAU\knNNAU\knTAU\knTHAU\knDAU\knDHAU\knNAU\knPAU\knPHAU\knBAU\knBHAU\knMAU\knYAU\knRAU\knLAU\knVAU\knSHAU\knSSAU\knSAU\knHAU\knLLAU\knK\knKH\knG\knGH\knNG\knC\knCH\knJ\knJH\knNY\knTT\knTTH\knDD\knDDH\knNN\knT\knTH\knD\knDH\knN\knP\knPH\knB\knBH\knM\knY\knR\knL\knV\knSH\knSS\knS\knH\knRR\knLL\knLLL
+        ];
+@MARKS = [ \commaaccent
+        \knmAA \knmII \knmU \knmUU 
+        \knmvR \knmEE \knmAI \knmO \knmOO\knmAU \knLengthmark \knAIlengthmark \knAnusvara \knVisarga 
+        \knKAc2\knKHAc2\knGAc2\knGHAc2\knNGAc2\knCAc2\knCHAc2\knJAc2\knJHAc2\knNYAc2\knTTAc2\knTTHAc2\knDDAc2\knDDHAc2\knNNAc2\knTAc2\knTHAc2\knDAc2\knDHAc2\knNAc2\knPAc2\knPHAc2\knBAc2\knBHAc2\knMAc2\knYAc2\knRAc2\knLAc2\knVAc2\knSHAc2\knSSAc2\knSAc2\knHAc2\knLLAc2\knKSSAc2
+        \knmvR.following\knAIlengthmark.following\knKAc2.following\knKHAc2.following\knGAc2.following\knGHAc2.following\knNGAc2.following\knCAc2.following\knCHAc2.following\knJAc2.following\knJHAc2.following\knNYAc2.following\knTTAc2.following\knTTHAc2.following\knDDAc2.following\knDDHAc2.following\knNNAc2.following\knTAc2.following\knTHAc2.following\knDAc2.following\knDHAc2.following\knNAc2.following\knPAc2.following\knPHAc2.following\knBAc2.following\knBHAc2.following\knMAc2.following\knYAc2.following\knRAc2.following\knLAc2.following\knVAc2.following\knSHAc2.following\knSSAc2.following\knSAc2.following\knHAc2.following\knLLAc2.following\knKSSAc2.following
+        \knTAc2.01\knTAc2.02\knTAc2.03\knRAc2.02\knRAc2.03\knRAc2.04\knCHRAc2\knDHRAc2\knDRAc2\knTRAc2\knTRAc2.01\knTRAc2.03\knTTRAc2\knTYAc2\knDDHxA\knPHxA\knTYAc2.following
+        ];
 
 
 table GDEF {
 
-    GlyphClassDef , , , ;
+    GlyphClassDef @SIMPLE, @LIGATURES, @MARKS, ;
 
 } GDEF;
 
@@ -3812,3 +6242,4 @@ table name {
   nameid 9 3 1 1033 "Vaishnavi Murthy, Juan Luis Blanco";
   nameid 13 3 1 1033 "http://scripts.sil.org/OFL";
 } name;
+
