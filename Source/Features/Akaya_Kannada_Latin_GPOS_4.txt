@@ -5745,302 +5745,279 @@ lookup GPOS_LOOKUP_vottu
         # ---------------
         # MarkArray table
         # ---------------
-    markClass [\knmvR ] <anchor 120 22> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knAIlengthmark ] <anchor 87 -17> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNukta ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knKAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knKHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knGAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knGHAc2 ] <anchor -136 -27> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNGAc2 ] <anchor -33 -27> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knCAc2 ] <anchor -65 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knCHAc2 ] <anchor -54 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knJAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knJHAc2 ] <anchor -163 5> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNYAc2 ] <anchor -158 11> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTTAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNNAc2 ] <anchor -71 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knNAc2 ] <anchor 86 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knPAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knPHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knBAc2 ] <anchor -38 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knBHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knMAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knYAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2 ] <anchor -11 136> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knLAc2 ] <anchor -103 21> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knVAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knSHAc2 ] <anchor 22 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knSSAc2 ] <anchor 82 168> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knLLAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knKSSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2.01 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2.02 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2.02 ] <anchor 0 114> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knRAc2.04 ] <anchor -76 -359> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knCHRAc2 ] <anchor 11 149> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDHRAc2 ] <anchor 0 111> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knDRAc2 ] <anchor 0 111> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTRAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTRAc2.01 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTRAc2.03 ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTTRAc2 ] <anchor 0 154> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTYAc2 ] <anchor -255 0> @MARKS_CLASS_0_LUT0_SUB0;
-    markClass [\knTYAc2.following ] <anchor 225 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\knmvR ] <anchor 175 87> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knAIlengthmark ] <anchor 87 -11> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knNukta ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knKAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knKHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knGAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knGHAc2 ] <anchor -60 -27> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knNGAc2 ] <anchor -33 -27> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knCAc2 ] <anchor -65 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knCHAc2 ] <anchor -54 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knJAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knJHAc2 ] <anchor 0 5> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knNYAc2 ] <anchor -6 11> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTTAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knDDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knDDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knNNAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTAc2 ] <anchor 0 -76> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knNAc2 ] <anchor 86 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knPAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knPHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knBAc2 ] <anchor -38 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knBHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knMAc2 ] <anchor 114 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knYAc2 ] <anchor 201 81> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knRAc2 ] <anchor 54 6> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knLAc2 ] <anchor 6 -17> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knVAc2 ] <anchor -11 -43> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knSHAc2 ] <anchor 44 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knSSAc2 ] <anchor -70 5> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knLLAc2 ] <anchor 98 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knKSSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTAc2.01 ] <anchor 0 -71> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTAc2.02 ] <anchor 0 -71> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTAc2.03 ] <anchor -33 -147> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knRAc2.02 ] <anchor 0 -16> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knRAc2.03 ] <anchor 141 -49> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knRAc2.04 ] <anchor -54 -359> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knCHRAc2 ] <anchor -125 24> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knDHRAc2 ] <anchor -114 35> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knDRAc2 ] <anchor -136 35> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTRAc2 ] <anchor 0 -54> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTRAc2.01 ] <anchor 33 -38> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTRAc2.03 ] <anchor -11 -49> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTTRAc2 ] <anchor -141 51> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTYAc2 ] <anchor -108 158> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTYAc2.following ] <anchor 111 245> @MARKS_CLASS_0_LUT5_SUB0;
         # ---------------
         # BaseArray table
         # ---------------
     pos base \knKHA 
-        <anchor 742 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 688 -76> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHA 
-        <anchor 800 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 800 -54> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHA 
-        <anchor 859 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 799 -136> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHA 
-        <anchor 1099 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1034 -120> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHA 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 675 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHA 
-        <anchor 727 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 640 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHA 
-        <anchor 754 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 645 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNA 
-        <anchor 631 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 497 -152> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHA 
-        <anchor 790 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 670 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHA 
-        <anchor 807 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 725 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSA 
-        <anchor 761 -71> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 696 -223> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSA 
-        <anchor 631 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 533 -136> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHAA 
-        <anchor 1160 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1057 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHAA 
-        <anchor 1128 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1041 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHAA 
-        <anchor 1217 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1135 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHAA 
-        <anchor 1535 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1372 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHAA 
-        <anchor 1109 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1017 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHAA 
-        <anchor 1045 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 996 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHAA 
-        <anchor 1067 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 991 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNAA 
-        <anchor 933 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 835 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHAA 
-        <anchor 1133 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1041 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHAA 
-        <anchor 1139 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1047 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSAA 
-        <anchor 1150 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1025 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSAA 
-        <anchor 933 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 857 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHI 
-        <anchor 909 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 839 -104> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHI 
-        <anchor 819 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 792 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHI 
-        <anchor 946 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 875 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHI 
-        <anchor 1142 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1071 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHI 
-        <anchor 773 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 686 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHI 
-        <anchor 734 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 647 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHI 
-        <anchor 750 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 636 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNI 
-        <anchor 632 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 534 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHI 
-        <anchor 820 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 673 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHI 
-        <anchor 828 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 768 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSI 
-        <anchor 806 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 686 -201> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSI 
-        <anchor 632 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 523 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHU 
-        <anchor 1043 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 961 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHU 
-        <anchor 2257 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 2175 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHU 
-        <anchor 49 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor -49 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHU 
-        <anchor 1431 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1328 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHU 
-        <anchor 1065 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 962 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHU 
-        <anchor 1010 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 923 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHU 
-        <anchor 1032 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 918 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNU 
-        <anchor 927 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 775 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHU 
-        <anchor 984 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 881 -130> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHU 
-        <anchor 1091 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 982 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSU 
-        <anchor 1079 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 981 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSU 
-        <anchor 927 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 818 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHUU 
-        <anchor 1382 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1279 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHUU 
-        <anchor 1378 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1286 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHUU 
-        <anchor 1429 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1342 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHUU 
-        <anchor 1713 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1626 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHUU 
-        <anchor 1358 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1271 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHUU 
-        <anchor 1349 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1251 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHUU 
-        <anchor 1327 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1235 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNUU 
-        <anchor 1233 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1086 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHUU 
-        <anchor 1335 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1232 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHUU 
-        <anchor 1391 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1277 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSUU 
-        <anchor 1412 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1309 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSUU 
-        <anchor 1233 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1141 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHE 
-        <anchor 756 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 745 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHE 
-        <anchor 792 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 803 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHE 
-        <anchor 858 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 782 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHE 
-        <anchor 1123 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1052 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHE 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 696 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHE 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 669 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHE 
-        <anchor 767 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 675 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNE 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 521 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHE 
-        <anchor 815 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 701 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHE 
-        <anchor 824 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 737 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSE 
-        <anchor 788 -60> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 701 -205> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSE 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 532 -125> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHO 
-        <anchor 1360 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1229 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHO 
-        <anchor 1364 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1244 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHO 
-        <anchor 1457 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1321 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHO 
-        <anchor 1479 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1311 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHO 
-        <anchor 1369 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1228 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHO 
-        <anchor 1327 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1191 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHO 
-        <anchor 1349 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1186 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNO 
-        <anchor 1221 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1047 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHO 
-        <anchor 1346 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1200 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHO 
-        <anchor 1383 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1291 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSO 
-        <anchor 1411 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1275 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSO 
-        <anchor 1221 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1085 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHAU 
-        <anchor 1075 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1037 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHAU 
-        <anchor 1127 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1040 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHAU 
-        <anchor 1147 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1093 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHAU 
-        <anchor 1467 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1353 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDHAU 
-        <anchor 1080 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 982 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTHAU 
-        <anchor 1036 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 944 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDHAU 
-        <anchor 1057 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 943 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knNAU 
-        <anchor 924 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 804 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPHAU 
-        <anchor 1115 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 990 -33> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHAU 
-        <anchor 1109 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1022 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSSAU 
-        <anchor 1093 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 963 -33> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSAU 
-        <anchor 924 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 804 -43> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKH 
-        <anchor 760 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 820 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGH 
-        <anchor 835 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 791 -54> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCH 
-        <anchor 892 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 849 -33> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJH 
-        <anchor 1167 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 1189 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDDH 
-        <anchor 749 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 684 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knTH 
-        <anchor 786 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 639 -87> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knDH 
-        <anchor 797 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 634 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knN 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 510 -76> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knPH 
-        <anchor 813 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 666 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBH 
-        <anchor 864 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 859 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSS 
-        <anchor 739 -60> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 717 -120> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knS 
-        <anchor 619 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+        <anchor 521 -98> mark @MARKS_CLASS_0_LUT5_SUB0 ;
 } GPOS_LOOKUP_vottu;
-
-#*************************************************************************
-#   Feature "blwm": Below-base Mark Positioning 
-#   used in script: DFLT 
-#   used in script: knd2 
-#   used in script: knda 
-#   used in script: latn 
-#   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
-#*************************************************************************
-lookup GPOS_LOOKUP_00005 
-{
- lookupflag 0;
-        # Offset to MarkCoverage table 70
-        # Offset to BaseCoverage table 206
-        # ClassCount 1
-        # ---------------
-        # MarkArray table
-        # ---------------
-    markClass [\commaaccent ] <anchor -200 0> @MARKS_CLASS_0_LUT5_SUB0;
-        # ---------------
-        # BaseArray table
-        # ---------------
-} GPOS_LOOKUP_00005;
 
 
 #*************************************************************************
@@ -6072,7 +6049,11 @@ lookup GPOS_LOOKUP_00006
 ### ======================== Features ======================== ###
 
 feature kern {
-    script dflt;
+    script DFLT;
+        lookup GPOS_LOOKUP_00000;
+        lookup GPOS_LOOKUP_00001;
+        lookup GPOS_LOOKUP_00002;
+    script knd2;
         lookup GPOS_LOOKUP_00000;
         lookup GPOS_LOOKUP_00001;
         lookup GPOS_LOOKUP_00002;
@@ -6080,50 +6061,52 @@ feature kern {
         lookup GPOS_LOOKUP_00000;
         lookup GPOS_LOOKUP_00001;
         lookup GPOS_LOOKUP_00002;
-    script knd2;
+    script latn;
         lookup GPOS_LOOKUP_00000;
         lookup GPOS_LOOKUP_00001;
         lookup GPOS_LOOKUP_00002;
 } kern;
 
 feature dist {
-    script dflt;
+    script DFLT;
+        lookup GPOS_LOOKUP_00003;
+    script knd2;
         lookup GPOS_LOOKUP_00003;
     script knda;
         lookup GPOS_LOOKUP_00003;
-    script knd2;
+    script latn;
         lookup GPOS_LOOKUP_00003;
 } dist;
 
 feature mark {
-    script dflt;
+    script DFLT;
+        lookup GPOS_LOOKUP_00004;
+    script knd2;
         lookup GPOS_LOOKUP_00004;
     script knda;
         lookup GPOS_LOOKUP_00004;
-    script knd2;
+    script latn;
         lookup GPOS_LOOKUP_00004;
 } mark;
     
 feature blwm {
-    script dflt;
+    script DFLT;
         lookup GPOS_LOOKUP_vottu;
-        lookup GPOS_LOOKUP_00005;
-    script knda;
-        lookup GPOS_LOOKUP_vottu;
-        lookup GPOS_LOOKUP_00005;
     script knd2;
         lookup GPOS_LOOKUP_vottu;
-        lookup GPOS_LOOKUP_00005;
+    script knda;
+        lookup GPOS_LOOKUP_vottu; 
 } blwm;
 
 feature mkmk {
-    script dflt;
+    script DFLT;
         lookup GPOS_LOOKUP_00006;
     script knda;
         lookup GPOS_LOOKUP_00006;
     script knd2;
         lookup GPOS_LOOKUP_00006;
-
+    script latn;
+        lookup GPOS_LOOKUP_00006;
 } mkmk;
 
 #

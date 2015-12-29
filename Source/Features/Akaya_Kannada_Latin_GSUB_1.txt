@@ -4,8 +4,8 @@
 @C2_PRECOMPOSED = [ knKSSAc2 knCHRAc2 knTTRAc2 knDRAc2 knDHRAc2];
 @COMBINING_MARKS = [knNukta @BELOW_BASE_MARKS @BELOW_BASE_MARKS_FOLLOWING];
 @NARROW_LETTERS = [knKA knKHA knTTHA knNA knSA knKI knGI knRI knVI knKE knKHE knTTHE knRE knK knKAU knKHAU knTTHAU knRAU];
-@MEDIUM_LETTERS = [knTA knTAA knTU knTUU knTHUU knTE knTO knTAU knT knGA knGE knNGA knJA knTHA knDA knDHA knRA knVA knKHI knNGI knJI knTTHI knTHI knDI knDHI knNI knSI knJE knNE knSE knLA knG knTTH knTH knD knDH knN knR knL knS knGAU knNGAU knJAU knTHAU knDAU knDHAU knNAU knLAU knSAU];
-@WIDE_LETTERS = [knGHA knCA knCHA knJHA knNYA knTTA knDDA knDDHA knNNA knPA knPHA knBA knBHA knMA knYA knSHA knSSA knHA knRRA knLLA knLLLA knKAA knKHAA knGAA knGHAA knNGAA knCAA knCHAA knJAA knJHAA knNYAA knTTAA knTTHAA knDDAA knDDHAA knNNAA knTHAA knDAA knDHAA knNAA knPAA knPHAA knBAA knBHAA knMAA knYAA knRAA knLAA knVAA knSHAA knSSAA knSAA knHAA knLLAA knGHI knCI knCHI knJHI knNYI knTTI knDDI knDDHI knNNI knTI knPI knPHI knBI knBHI knMI knYI knLI knSHI knSSI knHI knLLI knKU knKHU knGU knGHU knNGU knCU knCHU knJU knJHU knNYU knTTU knTTHU knDDU knDDHU knNNU knTHU knDU knDHU knNU knPU knPHU knBU knBHU knMU knYU knRU knLU knVU knSHU knSSU knSU knHU knLLU knKUU knKHUU knGUU knGHUU knNGUU knCUU knCHUU knJUU knJHUU knNYUU knTTUU knTTHUU knDDUU knDDHUU knNNUU knDUU knDHUU knNUU knPUU knPHUU knBUU knBHUU knMUU knYUU knRUU knLUU knVUU knSHUU knSSUU knSUU knHUU knLLUU knGHE knNGE knCE knCHE knJHE knNYE knTTE knDDE knDDHE knNNE knTHE knDE knDHE knPE knPHE knBE knBHE knME knYE knLE knVE knSHE knSSE knHE knLLE knKO knKHO knGO knGHO knNGO knCO knCHO knJO knJHO knNYO knTTE knTTO knTTHO knDDO knDDHO knNNO knTHO knDO knDHO knNO knPO knPHO knBO knBHO knMO knYO knRO knLO knVO knSHO knSSO knSO knHO knLLO knGHAU knCAU knCHAU knJHAU knNYAU knTTAU knDDAU knDDHAU knNNAU knPAU knPHAU knBAU knBHAU knMAU knYAU knVAU knSHAU knSSAU knHAU knLLAU knKH knGH knNG knC knCH knJ knJH knNY knTT knDD knDDH knNN knP knPH knB knBH knM knY knV knSH knSS knH knLL knDDHxA knPHxA];
+@MEDIUM_LETTERS = [knTA knTAA knTU knTUU knTHUU knTE knTO knTAU knT knGA knGE knNGA knJA knTHA knDA knDHA knRA knVA knKHI knNGI knJI knTTHI knTHI knDI knDHI knNI knSI knSHI knJE knNE knSE knLA knG knTTH knTH knD knDH knN knR knL knS knGAU knNGAU knJAU knTHAU knDAU knDHAU knNAU knLAU knSAU];
+@WIDE_LETTERS = [knGHA knCA knCHA knJHA knNYA knTTA knDDA knDDHA knNNA knPA knPHA knBA knBHA knMA knYA knSHA knSSA knHA knRRA knLLA knLLLA knKAA knKHAA knGAA knGHAA knNGAA knCAA knCHAA knJAA knJHAA knNYAA knTTAA knTTHAA knDDAA knDDHAA knNNAA knTHAA knDAA knDHAA knNAA knPAA knPHAA knBAA knBHAA knMAA knYAA knRAA knLAA knVAA knSHAA knSSAA knSAA knHAA knLLAA knGHI knCI knCHI knJHI knNYI knTTI knDDI knDDHI knNNI knTI knPI knPHI knBI knBHI knMI knYI knLI knSSI knHI knLLI knKU knKHU knGU knGHU knNGU knCU knCHU knJU knJHU knNYU knTTU knTTHU knDDU knDDHU knNNU knTHU knDU knDHU knNU knPU knPHU knBU knBHU knMU knYU knRU knLU knVU knSHU knSSU knSU knHU knLLU knKUU knKHUU knGUU knGHUU knNGUU knCUU knCHUU knJUU knJHUU knNYUU knTTUU knTTHUU knDDUU knDDHUU knNNUU knDUU knDHUU knNUU knPUU knPHUU knBUU knBHUU knMUU knYUU knRUU knLUU knVUU knSHUU knSSUU knSUU knHUU knLLUU knGHE knNGE knCE knCHE knJHE knNYE knTTE knDDE knDDHE knNNE knTHE knDE knDHE knPE knPHE knBE knBHE knME knYE knLE knVE knSHE knSSE knHE knLLE knKO knKHO knGO knGHO knNGO knCO knCHO knJO knJHO knNYO knTTE knTTO knTTHO knDDO knDDHO knNNO knTHO knDO knDHO knNO knPO knPHO knBO knBHO knMO knYO knRO knLO knVO knSHO knSSO knSO knHO knLLO knGHAU knCAU knCHAU knJHAU knNYAU knTTAU knDDAU knDDHAU knNNAU knPAU knPHAU knBAU knBHAU knMAU knYAU knVAU knSHAU knSSAU knHAU knLLAU knKH knGH knNG knC knCH knJ knJH knNY knTT knDD knDDH knNN knP knPH knB knBH knM knY knV knSH knSS knH knLL knDDHxA knPHxA];
 @TAC2 = [knTAc2.01 knTAc2 knTAc2.03];
 @RAC2 = [knRAc2 knRAc2.02 knRAc2.03];
 
@@ -564,7 +564,7 @@ lookup psts_7 {
 
 lookup psts_8 {
   sub @MEDIUM_LETTERS knRAc2' by knRAc2.02;
-  sub @WIDE_LETTERS knRAc2' by knRAc2.03;
+  sub @WIDE_LETTERS knRAc2' by knRAc2.following;
 } psts_8;
 
 lookup psts_9 {
@@ -580,6 +580,7 @@ lookup psts_10 {
 
 lookup psts_11 {
   sub @BELOW_BASE_MARKS @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
+  sub @BELOW_BASE_MARKS_FOLLOWING @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
   sub [@TAC2 @RAC2] @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
   sub @C2_PRECOMPOSED @BELOW_BASE_MARKS' by @BELOW_BASE_MARKS_FOLLOWING;
 } psts_11;
