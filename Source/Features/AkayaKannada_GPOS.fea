@@ -1,4 +1,7 @@
-### ======================== Language Systems ======================== ###
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+#   Language Systems 
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
 languagesystem DFLT dflt;
 languagesystem knd2 dflt;
 languagesystem knda dflt;
@@ -6,21 +9,24 @@ languagesystem latn dflt;
 languagesystem latn CAT ;
 languagesystem latn MOL ;
 languagesystem latn ROM ;
-### ======================== Lookups ======================== ###
 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+#   Lookups
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 #   Feature "kern": Kerning 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
 #   used in script: latn 
 #   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
+
 lookup GPOS_LOOKUP_00000 
 {
  lookupflag 0;
     pos \space \A <0 0 -10 0>;
-    pos \space \AE <0 0 -10 0>;
     pos \space \Aacute <0 0 -10 0>;
     pos \space \Abreve <0 0 -10 0>;
     pos \space \Acircumflex <0 0 -10 0>;
@@ -30,6 +36,7 @@ lookup GPOS_LOOKUP_00000
     pos \space \Aogonek <0 0 -10 0>;
     pos \space \Aring <0 0 -10 0>;
     pos \space \Atilde <0 0 -10 0>;
+    pos \space \AE <0 0 -10 0>;
     pos \space \J <0 0 -10 0>;
     pos \space \M <0 0 -20 0>;
     pos \space \T <0 0 -20 0>;
@@ -50,9 +57,9 @@ lookup GPOS_LOOKUP_00000
     pos \Ccaron \idieresis <0 0 10 0>;
     pos \Ccedilla \idieresis <0 0 10 0>;
     pos \D \period <0 0 -50 0>;
+    pos \Eth \period <0 0 -50 0>;
     pos \Dcaron \period <0 0 -50 0>;
     pos \Dcroat \period <0 0 -50 0>;
-    pos \Eth \period <0 0 -50 0>;
     pos \F \space <0 0 -14 0>;
     pos \F \edieresis <0 0 -65 0>;
     pos \F \egrave <0 0 -70 0>;
@@ -335,15 +342,14 @@ lookup GPOS_LOOKUP_00000
     pos \f \adieresis <0 0 5 0>;
     pos \f \agrave <0 0 15 0>;
     pos \f \ccaron <0 0 17 0>;
+    pos \f \eth <0 0 10 0>;
     pos \f \dcroat <0 0 -10 0>;
     pos \f \ecaron <0 0 7 0>;
     pos \f \ecircumflex <0 0 -3 0>;
     pos \f \edieresis <0 0 27 0>;
     pos \f \egrave <0 0 17 0>;
     pos \f \emacron <0 0 7 0>;
-    pos \f \eth <0 0 10 0>;
     pos \f \gbreve <0 0 14 0>;
-    pos \f \germandbls <0 0 20 0>;
     pos \f \iacute <0 0 15 0>;
     pos \f \icircumflex <0 0 30 0>;
     pos \f \idieresis <0 0 20 0>;
@@ -352,6 +358,7 @@ lookup GPOS_LOOKUP_00000
     pos \f \k <0 0 18 0>;
     pos \f \lslash <0 0 30 0>;
     pos \f \odieresis <0 0 50 0>;
+    pos \f \germandbls <0 0 20 0>;
     pos \f \udieresis <0 0 30 0>;
     pos \f \asterisk <0 0 90 0>;
     pos \f \exclam <0 0 60 0>;
@@ -359,12 +366,11 @@ lookup GPOS_LOOKUP_00000
     pos \g \comma <0 0 -15 0>;
     pos \gbreve \comma <0 0 -15 0>;
     pos \gcommaaccent \comma <0 0 -15 0>;
-    pos \germandbls \slash <0 0 -20 0>;
     pos \i \b <0 0 0 0>;
+    pos \idotless \b <0 0 0 0>;
     pos \iacute \b <0 0 0 0>;
     pos \icircumflex \b <0 0 0 0>;
     pos \idieresis \b <0 0 0 0>;
-    pos \idotless \b <0 0 0 0>;
     pos \igrave \b <0 0 0 0>;
     pos \imacron \b <0 0 0 0>;
     pos \iogonek \b <0 0 0 0>;
@@ -399,8 +405,8 @@ lookup GPOS_LOOKUP_00000
     pos \lcaron \o <0 0 0 0>;
     pos \lcaron \odieresis <0 0 20 0>;
     pos \lcaron \oslash <0 0 0 0>;
-    pos \lcaron \rcaron <0 0 40 0>;
     pos \lcaron \thorn <0 0 80 0>;
+    pos \lcaron \rcaron <0 0 40 0>;
     pos \lcaron \ydieresis <0 0 20 0>;
     pos \lcaron \zcaron <0 0 10 0>;
     pos \lslash \f <0 0 20 0>;
@@ -410,6 +416,7 @@ lookup GPOS_LOOKUP_00000
     pos \racute \space <0 0 -40 0>;
     pos \rcaron \space <0 0 -40 0>;
     pos \rcommaaccent \space <0 0 -40 0>;
+    pos \germandbls \slash <0 0 -20 0>;
     pos \tcaron \b <0 0 10 0>;
     pos \tcaron \h <0 0 10 0>;
     pos \tcaron \k <0 0 10 0>;
@@ -499,7 +506,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \B]
         [ \Z \Zacute \Zcaron \Zdotaccent] <0 0 -30 0>;
     pos [ \B]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -10 0>;
     pos [ \B]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -14 0>;
     pos [ \B]
@@ -533,31 +541,33 @@ lookup GPOS_LOOKUP_00000
     pos [ \C \Cacute \Ccaron \Ccedilla]
         [ \p] <0 0 -20 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -17 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -17 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -30 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
         [ \z \zacute \zcaron \zdotaccent] <0 0 -10 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
-        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
-         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+        [ \B \D \Eth \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent
+         \Egrave \Emacron \Eogonek \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
          \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
          \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
-         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -10 0>;
+         \Thorn \R \Racute \Rcaron \Rcommaaccent] <0 0 -10 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
-        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
-         \Q] <0 0 -10 0>;
+        [ \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \OE \Q] <0 0 -10 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -20 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
         [ \d \dcaron] <0 0 -20 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -10 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -25 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -20 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -20 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
         [ \dcroat] <0 0 -20 0>;
     pos [ \C \Cacute \Ccaron \Ccedilla]
@@ -591,28 +601,30 @@ lookup GPOS_LOOKUP_00000
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
         [ \x] <0 0 -20 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -19 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -19 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -21 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
         [ \z \zacute \zcaron \zdotaccent] <0 0 -26 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
-        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
-         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+        [ \B \D \Eth \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent
+         \Egrave \Emacron \Eogonek \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
          \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
          \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
-         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+         \Thorn \R \Racute \Rcaron \Rcommaaccent] <0 0 -20 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -23 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
         [ \d \dcaron] <0 0 -22 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -10 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -10 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -10 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
         [ \dcroat] <0 0 -20 0>;
     pos [ \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron \Eogonek]
@@ -648,7 +660,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \F]
         [ \x] <0 0 -40 0>;
     pos [ \F]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -74 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -74 0>;
     pos [ \F]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -140 0>;
     pos [ \F]
@@ -656,22 +669,23 @@ lookup GPOS_LOOKUP_00000
     pos [ \F]
         [ \z \zacute \zcaron \zdotaccent] <0 0 -60 0>;
     pos [ \F]
-        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
-         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+        [ \B \D \Eth \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent
+         \Egrave \Emacron \Eogonek \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
          \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
          \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
-         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -30 0>;
+         \Thorn \R \Racute \Rcaron \Rcommaaccent] <0 0 -30 0>;
     pos [ \F]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -75 0>;
     pos [ \F]
         [ \d \dcaron] <0 0 -72 0>;
     pos [ \F]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -30 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -30 0>;
     pos [ \F]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -26 0>;
     pos [ \F]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -50 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -50 0>;
     pos [ \F]
         [ \dcroat] <0 0 -80 0>;
     pos [ \F]
@@ -679,7 +693,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \F]
         [ \germandbls] <0 0 -50 0>;
     pos [ \F]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -30 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -30 0>;
     pos [ \F]
         [ \J] <0 0 -20 0>;
     pos [ \F]
@@ -701,7 +716,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \G]
         [ \p] <0 0 -20 0>;
     pos [ \G]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -20 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -20 0>;
     pos [ \G]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
     pos [ \G]
@@ -716,7 +732,7 @@ lookup GPOS_LOOKUP_00000
     pos [ \G]
         [ \d \dcaron] <0 0 -15 0>;
     pos [ \G]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -10 0>;
     pos [ \H \I \Iacute \Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \N \Nacute
          \Ncaron \Ncommaaccent \Ntilde]
         [ \g \gbreve \gcommaaccent] <0 0 -10 0>;
@@ -731,7 +747,8 @@ lookup GPOS_LOOKUP_00000
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -8 0>;
     pos [ \J]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -30 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -30 0>;
     pos [ \J]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -10 0>;
     pos [ \J]
@@ -762,7 +779,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \K \Kcommaaccent]
         [ \fl] <0 0 -40 0>;
     pos [ \K \Kcommaaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -10 0>;
     pos [ \K \Kcommaaccent]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
     pos [ \K \Kcommaaccent]
@@ -771,11 +789,13 @@ lookup GPOS_LOOKUP_00000
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -20 0>;
     pos [ \K \Kcommaaccent]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -20 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -20 0>;
     pos [ \K \Kcommaaccent]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -10 0>;
     pos [ \K \Kcommaaccent]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -20 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -20 0>;
     pos [ \K \Kcommaaccent]
         [ \j \jdotless] <0 0 -20 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
@@ -809,19 +829,21 @@ lookup GPOS_LOOKUP_00000
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
         [ \p] <0 0 -20 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -10 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
-        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
-         \Q] <0 0 -20 0>;
+        [ \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \OE \Q] <0 0 -20 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -10 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -20 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -10 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
         [ \j \jdotless] <0 0 -10 0>;
     pos [ \L \Lacute \Lcaron \Lcommaaccent \Lslash]
@@ -857,92 +879,97 @@ lookup GPOS_LOOKUP_00000
     pos [ \M]
         [ \fl] <0 0 -10 0>;
     pos [ \M]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -18 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -18 0>;
     pos [ \M]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -20 0>;
     pos [ \M]
-        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
-         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+        [ \B \D \Eth \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent
+         \Egrave \Emacron \Eogonek \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
          \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
          \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
-         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+         \Thorn \R \Racute \Rcaron \Rcommaaccent] <0 0 -20 0>;
     pos [ \M]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -7 0>;
     pos [ \M]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -17 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -17 0>;
     pos [ \M]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -10 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -10 0>;
     pos [ \M]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -10 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -10 0>;
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \M] <0 0 -15 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -30 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \V \W] <0 0 -20 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \Y \Yacute \Ydieresis] <0 0 -50 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \g \gbreve \gcommaaccent] <0 0 -20 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \t \tcaron \tcedilla \tcommaaccent] <0 0 -10 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek \uring] <0 0 -6 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \v \w] <0 0 -8 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \x] <0 0 -20 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \Z \Zacute \Zcaron \Zdotaccent] <0 0 -20 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -32 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -32 0>;
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -5 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -70 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -14 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \z \zacute \zcaron \zdotaccent] <0 0 -16 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -16 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \d \dcaron] <0 0 -23 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -5 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -5 0>;
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \dcroat] <0 0 -20 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \eth] <0 0 -20 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -10 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -10 0>;
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \j \jdotless] <0 0 -5 0>;
-    pos [ \D \Dcaron \Dcroat \Eth \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
+    pos [ \D \Eth \Dcaron \Dcroat \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut
          \Omacron \Oslash \Otilde]
         [ \X] <0 0 -40 0>;
     pos [ \P]
@@ -968,7 +995,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \P]
         [ \x] <0 0 -30 0>;
     pos [ \P]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -77 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -77 0>;
     pos [ \P]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -210 0>;
     pos [ \P]
@@ -983,7 +1011,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \P]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -10 0>;
     pos [ \P]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -30 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -30 0>;
     pos [ \P]
         [ \dcroat] <0 0 -58 0>;
     pos [ \P]
@@ -991,7 +1020,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \P]
         [ \germandbls] <0 0 -20 0>;
     pos [ \P]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -30 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -30 0>;
     pos [ \Q]
         [ \g \gbreve \gcommaaccent] <0 0 -20 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
@@ -1023,23 +1053,25 @@ lookup GPOS_LOOKUP_00000
     pos [ \R \Racute \Rcaron \Rcommaaccent]
         [ \fl] <0 0 -20 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -16 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -16 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 20 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -20 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
-        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
-         \Q] <0 0 -10 0>;
+        [ \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \OE \Q] <0 0 -10 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -10 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
         [ \d \dcaron] <0 0 -11 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -10 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -12 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -12 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
         [ \dcroat] <0 0 -10 0>;
     pos [ \R \Racute \Rcaron \Rcommaaccent]
@@ -1103,7 +1135,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \x] <0 0 -90 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -116 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -116 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -130 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
@@ -1111,19 +1144,20 @@ lookup GPOS_LOOKUP_00000
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \z \zacute \zcaron \zdotaccent] <0 0 -106 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
-        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
-         \Q] <0 0 -20 0>;
+        [ \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \OE \Q] <0 0 -20 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -110 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \d \dcaron] <0 0 -107 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -40 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -40 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -90 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -94 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -94 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \dcroat] <0 0 -100 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
@@ -1131,7 +1165,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \germandbls] <0 0 -60 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -60 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -60 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
         [ \guillemetleft \guilsinglleft] <0 0 -110 0>;
     pos [ \T \Tcaron \Tcedilla \Tcommaaccent]
@@ -1155,7 +1190,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
         [ \x] <0 0 -20 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -33 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -33 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -20 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
@@ -1166,11 +1202,12 @@ lookup GPOS_LOOKUP_00000
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
         [ \d \dcaron] <0 0 -33 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -10 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -10 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -20 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -16 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -16 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
         [ \dcroat] <0 0 -30 0>;
     pos [ \U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring]
@@ -1206,7 +1243,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \V \W]
         [ \S \Sacute \Scaron \Scedilla \Scommaaccent] <0 0 -20 0>;
     pos [ \V \W]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -70 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -70 0>;
     pos [ \V \W]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -20 0>;
     pos [ \V \W]
@@ -1216,25 +1254,26 @@ lookup GPOS_LOOKUP_00000
     pos [ \V \W]
         [ \z \zacute \zcaron \zdotaccent] <0 0 -56 0>;
     pos [ \V \W]
-        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
-         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+        [ \B \D \Eth \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent
+         \Egrave \Emacron \Eogonek \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
          \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
          \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
-         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+         \Thorn \R \Racute \Rcaron \Rcommaaccent] <0 0 -20 0>;
     pos [ \V \W]
-        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
-         \Q] <0 0 -10 0>;
+        [ \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \OE \Q] <0 0 -10 0>;
     pos [ \V \W]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -64 0>;
     pos [ \V \W]
         [ \d \dcaron] <0 0 -60 0>;
     pos [ \V \W]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -40 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -40 0>;
     pos [ \V \W]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -50 0>;
     pos [ \V \W]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -44 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -44 0>;
     pos [ \V \W]
         [ \dcroat] <0 0 -57 0>;
     pos [ \V \W]
@@ -1242,7 +1281,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \V \W]
         [ \germandbls] <0 0 -30 0>;
     pos [ \V \W]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -32 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -32 0>;
     pos [ \V \W]
         [ \j \jdotless] <0 0 -20 0>;
     pos [ \V \W]
@@ -1280,7 +1320,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \X]
         [ \x] <0 0 -20 0>;
     pos [ \X]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -33 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -33 0>;
     pos [ \X]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -30 0>;
     pos [ \X]
@@ -1291,11 +1332,12 @@ lookup GPOS_LOOKUP_00000
     pos [ \X]
         [ \d \dcaron] <0 0 -33 0>;
     pos [ \X]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -20 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -20 0>;
     pos [ \X]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -50 0>;
     pos [ \X]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -30 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -30 0>;
     pos [ \X]
         [ \dcroat] <0 0 -33 0>;
     pos [ \X]
@@ -1339,7 +1381,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \Y \Yacute \Ydieresis]
         [ \S \Sacute \Scaron \Scedilla \Scommaaccent] <0 0 -10 0>;
     pos [ \Y \Yacute \Ydieresis]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -140 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -140 0>;
     pos [ \Y \Yacute \Ydieresis]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -150 0>;
     pos [ \Y \Yacute \Ydieresis]
@@ -1347,22 +1390,23 @@ lookup GPOS_LOOKUP_00000
     pos [ \Y \Yacute \Ydieresis]
         [ \z \zacute \zcaron \zdotaccent] <0 0 -116 0>;
     pos [ \Y \Yacute \Ydieresis]
-        [ \B \D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave
-         \Emacron \Eogonek \Eth \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
+        [ \B \D \Eth \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent
+         \Egrave \Emacron \Eogonek \F \G \Gbreve \Gcommaaccent \H \I \Iacute \Icircumflex
          \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \K \Kcommaaccent \L \Lacute
          \Lcaron \Lcommaaccent \Lslash \N \Nacute \Ncaron \Ncommaaccent \Ntilde \P
-         \R \Racute \Rcaron \Rcommaaccent \Thorn] <0 0 -20 0>;
+         \Thorn \R \Racute \Rcaron \Rcommaaccent] <0 0 -20 0>;
     pos [ \Y \Yacute \Ydieresis]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -135 0>;
     pos [ \Y \Yacute \Ydieresis]
         [ \d \dcaron] <0 0 -130 0>;
     pos [ \Y \Yacute \Ydieresis]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -30 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -30 0>;
     pos [ \Y \Yacute \Ydieresis]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -120 0>;
     pos [ \Y \Yacute \Ydieresis]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -120 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -120 0>;
     pos [ \Y \Yacute \Ydieresis]
         [ \dcroat] <0 0 -124 0>;
     pos [ \Y \Yacute \Ydieresis]
@@ -1370,7 +1414,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \Y \Yacute \Ydieresis]
         [ \germandbls] <0 0 -40 0>;
     pos [ \Y \Yacute \Ydieresis]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -60 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -60 0>;
     pos [ \Y \Yacute \Ydieresis]
         [ \guillemetleft \guilsinglleft] <0 0 -120 0>;
     pos [ \Y \Yacute \Ydieresis]
@@ -1394,25 +1439,29 @@ lookup GPOS_LOOKUP_00000
     pos [ \Z \Zacute \Zcaron \Zdotaccent]
         [ \fl] <0 0 -40 0>;
     pos [ \Z \Zacute \Zcaron \Zdotaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -15 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -15 0>;
     pos [ \Z \Zacute \Zcaron \Zdotaccent]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 10 0>;
     pos [ \Z \Zacute \Zcaron \Zdotaccent]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -20 0>;
     pos [ \Z \Zacute \Zcaron \Zdotaccent]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 -15 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 -15 0>;
     pos [ \Z \Zacute \Zcaron \Zdotaccent]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -20 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -20 0>;
     pos [ \Z \Zacute \Zcaron \Zdotaccent]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -8 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -8 0>;
  subtable;
     pos [ \b]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -50 0>;
     pos [ \b]
         [ \y \yacute \ydieresis] <0 0 -10 0>;
     pos [ \c \cacute \ccaron \ccedilla]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -8 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -8 0>;
     pos [ \c \cacute \ccaron \ccedilla]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
     pos [ \c \cacute \ccaron \ccedilla]
@@ -1429,11 +1478,12 @@ lookup GPOS_LOOKUP_00000
     pos [ \dcaron \lcaron]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 76 0>;
     pos [ \dcaron \lcaron]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 50 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 50 0>;
     pos [ \dcaron \lcaron]
         [ \j \jdotless] <0 0 50 0>;
     pos [ \dcaron \lcaron]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 20 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 20 0>;
     pos [ \dcaron \lcaron]
         [ \ordfeminine \ordmasculine] <0 0 60 0>;
     pos [ \ae \e \eacute \ecaron \ecircumflex \edieresis \edotaccent \egrave \emacron \eogonek
@@ -1451,7 +1501,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \g \gbreve \gcommaaccent]
         [ \y \yacute \ydieresis] <0 0 20 0>;
     pos [ \g \gbreve \gcommaaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -10 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -10 0>;
     pos [ \g \gbreve \gcommaaccent]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -5 0>;
     pos [ \g \gbreve \gcommaaccent]
@@ -1472,7 +1523,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \k \kcommaaccent]
         [ \y \yacute \ydieresis] <0 0 -6 0>;
     pos [ \k \kcommaaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -5 0>;
     pos [ \k \kcommaaccent]
         [ \emdash \endash \hyphen \softhyphen] <0 0 -10 0>;
     pos [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
@@ -1495,7 +1547,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \r \racute \rcaron \rcommaaccent]
         [ \y \yacute \ydieresis] <0 0 5 0>;
     pos [ \r \racute \rcaron \rcommaaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -28 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -28 0>;
     pos [ \r \racute \rcaron \rcommaaccent]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -20 0>;
     pos [ \r \racute \rcaron \rcommaaccent]
@@ -1506,7 +1559,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \r \racute \rcaron \rcommaaccent]
         [ \v \w] <0 0 5 0>;
     pos [ \r \racute \rcaron \rcommaaccent]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -5 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -5 0>;
     pos [ \r \racute \rcaron \rcommaaccent]
         [ \g \gbreve \gcommaaccent] <0 0 -22 0>;
     pos [ \r \racute \rcaron \rcommaaccent]
@@ -1530,7 +1584,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \s \sacute \scaron \scedilla \scommaaccent]
         [ \s \sacute \scaron \scedilla \scommaaccent] <0 0 -9 0>;
     pos [ \t \tcaron \tcedilla \tcommaaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -6 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -6 0>;
     pos [ \t \tcaron \tcedilla \tcommaaccent]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 -10 0>;
     pos [ \t \tcaron \tcedilla \tcommaaccent]
@@ -1545,7 +1600,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \v \w]
         [ \y \yacute \ydieresis] <0 0 5 0>;
     pos [ \v \w]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -9 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -9 0>;
     pos [ \v \w]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 10 0>;
     pos [ \v \w]
@@ -1554,7 +1610,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \y \yacute \ydieresis]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -55 0>;
     pos [ \y \yacute \ydieresis]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -5 0>;
     pos [ \y \yacute \ydieresis]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -10 0>;
@@ -1567,7 +1624,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \z \zacute \zcaron \zdotaccent]
         [ \y \yacute \ydieresis] <0 0 -3 0>;
     pos [ \z \zacute \zcaron \zdotaccent]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -5 0>;
     pos [ \z \zacute \zcaron \zdotaccent]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -10 0>;
@@ -1578,7 +1636,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \f]
         [ \y \yacute \ydieresis] <0 0 20 0>;
     pos [ \f]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -5 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -5 0>;
     pos [ \f]
         [ \b \h \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \lslash \thorn] <0 0 10 0>;
     pos [ \f]
@@ -1607,7 +1666,7 @@ lookup GPOS_LOOKUP_00000
     pos [ \lslash]
         [ \v \w] <0 0 40 0>;
     pos [ \lslash]
-        [ \i \iacute \icircumflex \idieresis \idotless \igrave \imacron \iogonek] <0 0 10 0>;
+        [ \i \idotless \iacute \icircumflex \idieresis \igrave \imacron \iogonek] <0 0 10 0>;
     pos [ \lslash]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 10 0>;
     pos [ \x]
@@ -1616,18 +1675,13 @@ lookup GPOS_LOOKUP_00000
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -5 0>;
  subtable;
-    pos [ \guillemetright \guilsinglright]
-        [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -110 0>;
-    pos [ \guillemetright \guilsinglright]
-        [ \V \W] <0 0 -80 0>;
-    pos [ \guillemetright \guilsinglright]
-        [ \Y \Yacute \Ydieresis] <0 0 -120 0>;
     pos [ \emdash \endash \hyphen \softhyphen]
         [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -100 0>;
     pos [ \emdash \endash \hyphen \softhyphen]
         [ \V \W] <0 0 -50 0>;
     pos [ \emdash \endash \hyphen \softhyphen]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 30 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 30 0>;
     pos [ \braceleft \bracketleft \parenleft]
         [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 -10 0>;
     pos [ \braceleft \bracketleft \parenleft]
@@ -1647,7 +1701,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \quotedbl \quotedblleft \quoteleft]
         [ \V \W] <0 0 20 0>;
     pos [ \quotedbl \quotedblleft \quoteleft]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -90 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -90 0>;
     pos [ \quotesingle \quotedblright \quoteright]
         [ \T \Tcaron \Tcedilla \Tcommaaccent] <0 0 20 0>;
     pos [ \quotesingle \quotedblright \quoteright]
@@ -1657,7 +1712,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \quotesingle \quotedblright \quoteright]
         [ \y \yacute \ydieresis] <0 0 -40 0>;
     pos [ \quotesingle \quotedblright \quoteright]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -130 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -130 0>;
     pos [ \quotesingle \quotedblright \quoteright]
         [ \c \cacute \ccaron \ccedilla \e \eacute \ecaron \ecircumflex \edieresis \edotaccent
          \egrave \emacron \eogonek \q] <0 0 -130 0>;
@@ -1666,7 +1722,8 @@ lookup GPOS_LOOKUP_00000
     pos [ \quotesingle \quotedblright \quoteright]
         [ \m \n \nacute \ncaron \ncommaaccent \ntilde] <0 0 -40 0>;
     pos [ \quotesingle \quotedblright \quoteright]
-        [ \o \oacute \ocircumflex \odieresis \oe \ograve \ohungarumlaut \omacron \oslash \otilde] <0 0 -75 0>;
+        [ \o \oacute \ocircumflex \odieresis \ograve \ohungarumlaut \omacron \oslash \otilde
+         \oe] <0 0 -75 0>;
     pos [ \quotesingle \quotedblright \quoteright]
         [ \r \racute \rcaron \rcommaaccent] <0 0 -40 0>;
     pos [ \quotesingle \quotedblright \quoteright]
@@ -1696,85 +1753,87 @@ lookup GPOS_LOOKUP_00000
     pos [ \quotesingle \quotedblright \quoteright]
         [ \x] <0 0 -55 0>;
     pos [ \slash]
-        [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde] <0 0 -70 0>;
+        [ \A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring \Atilde
+         \AE] <0 0 -70 0>;
     pos [ \slash]
-        [ \a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring \atilde] <0 0 -70 0>;
+        [ \a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde
+         \ae] <0 0 -70 0>;
     pos [ \slash]
         [ \d \dcaron] <0 0 -100 0>;
     pos [ \slash]
-        [ \O \OE \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
-         \Q] <0 0 -10 0>;
+        [ \O \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde
+         \OE \Q] <0 0 -10 0>;
 } GPOS_LOOKUP_00000;
 
 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 #   Feature "kern": Kerning 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
 #   used in script: latn 
 #   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 lookup GPOS_LOOKUP_00001 
 {
  lookupflag 0;
     pos \space \quotedblleft <0 0 -30 0>;
     pos \space \quoteleft <0 0 -30 0>;
-    pos \eight \seven <0 0 -10 0>;
-    pos \eight \three <0 0 -15 0>;
-    pos \five \eight <0 0 -10 0>;
+    pos \one \one <0 0 -20 0>;
+    pos \one \three <0 0 -20 0>;
+    pos \one \five <0 0 -10 0>;
+    pos \one \six <0 0 -10 0>;
+    pos \one \seven <0 0 -10 0>;
+    pos \one \slash <0 0 -20 0>;
+    pos \two \zero <0 0 -20 0>;
+    pos \two \one <0 0 -10 0>;
+    pos \two \three <0 0 -20 0>;
+    pos \two \seven <0 0 -20 0>;
+    pos \two \nine <0 0 -10 0>;
+    pos \three \zero <0 0 -10 0>;
+    pos \three \eight <0 0 -8 0>;
+    pos \four \two <0 0 10 0>;
+    pos \four \seven <0 0 -10 0>;
+    pos \five \zero <0 0 -20 0>;
     pos \five \one <0 0 -10 0>;
     pos \five \six <0 0 -10 0>;
-    pos \five \zero <0 0 -20 0>;
-    pos \five.lf \four.lf <0 0 10 0>;
-    pos \four \seven <0 0 -10 0>;
-    pos \four \two <0 0 10 0>;
-    pos \four.lf \seven.lf <0 0 -10 0>;
-    pos \four.lf \two.lf <0 0 -7 0>;
-    pos \nine \seven <0 0 -15 0>;
-    pos \nine.lf \one.lf <0 0 -6 0>;
-    pos \nine.lf \seven.lf <0 0 -15 0>;
-    pos \nine.lf \three.lf <0 0 -10 0>;
-    pos \nine.lf \two.lf <0 0 -15 0>;
-    pos \one \five <0 0 -10 0>;
-    pos \one \one <0 0 -20 0>;
-    pos \one \seven <0 0 -10 0>;
-    pos \one \six <0 0 -10 0>;
-    pos \one \three <0 0 -20 0>;
-    pos \one \slash <0 0 -20 0>;
-    pos \seven \eight <0 0 -10 0>;
-    pos \seven \four <0 0 -60 0>;
-    pos \seven \nine <0 0 -10 0>;
-    pos \seven \six <0 0 -10 0>;
-    pos \seven \zero <0 0 -20 0>;
-    pos \seven \colon <0 0 -14 0>;
-    pos \seven.lf \four.lf <0 0 -15 0>;
-    pos \seven.lf \one.lf <0 0 10 0>;
-    pos \seven.lf \six.lf <0 0 -10 0>;
-    pos \seven.lf \zero.lf <0 0 -10 0>;
-    pos \seven.lf \colon <0 0 -50 0>;
-    pos \six \five <0 0 -10 0>;
-    pos \six \four <0 0 -10 0>;
-    pos \six \seven <0 0 -10 0>;
+    pos \five \eight <0 0 -10 0>;
     pos \six \three <0 0 -10 0>;
-    pos \six.lf \four.lf <0 0 5 0>;
+    pos \six \four <0 0 -10 0>;
+    pos \six \five <0 0 -10 0>;
+    pos \six \seven <0 0 -10 0>;
+    pos \seven \zero <0 0 -20 0>;
+    pos \seven \four <0 0 -60 0>;
+    pos \seven \six <0 0 -10 0>;
+    pos \seven \eight <0 0 -10 0>;
+    pos \seven \nine <0 0 -10 0>;
+    pos \seven \colon <0 0 -14 0>;
+    pos \eight \three <0 0 -15 0>;
+    pos \eight \seven <0 0 -10 0>;
+    pos \nine \seven <0 0 -15 0>;
+    pos \zero.lf \two.lf <0 0 -14 0>;
+    pos \four.lf \two.lf <0 0 -7 0>;
+    pos \four.lf \seven.lf <0 0 -10 0>;
+    pos \five.lf \four.lf <0 0 10 0>;
     pos \six.lf \one.lf <0 0 -5 0>;
     pos \six.lf \two.lf <0 0 -5 0>;
-    pos \three \eight <0 0 -8 0>;
-    pos \three \zero <0 0 -10 0>;
-    pos \two \nine <0 0 -10 0>;
-    pos \two \one <0 0 -10 0>;
-    pos \two \seven <0 0 -20 0>;
-    pos \two \three <0 0 -20 0>;
-    pos \two \zero <0 0 -20 0>;
-    pos \zero.lf \two.lf <0 0 -14 0>;
-    pos \colon \four <0 0 5 0>;
-    pos \colon \four.lf <0 0 33 0>;
+    pos \six.lf \four.lf <0 0 5 0>;
+    pos \seven.lf \zero.lf <0 0 -10 0>;
+    pos \seven.lf \one.lf <0 0 10 0>;
+    pos \seven.lf \four.lf <0 0 -15 0>;
+    pos \seven.lf \six.lf <0 0 -10 0>;
+    pos \seven.lf \colon <0 0 -50 0>;
+    pos \nine.lf \one.lf <0 0 -6 0>;
+    pos \nine.lf \two.lf <0 0 -15 0>;
+    pos \nine.lf \three.lf <0 0 -10 0>;
+    pos \nine.lf \seven.lf <0 0 -15 0>;
     pos \colon \one <0 0 20 0>;
-    pos \colon \one.lf <0 0 -24 0>;
-    pos \colon \seven.lf <0 0 -20 0>;
-    pos \colon \three.lf <0 0 10 0>;
     pos \colon \two <0 0 15 0>;
+    pos \colon \four <0 0 5 0>;
+    pos \colon \one.lf <0 0 -24 0>;
+    pos \colon \three.lf <0 0 10 0>;
+    pos \colon \four.lf <0 0 33 0>;
+    pos \colon \seven.lf <0 0 -20 0>;
     pos \slash \five <0 0 -60 0>;
     pos \slash \slash <0 0 -40 0>;
  subtable;
@@ -1829,8 +1888,6 @@ lookup GPOS_LOOKUP_00001
     pos [ \question]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -60 0>;
  subtable;
-    pos [ \eight]
-        [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -7 0>;
     pos [ \eight.lf]
         [ \comma \ellipsis \period \quotedblbase \quotesinglbase] <0 0 -9 0>;
     pos [ \five]
@@ -1864,14 +1921,14 @@ lookup GPOS_LOOKUP_00001
 } GPOS_LOOKUP_00001;
 
 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 #   Feature "kern": Kerning 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
 #   used in script: latn 
 #   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 lookup GPOS_LOOKUP_00002 
 {
  lookupflag 0;
@@ -1901,14 +1958,14 @@ lookup GPOS_LOOKUP_00002
 } GPOS_LOOKUP_00002;
 
 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 #   Feature "dist": Distances 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
 #   used in script: latn 
 #   from a lookup of type GPOS_LOOKUP_TYPE_PAIR_ADJUSTMENT 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 lookup GPOS_LOOKUP_00003 
 {
  lookupflag 8;
@@ -4949,36 +5006,32 @@ lookup GPOS_LOOKUP_00003
     pos [ \knSSE]
         [ \knNA \knNAA \knNI \knNU \knNUU \knNE \knNO \knNAU \knN] <0 0 20 0>;
  subtable;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 -20 0>;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 -30 0>;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knYA \knYAA \knYI \knYU \knYUU \knYE \knYO \knYAU \knY] <0 0 -10 0>;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knAA] <0 0 -20 0>;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knEE] <0 0 -30 0>;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knvR \knvRR \knKHA \knKHAA \knKHI \knKHU \knKHUU \knKHE \knKHO \knKHAU \knKH] <0 0 -20 0>;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knGHA \knPA \knPHA \knSSA \knGHAA \knPAA \knPHAA \knSSAA \knGHI \knPI \knPHI \knSSI
          \knGHU \knPU \knPHU \knSSU \knGHUU \knPUU \knPHUU \knSSUU \knGHE \knPE \knPHE
          \knSSE \knGHO \knPO \knPHO \knSSO \knGHAU \knPAU \knPHAU \knSSAU \knGH \knP
          \knPH \knSS \knPHxA] <0 0 -40 0>;
-    pos [ \knK \knC]
+    pos [ \knK]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -50 0>;
-    pos [ \knKH \knB \knBH \knL \knRR \knLLL]
-        [ \knKE \knKO \knKAU] <0 0 90 0>;
     pos [ \knKH \knB \knBH \knL \knRR \knLLL]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 -110 0>;
-    pos [ \knKH \knB \knBH \knL \knRR \knLLL]
-        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 20 0>;
     pos [ \knKH \knB \knBH \knL \knRR \knLLL]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 -50 0>;
@@ -4997,6 +5050,10 @@ lookup GPOS_LOOKUP_00003
          \knPH \knSS \knPHxA] <0 0 -100 0>;
     pos [ \knKH \knB \knBH \knL \knRR \knLLL]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -110 0>;
+    pos [ \knKH \knB \knBH \knL \knRR \knLLL]
+        [ \knKE \knKO \knKAU] <0 0 90 0>;
+    pos [ \knKH \knB \knBH \knL \knRR \knLLL]
+        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 20 0>;
     pos [ \knKH \knB \knBH \knL \knRR \knLLL]
         [ \knA] <0 0 -80 0>;
     pos [ \knKH \knB \knBH \knL \knRR \knLLL]
@@ -5017,13 +5074,9 @@ lookup GPOS_LOOKUP_00003
         [ \knTTA \knNNA \knReph \knTTAA \knNNAA \knTTI \knNNI \knTTU \knNNU \knTTUU \knNNUU
          \knTTE \knNNE \knTTO \knNNO \knTTAU \knNNAU \knTT \knNN] <0 0 -10 0>;
     pos [ \knLL]
-        [ \knKE \knKO \knKAU] <0 0 80 0>;
-    pos [ \knLL]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 -50 0>;
-    pos [ \knLL]
-        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 40 0>;
     pos [ \knLL]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 -40 0>;
@@ -5040,6 +5093,10 @@ lookup GPOS_LOOKUP_00003
          \knPH \knSS \knPHxA] <0 0 -60 0>;
     pos [ \knLL]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -60 0>;
+    pos [ \knLL]
+        [ \knKE \knKO \knKAU] <0 0 80 0>;
+    pos [ \knLL]
+        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 40 0>;
     pos [ \knLL]
         [ \knA] <0 0 -40 0>;
     pos [ \knLL]
@@ -5071,15 +5128,9 @@ lookup GPOS_LOOKUP_00003
          \knJUU \knBUU \knBHUU \knNGE \knCE \knJE \knBE \knBHE \knNGO \knCO \knJO
          \knBO \knBHO \knNGAU \knCAU \knJAU \knBAU \knBHAU \knNG \knC \knJ \knB \knBH] <0 0 10 0>;
     pos [ \knJH \knM \knY]
-        [ \knKE \knKO \knKAU] <0 0 90 0>;
-    pos [ \knJH \knM \knY]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 -50 0>;
-    pos [ \knJH \knM \knY]
-        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 40 0>;
-    pos [ \knJH \knM \knY]
-        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 30 0>;
     pos [ \knJH \knM \knY]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 -30 0>;
@@ -5096,6 +5147,10 @@ lookup GPOS_LOOKUP_00003
          \knPH \knSS \knPHxA] <0 0 -80 0>;
     pos [ \knJH \knM \knY]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -90 0>;
+    pos [ \knJH \knM \knY]
+        [ \knKE \knKO \knKAU] <0 0 90 0>;
+    pos [ \knJH \knM \knY]
+        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 30 0>;
     pos [ \knJH \knM \knY]
         [ \knA] <0 0 -40 0>;
     pos [ \knJH \knM \knY]
@@ -5119,24 +5174,20 @@ lookup GPOS_LOOKUP_00003
          \knJUU \knBUU \knBHUU \knNGE \knCE \knJE \knBE \knBHE \knNGO \knCO \knJO
          \knBO \knBHO \knNGAU \knCAU \knJAU \knBAU \knBHAU \knNG \knC \knJ \knB \knBH] <0 0 20 0>;
     pos [ \knJH \knM \knY]
+        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 40 0>;
+    pos [ \knJH \knM \knY]
         [ \knJHA \knTTHA \knRA \knJHAA \knTTHAA \knRAA \knJHU \knTTHU \knRU \knJHUU \knTTHUU
          \knRUU \knJHAU \knJH \knTTH \knR] <0 0 30 0>;
     pos [ \knN]
-        [ \knKE \knKO \knKAU] <0 0 70 0>;
-    pos [ \knN]
         [ \knvR \knvRR \knKHA \knKHAA \knKHI \knKHU \knKHUU \knKHE \knKHO \knKHAU \knKH] <0 0 -20 0>;
     pos [ \knN]
+        [ \knKE \knKO \knKAU] <0 0 70 0>;
+    pos [ \knN]
         [ \knI \knvL \knNYA \knNYAA \knKI \knNYI \knNYU \knNYUU \knNYE \knNYO \knNYAU \knNY] <0 0 -20 0>;
-    pos [ \knNG]
-        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 20 0>;
     pos [ \knNG]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 -60 0>;
-    pos [ \knNG]
-        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 40 0>;
-    pos [ \knNG]
-        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 40 0>;
     pos [ \knNG]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 -30 0>;
@@ -5153,6 +5204,8 @@ lookup GPOS_LOOKUP_00003
          \knPH \knSS \knPHxA] <0 0 -90 0>;
     pos [ \knNG]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -90 0>;
+    pos [ \knNG]
+        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 40 0>;
     pos [ \knNG]
         [ \knA] <0 0 -70 0>;
     pos [ \knNG]
@@ -5171,16 +5224,16 @@ lookup GPOS_LOOKUP_00003
         [ \knTTA \knNNA \knReph \knTTAA \knNNAA \knTTI \knNNI \knTTU \knNNU \knTTUU \knNNUU
          \knTTE \knNNE \knTTO \knNNO \knTTAU \knNNAU \knTT \knNN] <0 0 30 0>;
     pos [ \knNG]
+        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 40 0>;
+    pos [ \knNG]
         [ \knJHA \knTTHA \knRA \knJHAA \knTTHAA \knRAA \knJHU \knTTHU \knRU \knJHUU \knTTHUU
          \knRUU \knJHAU \knJH \knTTH \knR] <0 0 20 0>;
+    pos [ \knNG]
+        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 20 0>;
     pos [ \knNN]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 20 0>;
-    pos [ \knNN]
-        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 20 0>;
-    pos [ \knNN]
-        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 30 0>;
     pos [ \knNN]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 30 0>;
@@ -5193,6 +5246,8 @@ lookup GPOS_LOOKUP_00003
     pos [ \knNN]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 20 0>;
     pos [ \knNN]
+        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 30 0>;
+    pos [ \knNN]
         [ \knA] <0 0 30 0>;
     pos [ \knNN]
         [ \knI \knvL \knNYA \knNYAA \knKI \knNYI \knNYU \knNYUU \knNYE \knNYO \knNYAU \knNY] <0 0 10 0>;
@@ -5202,19 +5257,13 @@ lookup GPOS_LOOKUP_00003
         [ \knTTA \knNNA \knReph \knTTAA \knNNAA \knTTI \knNNI \knTTU \knNNU \knTTUU \knNNUU
          \knTTE \knNNE \knTTO \knNNO \knTTAU \knNNAU \knTT \knNN] <0 0 10 0>;
     pos [ \knNN]
+        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 20 0>;
+    pos [ \knNN]
         [ \knTA \knTAA \knTU \knTUU \knT] <0 0 20 0>;
-    pos [ \knNY]
-        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 10 0>;
-    pos [ \knNY]
-        [ \knKE \knKO \knKAU] <0 0 80 0>;
     pos [ \knNY]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 -40 0>;
-    pos [ \knNY]
-        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 50 0>;
-    pos [ \knNY]
-        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 70 0>;
     pos [ \knNY]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 -80 0>;
@@ -5232,6 +5281,10 @@ lookup GPOS_LOOKUP_00003
     pos [ \knNY]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -80 0>;
     pos [ \knNY]
+        [ \knKE \knKO \knKAU] <0 0 80 0>;
+    pos [ \knNY]
+        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 70 0>;
+    pos [ \knNY]
         [ \knA] <0 0 -20 0>;
     pos [ \knNY]
         [ \knI \knvL \knNYA \knNYAA \knKI \knNYI \knNYU \knNYUU \knNYE \knNYO \knNYAU \knNY] <0 0 20 0>;
@@ -5246,10 +5299,12 @@ lookup GPOS_LOOKUP_00003
          \knJUU \knBUU \knBHUU \knNGE \knCE \knJE \knBE \knBHE \knNGO \knCO \knJO
          \knBO \knBHO \knNGAU \knCAU \knJAU \knBAU \knBHAU \knNG \knC \knJ \knB \knBH] <0 0 20 0>;
     pos [ \knNY]
+        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 50 0>;
+    pos [ \knNY]
         [ \knJHA \knTTHA \knRA \knJHAA \knTTHAA \knRAA \knJHU \knTTHU \knRU \knJHUU \knTTHUU
          \knRUU \knJHAU \knJH \knTTH \knR] <0 0 20 0>;
-    pos [ \knTTH \knP \knR \knS]
-        [ \knKE \knKO \knKAU] <0 0 50 0>;
+    pos [ \knNY]
+        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 10 0>;
     pos [ \knTTH \knP \knR \knS]
         [ \knYA \knYAA \knYI \knYU \knYUU \knYE \knYO \knYAU \knY] <0 0 10 0>;
     pos [ \knTTH \knP \knR \knS]
@@ -5262,13 +5317,11 @@ lookup GPOS_LOOKUP_00003
     pos [ \knTTH \knP \knR \knS]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -10 0>;
     pos [ \knTTH \knP \knR \knS]
+        [ \knKE \knKO \knKAU] <0 0 50 0>;
+    pos [ \knTTH \knP \knR \knS]
         [ \knI \knvL \knNYA \knNYAA \knKI \knNYI \knNYU \knNYUU \knNYE \knNYO \knNYAU \knNY] <0 0 40 0>;
     pos [ \knTTH \knP \knR \knS]
         [ \knKA \knKAA \knKU \knKUU \knK] <0 0 10 0>;
-    pos [ \knT \knTH \knD \knDH]
-        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 10 0>;
-    pos [ \knT \knTH \knD \knDH]
-        [ \knKE \knKO \knKAU] <0 0 30 0>;
     pos [ \knT \knTH \knD \knDH]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
@@ -5282,6 +5335,8 @@ lookup GPOS_LOOKUP_00003
          \knGHU \knPU \knPHU \knSSU \knGHUU \knPUU \knPHUU \knSSUU \knGHE \knPE \knPHE
          \knSSE \knGHO \knPO \knPHO \knSSO \knGHAU \knPAU \knPHAU \knSSAU \knGH \knP
          \knPH \knSS \knPHxA] <0 0 30 0>;
+    pos [ \knT \knTH \knD \knDH]
+        [ \knKE \knKO \knKAU] <0 0 30 0>;
     pos [ \knT \knTH \knD \knDH]
         [ \knDDA \knDDHA \knTHA \knDA \knDHA \knHA \knDDAA \knDDHAA \knTHAA \knDAA \knDHAA
          \knHAA \knDDI \knDDHI \knTHI \knDI \knDHI \knDDU \knDDHU \knTHU \knDU \knDHU
@@ -5299,19 +5354,13 @@ lookup GPOS_LOOKUP_00003
         [ \knJHA \knTTHA \knRA \knJHAA \knTTHAA \knRAA \knJHU \knTTHU \knRU \knJHUU \knTTHUU
          \knRUU \knJHAU \knJH \knTTH \knR] <0 0 10 0>;
     pos [ \knT \knTH \knD \knDH]
+        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 10 0>;
+    pos [ \knT \knTH \knD \knDH]
         [ \knSHE \knSHO \knSHAU] <0 0 20 0>;
-    pos [ \knCH \knJ \knTT]
-        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 20 0>;
-    pos [ \knCH \knJ \knTT]
-        [ \knKE \knKO \knKAU] <0 0 120 0>;
     pos [ \knCH \knJ \knTT]
         [ \knU \knUU \knCHA \knLA \knRRA \knLLLA \knEight \knCHAA \knLAA \knCHI \knLI \knCHU
          \knLU \knCHUU \knLUU \knCHE \knLE \knCHO \knLO \knCHAU \knLAU \knCH \knL
          \knRR \knLLL] <0 0 -50 0>;
-    pos [ \knCH \knJ \knTT]
-        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 40 0>;
-    pos [ \knCH \knJ \knTT]
-        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 40 0>;
     pos [ \knCH \knJ \knTT]
         [ \knE \knMA \knVA \knMAA \knVAA \knMI \knVI \knMU \knVU \knMUU \knVUU \knME \knVE
          \knMO \knVO \knMAU \knVAU \knM \knV] <0 0 -20 0>;
@@ -5328,6 +5377,10 @@ lookup GPOS_LOOKUP_00003
          \knPH \knSS \knPHxA] <0 0 -50 0>;
     pos [ \knCH \knJ \knTT]
         [ \knSHA \knSHAA \knSHI \knSHU \knSHUU \knSH] <0 0 -70 0>;
+    pos [ \knCH \knJ \knTT]
+        [ \knKE \knKO \knKAU] <0 0 120 0>;
+    pos [ \knCH \knJ \knTT]
+        [ \knSA \knSAA \knSI \knSU \knSUU \knSE \knSO \knSAU \knS] <0 0 40 0>;
     pos [ \knCH \knJ \knTT]
         [ \knA] <0 0 -55 0>;
     pos [ \knCH \knJ \knTT]
@@ -5347,26 +5400,30 @@ lookup GPOS_LOOKUP_00003
     pos [ \knCH \knJ \knTT]
         [ \knNA \knNAA \knNI \knNU \knNUU \knNE \knNO \knNAU \knN] <0 0 40 0>;
     pos [ \knCH \knJ \knTT]
+        [ \knLLA \knLLAA \knLLI \knLLU \knLLUU \knLLE \knLLO \knLLAU] <0 0 40 0>;
+    pos [ \knCH \knJ \knTT]
         [ \knJHA \knTTHA \knRA \knJHAA \knTTHAA \knRAA \knJHU \knTTHU \knRU \knJHUU \knTTHUU
          \knRUU \knJHAU \knJH \knTTH \knR] <0 0 30 0>;
+    pos [ \knCH \knJ \knTT]
+        [ \knGA \knGAA \knGI \knGU \knGUU \knGE \knGO \knGAU \knG] <0 0 20 0>;
     pos [ \knCH \knJ \knTT]
         [ \knTA \knTAA \knTU \knTUU \knT] <0 0 10 0>;
 } GPOS_LOOKUP_00003;
 
 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 #   Feature "mark": Mark Positioning 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
 #   used in script: latn 
 #   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 lookup GPOS_LOOKUP_00004 
 {
  lookupflag 0;
-        # Offset to MarkCoverage table 818
-        # Offset to BaseCoverage table 824
+        # Offset to MarkCoverage table 12
+        # Offset to BaseCoverage table 18
         # ClassCount 1
         # ---------------
         # MarkArray table
@@ -5405,6 +5462,8 @@ lookup GPOS_LOOKUP_00004
         <anchor 310 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \D 
         <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Eth 
+        <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Dcaron 
         <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \E 
@@ -5425,8 +5484,6 @@ lookup GPOS_LOOKUP_00004
         <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Eogonek 
         <anchor 261 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
-    pos base \Eth 
-        <anchor 316 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \F 
         <anchor 245 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \G 
@@ -5483,8 +5540,6 @@ lookup GPOS_LOOKUP_00004
         <anchor 331 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \O 
         <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
-    pos base \OE 
-        <anchor 733 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Oacute 
         <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Ocircumflex 
@@ -5501,8 +5556,12 @@ lookup GPOS_LOOKUP_00004
         <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Otilde 
         <anchor 332 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \OE 
+        <anchor 733 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \P 
         <anchor 271 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \Thorn 
+        <anchor 129 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Q 
         <anchor 329 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \R 
@@ -5523,8 +5582,6 @@ lookup GPOS_LOOKUP_00004
         <anchor 240 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Tcommaaccent 
         <anchor 230 -272> mark @MARKS_CLASS_0_LUT4_SUB0 ;
-    pos base \Thorn 
-        <anchor 129 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \U 
         <anchor 324 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \Uacute 
@@ -5669,8 +5726,6 @@ lookup GPOS_LOOKUP_00004
         <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \odieresis 
         <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
-    pos base \oe 
-        <anchor 216 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \ograve 
         <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \ohungarumlaut 
@@ -5681,6 +5736,8 @@ lookup GPOS_LOOKUP_00004
         <anchor 240 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \otilde 
         <anchor 236 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
+    pos base \oe 
+        <anchor 216 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \p 
         <anchor 269 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
     pos base \q 
@@ -5751,19 +5808,19 @@ lookup GPOS_LOOKUP_00004
         <anchor 220 0> mark @MARKS_CLASS_0_LUT4_SUB0 ;
 } GPOS_LOOKUP_00004;
 
-#*************************************************************************
+
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 #   Feature "blwm": Below-base Mark Positioning 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
 #   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
-#*************************************************************************
-
-lookup GPOS_LOOKUP_vottu 
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+lookup GPOS_LOOKUP_00005 
 {
  lookupflag 0;
         # Offset to MarkCoverage table 12
-        # Offset to BaseCoverage table 122
+        # Offset to BaseCoverage table 118
         # ClassCount 1
         # ---------------
         # MarkArray table
@@ -5785,7 +5842,7 @@ lookup GPOS_LOOKUP_vottu
     markClass [\knTTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knDDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knDDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knNNAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knNNAc2 ] <anchor -60 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knTAc2 ] <anchor 0 -76> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
@@ -5794,14 +5851,14 @@ lookup GPOS_LOOKUP_vottu
     markClass [\knPAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knPHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knBAc2 ] <anchor -38 0> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knBHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knMAc2 ] <anchor 114 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knBHAc2 ] <anchor -38 0> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knMAc2 ] <anchor 125 60> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knYAc2 ] <anchor 201 81> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knRAc2 ] <anchor 54 6> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knLAc2 ] <anchor 6 -17> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knLAc2 ] <anchor 6 -7> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knVAc2 ] <anchor -11 -43> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knSHAc2 ] <anchor 44 0> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knSSAc2 ] <anchor -70 5> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knSSAc2 ] <anchor -70 10> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knLLAc2 ] <anchor 98 0> @MARKS_CLASS_0_LUT5_SUB0;
@@ -5810,23 +5867,22 @@ lookup GPOS_LOOKUP_vottu
     markClass [\knTAc2.02 ] <anchor 0 -71> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knTAc2.03 ] <anchor -33 -147> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knRAc2.02 ] <anchor 0 -16> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knRAc2.03 ] <anchor 141 -49> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knRAc2.03 ] <anchor -30 -50> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knCHRAc2 ] <anchor -125 24> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knDHRAc2 ] <anchor -114 35> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knDRAc2 ] <anchor -136 35> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knTRAc2 ] <anchor 0 -54> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knTRAc2.01 ] <anchor 33 -38> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knTRAc2.03 ] <anchor -11 -49> @MARKS_CLASS_0_LUT5_SUB0;
+    markClass [\knTRAc2.03 ] <anchor -115 -40> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knTTRAc2 ] <anchor -141 51> @MARKS_CLASS_0_LUT5_SUB0;
     markClass [\knTYAc2 ] <anchor -108 158> @MARKS_CLASS_0_LUT5_SUB0;
-    markClass [\knTYAc2.following ] <anchor 111 245> @MARKS_CLASS_0_LUT5_SUB0;
         # ---------------
         # BaseArray table
         # ---------------
     pos base \knKHA 
         <anchor 688 -76> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knGHA 
-        <anchor 800 -54> mark @MARKS_CLASS_0_LUT5_SUB0 ;
+        <anchor 800 -100> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knCHA 
         <anchor 799 -136> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knJHA 
@@ -5843,8 +5899,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 670 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHA 
         <anchor 725 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSA 
-        <anchor 696 -223> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSA 
         <anchor 533 -136> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHAA 
@@ -5867,8 +5921,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 1041 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHAA 
         <anchor 1047 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSAA 
-        <anchor 1025 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSAA 
         <anchor 857 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHI 
@@ -5891,8 +5943,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 673 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHI 
         <anchor 768 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSI 
-        <anchor 686 -201> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSI 
         <anchor 523 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHU 
@@ -5915,8 +5965,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 881 -130> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHU 
         <anchor 982 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSU 
-        <anchor 981 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSU 
         <anchor 818 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHUU 
@@ -5939,8 +5987,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 1232 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHUU 
         <anchor 1277 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSUU 
-        <anchor 1309 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSUU 
         <anchor 1141 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHE 
@@ -5963,8 +6009,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 701 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHE 
         <anchor 737 -115> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSE 
-        <anchor 701 -205> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSE 
         <anchor 532 -125> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHO 
@@ -5987,8 +6031,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 1200 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHO 
         <anchor 1291 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSO 
-        <anchor 1275 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSO 
         <anchor 1085 -71> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKHAU 
@@ -6011,8 +6053,6 @@ lookup GPOS_LOOKUP_vottu
         <anchor 990 -33> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBHAU 
         <anchor 1022 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSSAU 
-        <anchor 963 -33> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knSAU 
         <anchor 804 -43> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knKH 
@@ -6035,43 +6075,145 @@ lookup GPOS_LOOKUP_vottu
         <anchor 666 -70> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knBH 
         <anchor 859 0> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-    pos base \knSS 
-        <anchor 717 -120> mark @MARKS_CLASS_0_LUT5_SUB0 ;
     pos base \knS 
         <anchor 521 -98> mark @MARKS_CLASS_0_LUT5_SUB0 ;
-} GPOS_LOOKUP_vottu;
+} GPOS_LOOKUP_00005;
 
 
-#*************************************************************************
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+#   Feature "blwm": Below-base Mark Positioning 
+#   used in script: DFLT 
+#   used in script: knd2 
+#   used in script: knda 
+#   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_BASE_ATTACHMENT 
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+lookup GPOS_LOOKUP_00006 
+{
+ lookupflag 0;
+        # Offset to MarkCoverage table 12
+        # Offset to BaseCoverage table 118
+        # ClassCount 1
+        # ---------------
+        # MarkArray table
+        # ---------------
+    markClass [\knmvR ] <anchor 196 272> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knAIlengthmark ] <anchor -11 43> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knNukta ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knKAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knKHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knGAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knGHAc2 ] <anchor 0 60> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knNGAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knCAc2 ] <anchor 0 43> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knCHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knJAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knJHAc2 ] <anchor 0 22> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knNYAc2 ] <anchor 0 54> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTTAc2 ] <anchor 0 65> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTTHAc2 ] <anchor 0 27> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knDDAc2 ] <anchor 0 11> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knDDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knNNAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTAc2 ] <anchor 0 43> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knDAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knDHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knNAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knPAc2 ] <anchor -5 65> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knPHAc2 ] <anchor -5 60> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knBAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knBHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knMAc2 ] <anchor -38 22> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knYAc2 ] <anchor 179 190> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knRAc2 ] <anchor -27 43> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knLAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knVAc2 ] <anchor -49 16> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knSHAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knSSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knSAc2 ] <anchor -16 82> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knHAc2 ] <anchor 0 27> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knLLAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knKSSAc2 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTAc2.01 ] <anchor 0 43> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTAc2.02 ] <anchor 0 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTAc2.03 ] <anchor 0 65> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knRAc2.02 ] <anchor -5 82> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knRAc2.03 ] <anchor -43 5> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knCHRAc2 ] <anchor -82 22> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knDHRAc2 ] <anchor -87 -5> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knDRAc2 ] <anchor -60 -5> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTRAc2 ] <anchor 33 38> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTRAc2.01 ] <anchor 120 43> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTRAc2.03 ] <anchor -43 49> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTTRAc2 ] <anchor -60 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\knTYAc2 ] <anchor -277 22> @MARKS_CLASS_0_LUT6_SUB0;
+        # ---------------
+        # BaseArray table
+        # ---------------
+    pos base \knSSA 
+        <anchor 690 -10> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSSAA 
+        <anchor 1021 0> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSSI 
+        <anchor 685 -16> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSSU 
+        <anchor 935 -33> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSSUU 
+        <anchor 1315 0> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSSE 
+        <anchor 696 -5> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSSO 
+        <anchor 1305 6> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSSAU 
+        <anchor 1006 -16> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+    pos base \knSS 
+        <anchor 711 -16> mark @MARKS_CLASS_0_LUT6_SUB0 ;
+} GPOS_LOOKUP_00006;
+
+
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 #   Feature "mkmk": Mark to Mark Positioning 
 #   used in script: DFLT 
 #   used in script: knd2 
 #   used in script: knda 
 #   used in script: latn 
 #   from a lookup of type GPOS_LOOKUP_TYPE_MARK_TO_MARK_ATTACHMENT 
-#*************************************************************************
-lookup GPOS_LOOKUP_00006 
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+lookup GPOS_LOOKUP_00007 
 {
  lookupflag 256;
-        # Offset to MarkCoverage table 34
-        # Offset to BaseCoverage table 34
+        # Offset to MarkCoverage table 12
+        # Offset to BaseCoverage table 18
         # ClassCount 1
         # ---------------
         # MarkArray table
         # ---------------
-    markClass [\commaaccent ] <anchor -200 0> @MARKS_CLASS_0_LUT6_SUB0;
+    markClass [\commaaccent ] <anchor -200 0> @MARKS_CLASS_0_LUT7_SUB0;
         # ---------------
         # BaseArray table
         # ---------------
     pos mark \commaaccent 
-        <anchor -210 -272> mark @MARKS_CLASS_0_LUT6_SUB0 ;
-} GPOS_LOOKUP_00006;
+        <anchor -210 -272> mark @MARKS_CLASS_0_LUT7_SUB0 ;
+} GPOS_LOOKUP_00007;
 
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+#   Features
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 
+feature blwm {
+        lookup GPOS_LOOKUP_00005;
+        lookup GPOS_LOOKUP_00006;
+    script knd2 ; 
+        lookup GPOS_LOOKUP_00005;
+        lookup GPOS_LOOKUP_00006;
+    script knda ; 
+        lookup GPOS_LOOKUP_00005;
+        lookup GPOS_LOOKUP_00006;
+} blwm;
 
-
-
-#***** Done. ******
+feature dist {
+        lookup GPOS_LOOKUP_00003;
+} dist;
 
 feature kern {
         lookup GPOS_LOOKUP_00000;
@@ -6079,33 +6221,21 @@ feature kern {
         lookup GPOS_LOOKUP_00002;
 } kern;
 
-feature dist {
-        lookup GPOS_LOOKUP_00003;
-} dist;
-
 feature mark {
         lookup GPOS_LOOKUP_00004;
 } mark;
 
 feature mkmk {
-        lookup GPOS_LOOKUP_00006;
+        lookup GPOS_LOOKUP_00007;
 } mkmk;
 
-feature blwm {
-    script DFLT;
-        lookup GPOS_LOOKUP_vottu;
-    script knd2;
-        lookup GPOS_LOOKUP_vottu;
-    script knda;
-        lookup GPOS_LOOKUP_vottu; 
-} blwm;
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+#   GDEF TABLE ========================================================================
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 
 
-#
-# Export of the GDEF table
-#
-
-@SIMPLE = [\knA \knAA \knI \knII 
+@SIMPLE = [ 
+        \knA \knAA \knI \knII 
         \knU \knUU \knvR \knvRR \knvL 
         \knE \knEE \knAI \knO \knOO 
         \knAU \knKA \knKHA \knGA \knGHA 
@@ -6168,16 +6298,22 @@ feature blwm {
         \lozenge \ampersand \ampersand.ss01 \asciicircum \at 
         \bar \brokenbar \copyright \dagger \daggerdbl 
         \degree \estimated \literSign \paragraph \registered 
-        \section \trademark ];
-@LIGATURES = [\knK \knKH \knG \knGH 
+        \section \trademark
+        ];
+@LIGATURES = [
+        \fi \fl 
+        \knK \knKH \knG \knGH 
         \knNG \knC \knCH \knJ \knJH 
         \knNY \knTT \knTTH \knDD \knDDH 
         \knNN \knT \knTH \knD \knDH 
         \knN \knP \knPH \knB \knBH 
         \knM \knY \knR \knL \knV 
         \knSH \knSS \knS \knH \knRR 
-        \knLL \knLLL \fi \fl ];
-@MARKS = [ \commaaccent
+        \knLL \knLLL
+        \knKAA\knKHAA\knGAA\knGHAA\knNGAA\knCAA\knCHAA\knJAA\knJHAA\knNYAA\knTTAA\knTTHAA\knDDAA\knDDHAA\knNNAA\knTAA\knTHAA\knDAA\knDHAA\knNAA\knPAA\knPHAA\knBAA\knBHAA\knMAA\knYAA\knRAA\knLAA\knVAA\knSHAA\knSSAA\knSAA\knHAA\knLLAA\knKI\knKHI\knGI\knGHI\knNGI\knCI\knCHI\knJI\knJHI\knNYI\knTTI\knTTHI\knDDI\knDDHI\knNNI\knTI\knTHI\knDI\knDHI\knNI\knPI\knPHI\knBI\knBHI\knMI\knYI\knRI\knLI\knVI\knSHI\knSHRII\knSSI\knSI\knHI\knLLI\knKU\knKHU\knGU\knGHU\knNGU\knCU\knCHU\knJU\knJHU\knNYU\knTTU\knTTHU\knDDU\knDDHU\knNNU\knTU\knTHU\knDU\knDHU\knNU\knPU\knPHU\knBU\knBHU\knMU\knYU\knRU\knLU\knVU\knSHU\knSSU\knSU\knHU\knLLU\knKUU\knKHUU\knGUU\knGHUU\knNGUU\knCUU\knCHUU\knJUU\knJHUU\knNYUU\knTTUU\knTTHUU\knDDUU\knDDHUU\knNNUU\knTUU\knTHUU\knDUU\knDHUU\knNUU\knPUU\knPHUU\knBUU\knBHUU\knMUU\knYUU\knRUU\knLUU\knVUU\knSHUU\knSSUU\knSUU\knHUU\knLLUU\knKE\knKHE\knGE\knGHE\knNGE\knCE\knCHE\knJE\knJHE\knNYE\knTTE\knTTHE\knDDE\knDDHE\knNNE\knTE\knTHE\knDE\knDHE\knNE\knPE\knPHE\knBE\knBHE\knME\knYE\knRE\knLE\knVE\knSHE\knSSE\knSE\knHE\knLLE\knKO\knKHO\knGO\knGHO\knNGO\knCO\knCHO\knJO\knJHO\knNYO\knTTO\knTTHO\knDDO\knDDHO\knNNO\knTO\knTHO\knDO\knDHO\knNO\knPO\knPHO\knBO\knBHO\knMO\knYO\knRO\knLO\knVO\knSHO\knSSO\knSO\knHO\knLLO\knKAU\knKHAU\knGAU\knGHAU\knNGAU\knCAU\knCHAU\knJAU\knJHAU\knNYAU\knTTAU\knTTHAU\knDDAU\knDDHAU\knNNAU\knTAU\knTHAU\knDAU\knDHAU\knNAU\knPAU\knPHAU\knBAU\knBHAU\knMAU\knYAU\knRAU\knLAU\knVAU\knSHAU\knSSAU\knSAU\knHAU\knLLAU
+        ];
+@MARKS = [
+        \commaaccent
         \knmAA \knmII \knmU \knmUU 
         \knmvR \knmEE \knmAI \knmO \knmOO\knmAU \knLengthmark \knAIlengthmark \knAnusvara \knVisarga 
         \knKAc2\knKHAc2\knGAc2\knGHAc2\knNGAc2\knCAc2\knCHAc2\knJAc2\knJHAc2\knNYAc2\knTTAc2\knTTHAc2\knDDAc2\knDDHAc2\knNNAc2\knTAc2\knTHAc2\knDAc2\knDHAc2\knNAc2\knPAc2\knPHAc2\knBAc2\knBHAc2\knMAc2\knYAc2\knRAc2\knLAc2\knVAc2\knSHAc2\knSSAc2\knSAc2\knHAc2\knLLAc2\knKSSAc2
@@ -6191,9 +6327,10 @@ table GDEF {
 
 } GDEF;
 
-#
-# Export of the name table
-#
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+#   NAME TABLE ========================================================================
+#ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
 table name {
   nameid 0 1 0 0 "Copyright \a9 2015 by Vaishnavi Murthy. ";
   nameid 1 1 0 0 "Akaya Kannada_1.0";
@@ -6202,7 +6339,7 @@ table name {
   nameid 4 1 0 0 "Akaya Kannada_1.0";
   nameid 5 1 0 0 "Version 1.000";
   nameid 6 1 0 0 "AkayaKannada_1.0-Regular";
-  nameid 9 1 0 0 "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Astrodo";
+  nameid 9 1 0 0 "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
   nameid 13 1 0 0 "http://scripts.sil.org/OFL";
   nameid 0 3 1 1033 "Copyright \00a9 2015 by Vaishnavi Murthy. ";
   nameid 1 3 1 1033 "Akaya Kannada_1.0";
@@ -6211,6 +6348,6 @@ table name {
   nameid 4 3 1 1033 "AkayaKannada_1.0-Regular";
   nameid 5 3 1 1033 "Version 1.000";
   nameid 6 3 1 1033 "AkayaKannada_1.0-Regular";
-  nameid 9 3 1 1033 "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Astrodo";
+  nameid 9 3 1 1033 "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
   nameid 13 3 1 1033 "http://scripts.sil.org/OFL";
 } name;
