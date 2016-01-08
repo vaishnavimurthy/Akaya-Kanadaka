@@ -2,56 +2,56 @@ Mostly follows NLK / ISAT / ISO 15919 :
 Languages: Basic: Sanskrit + Kannada + Telugu
 
 
-ā - uni0101		Ā - uni0100		+ macron - uni0304
+ā - uni0101		Ā - uni0100		+ combing macron - uni0304
 
-ī - uni012B		Ī - uni012A		+ macron - uni0304
+ī - uni012B		Ī - uni012A		+ combing macron - uni0304
 
-ū - uni016B		Ū - uni016A		+ macron - uni0304
+ū - uni016B		Ū - uni016A		+ combing macron - uni0304
 
-ṛ - uni1E5B		Ṛ - uni1E5A		+ dot below - uni0323
+ṛ - uni1E5B		Ṛ - uni1E5A		+ combining dot below - uni0323
 
 (alt of 'ṛ' in ISO 15919:2001)
 r̥ - uni(0072+0325)  	R̥ - uni(0052+0325)	+ combining ring below - uni0325 	
 
-ṝ - uni135D		Ṝ - uni135C		+ dot below - uni0323 + macron - uni0304
+ṝ - uni135D		Ṝ - uni135C		+ combining dot below - uni0323 + combing macron - uni0304
 
 (alt of 'ṝ' in ISO 15919:2001)
-r̥̄- uni(0072+0325+0304) 	R̥̄- uni(0052+0325+0304)	+ combining ring below - uni0325 + macron - uni0304
+r̥̄- uni(0072+0325+0304) 	R̥̄- uni(0052+0325+0304)	+ combining ring below - uni0325 + combing macron - uni0304
 
-ḷ - uni1E37		Ḷ - uni1E36		+ dot below - uni0323 
+ḷ - uni1E37		Ḷ - uni1E36		+ combining dot below - uni0323 
 
 (alt of 'ḷ' in ISO 15919:2001)
 l̥- uni(006C+0325)	L̥ - uni(004C+0325)	+ combining ring below - uni0325
 
-ḹ - uni1E39		Ḹ - uni1E38		+ dot below - uni0323 + macron - uni0304
+ḹ - uni1E39		Ḹ - uni1E38		+ combining dot below - uni0323 + combing macron - uni0304
 
 (alt of 'ḹ' in ISO 15919:2001)
-l̥̄- uni(006C+0325+0304)	L̥̄- uni(004C+0325+0304)	+ combining ring below - uni0325 + macron - uni0304
+l̥̄- uni(006C+0325+0304)	L̥̄- uni(004C+0325+0304)	+ combining ring below - uni0325 + combing macron - uni0304
 
-ṃ - uni1E43		Ṃ - uni1E42		+ dot below - uni0323
+ṃ - uni1E43		Ṃ - uni1E42		+ combining dot below - uni0323
 
-ṁ - uni1E41		Ṁ - uni1E40		+ dot above - uni0307
+ṁ - uni1E41		Ṁ - uni1E40		+ combining dot above - uni0307
 	
-ḥ - uni1E25		Ḥ - uni1E24		+ dot below - uni0323
+ḥ - uni1E25		Ḥ - uni1E24		+ combining dot below - uni0323
 
 n̆ - uni(006E+0306)	N̆ - uni(004E+0306)	+ combining breve - uni0323
 		
-ṭ - uni1E6D		Ṭ - uni1E6C		+ dot below - uni0323	
+ṭ - uni1E6D		Ṭ - uni1E6C		+ combining dot below - uni0323	
 	
-ḍ - uni1E0D  		Ḍ - uni1E0C		+ dot below - uni0323
+ḍ - uni1E0D  		Ḍ - uni1E0C		+ combining dot below - uni0323
 
-ṅ - uni1E45		Ṅ - uni1E44		+ dot above - uni0307
+ṅ - uni1E45		Ṅ - uni1E44		+ combining dot above - uni0307
 	
-ñ - uni00F1		Ñ - uni00D1  		+ tilde - uni0303
+ñ - uni00F1		Ñ - uni00D1  		+ combining tilde - uni0303
 	
-ṇ - uni1E47		Ṇ - uni1E46		+ dot below - uni0323 
+ṇ - uni1E47		Ṇ - uni1E46		+ combining dot below - uni0323 
 			 	
-ś - uni015B 		Ś - uni015A		+ acute - uni 0301
+ś - uni015B 		Ś - uni015A		+ combining acute accent - uni 0301
 	
-ṣ - uni1E63		Ṣ - uni1E62		+ dot below - uni0323
+ṣ - uni1E63		Ṣ - uni1E62		+ combining dot below - uni0323
 		
-ē - uni0113		Ē - uni0112		+ macron - uni0304
+ē - uni0113		Ē - uni0112		+ combing macron - uni0304
 
-ō - uni014D		Ō - uni014C		+ macron - uni0304
+ō - uni014D		Ō - uni014C		+ combing macron - uni0304
 			
 
