@@ -449,35 +449,38 @@ languagesystem knda dflt;
 
 #== L A T I N ===========================================================================
 
-lookup GSUB_LOOKUP_00014 
-{
+lookup GSUB_LOOKUP_00015 {
+ lookupflag 0;
+    sub \i by \idotless;
+    sub \j by \jdotless;
+} GSUB_LOOKUP_00015;
+
+lookup GSUB_LOOKUP_00016 {
  lookupflag 0;
     sub \L \periodcentered by \Ldot;
     sub \l \periodcentered by \ldot;
-} GSUB_LOOKUP_00014;
+} GSUB_LOOKUP_00016;
 
-lookup GSUB_LOOKUP_00015 
-{
+lookup GSUB_LOOKUP_00017 {
  lookupflag 0;
     sub \A by \ordfeminine;
     sub \O by \ordmasculine;
     sub \a by \ordfeminine;
     sub \o by \ordmasculine;
-} GSUB_LOOKUP_00015;
+} GSUB_LOOKUP_00017;
+
+#————❮ CCMP ❯———————————————————————————————————————————————————
+
+lookup GSUB_LOOKUP_00002 {
+ lookupflag 0;
+    sub [\i \j ]' lookup GSUB_LOOKUP_00015 [\acutecomb \brevecomb \caroncomb \circumflexcomb \dieresiscomb \dotaccentcomb \gravecomb \hungarumlautcomb \macroncomb \ringcomb \tildecomb ] ;
+    sub [\i \j ]' lookup GSUB_LOOKUP_00015 [\cedillacomb \commaaccent \dotbelowcomb \ogonekcomb \ringbelowcomb ] [\acutecomb \brevecomb \caroncomb \circumflexcomb \dieresiscomb \dotaccentcomb \gravecomb \hungarumlautcomb \macroncomb \ringcomb \tildecomb ] ;
+} GSUB_LOOKUP_00002;
+
 
 #————❮ LOCL ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00002 
-{
- lookupflag 0;
-    sub \Scedilla by \Scommaaccent;
-    sub \Tcedilla by \Tcommaaccent;
-    sub \scedilla by \scommaaccent;
-    sub \tcedilla by \tcommaaccent;
-} GSUB_LOOKUP_00002;
-
-lookup GSUB_LOOKUP_00003 
-{
+lookup GSUB_LOOKUP_00003 {
  lookupflag 0;
     sub \Scedilla by \Scommaaccent;
     sub \Tcedilla by \Tcommaaccent;
@@ -485,48 +488,51 @@ lookup GSUB_LOOKUP_00003
     sub \tcedilla by \tcommaaccent;
 } GSUB_LOOKUP_00003;
 
-lookup GSUB_LOOKUP_00004 
-{
+lookup GSUB_LOOKUP_00004 {
  lookupflag 0;
-    sub [\l ]' lookup GSUB_LOOKUP_00014 [\periodcentered ]' [\l ] ;
-    sub [\L ]' lookup GSUB_LOOKUP_00014 [\periodcentered ]' [\L ] ;
+    sub \Scedilla by \Scommaaccent;
+    sub \Tcedilla by \Tcommaaccent;
+    sub \scedilla by \scommaaccent;
+    sub \tcedilla by \tcommaaccent;
 } GSUB_LOOKUP_00004;
+
+lookup GSUB_LOOKUP_00005 {
+ lookupflag 0;
+    sub [\l ]' lookup GSUB_LOOKUP_00016 [\periodcentered ]' [\l ] ;
+    sub [\L ]' lookup GSUB_LOOKUP_00016 [\periodcentered ]' [\L ] ;
+} GSUB_LOOKUP_00005;
 
 #————❮ SUPS ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00005 
-{
+lookup GSUB_LOOKUP_00006 {
  lookupflag 0;
     sub \four by \foursuperior;
     sub \one by \onesuperior;
     sub \three by \threesuperior;
     sub \two by \twosuperior;
-} GSUB_LOOKUP_00005;
+} GSUB_LOOKUP_00006;
 
 #————❮ FRAC ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00006 
-{
+lookup GSUB_LOOKUP_00007 {
  lookupflag 0;
     sub \one \slash \four by \onequarter;
     sub \one \slash \two by \onehalf;
     sub \three \slash \four by \threequarters;
-} GSUB_LOOKUP_00006;
+} GSUB_LOOKUP_00007;
 
 #————❮ ORDN ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00007 
-{
+lookup GSUB_LOOKUP_00008 {
  lookupflag 0;
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\A \a ]' lookup GSUB_LOOKUP_00015 ;
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\O \o ]' lookup GSUB_LOOKUP_00015 ;
-} GSUB_LOOKUP_00007;
+    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\A \a ]' lookup GSUB_LOOKUP_00017 ;
+    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\O \o ]' lookup GSUB_LOOKUP_00017 ;
+} GSUB_LOOKUP_00008;
 
 
 #————❮ LNUM ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00008 
-{
+lookup GSUB_LOOKUP_00009 {
  lookupflag 0;
     sub \eight by \eight.lf;
     sub \five by \five.lf;
@@ -538,13 +544,11 @@ lookup GSUB_LOOKUP_00008
     sub \three by \three.lf;
     sub \two by \two.lf;
     sub \zero by \zero.lf;
-} GSUB_LOOKUP_00008;
-
+} GSUB_LOOKUP_00009;
 
 #————❮ ONUM ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00009 
-{
+lookup GSUB_LOOKUP_00010 {
  lookupflag 0;
     sub \eight.lf by \eight;
     sub \five.lf by \five;
@@ -556,12 +560,11 @@ lookup GSUB_LOOKUP_00009
     sub \three.lf by \three;
     sub \two.lf by \two;
     sub \zero.lf by \zero;
-} GSUB_LOOKUP_00009;
+} GSUB_LOOKUP_00010;
 
 #————❮ CASE ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00010 
-{
+lookup GSUB_LOOKUP_00011 {
  lookupflag 0;
     sub \eight by \eight.lf;
     sub \five by \five.lf;
@@ -573,35 +576,30 @@ lookup GSUB_LOOKUP_00010
     sub \three by \three.lf;
     sub \two by \two.lf;
     sub \zero by \zero.lf;
-} GSUB_LOOKUP_00010;
+} GSUB_LOOKUP_00011;
 
 #————❮ LIGA ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00011 
-{
+lookup GSUB_LOOKUP_00012 {
  lookupflag 0;
     sub \f \i by \fi;
     sub \f \l by \fl;
-} GSUB_LOOKUP_00011;
+} GSUB_LOOKUP_00012;
 
 #————❮ SALT ❯———————————————————————————————————————————————————
 
-lookup GSUB_LOOKUP_00012 
-{
+lookup GSUB_LOOKUP_00013 {
  lookupflag 0;
     sub \ampersand by \ampersand.ss01;
-} GSUB_LOOKUP_00012;
-
-
+} GSUB_LOOKUP_00013;
 
 #————❮ ss01": to 'ss20' Stylistic Set 1 to 20 ❯——————————————————
 #      used in script: DFLT, knd2, knda, latn 
 
-lookup GSUB_LOOKUP_00013 
-{
+lookup GSUB_LOOKUP_00014 {
  lookupflag 0;
     sub \ampersand by \ampersand.ss01;
-} GSUB_LOOKUP_00013;
+} GSUB_LOOKUP_00014;
 
 
 feature aalt {
@@ -611,6 +609,8 @@ feature aalt {
     sub \Scedilla by \Scommaaccent;
     sub \Tcedilla by \Tcommaaccent;
     sub \a by \ordfeminine;
+    sub \i by \idotless;
+    sub \j by \jdotless;
     sub \o by \ordmasculine;
     sub \scedilla by \scommaaccent;
     sub \tcedilla by \tcommaaccent;
@@ -1071,67 +1071,74 @@ lookup haln {
 #== L A T I N ===========================================================================
 
 feature case {
-        lookup GSUB_LOOKUP_00010;
+        lookup GSUB_LOOKUP_00011;
 } case;
 
 #-------------
 
 feature frac {
-        lookup GSUB_LOOKUP_00006;
+        lookup GSUB_LOOKUP_00007;
 } frac;
 
 #-------------
 
 feature liga {
-        lookup GSUB_LOOKUP_00011;
+        lookup GSUB_LOOKUP_00012;
 } liga;
 
 #-------------
 
 feature lnum {
-        lookup GSUB_LOOKUP_00008;
+        lookup GSUB_LOOKUP_00009;
 } lnum;
 
 #-------------
 
 feature onum {
-        lookup GSUB_LOOKUP_00009;
+        lookup GSUB_LOOKUP_00010;
 } onum;
 
 #-------------
 
 feature ordn {
-        lookup GSUB_LOOKUP_00007;
+        lookup GSUB_LOOKUP_00008;
 } ordn;
 
 #-------------
 
 feature salt {
-        lookup GSUB_LOOKUP_00012;
+        lookup GSUB_LOOKUP_00013;
 } salt;
 
 #-------------
 
 feature ss01 {
-        lookup GSUB_LOOKUP_00013;
+        lookup GSUB_LOOKUP_00014;
 } ss01;
 
 #-------------
 
 feature sups {
-        lookup GSUB_LOOKUP_00005;
+        lookup GSUB_LOOKUP_00006;
 } sups;
+
+#-------------
+
+feature ccmp {
+    script latn ; 
+        lookup GSUB_LOOKUP_00002;
+} ccmp;
 
 #-------------
 
 feature locl {
     script latn ; 
     language CAT  ; 
-        lookup GSUB_LOOKUP_00004;
+        lookup GSUB_LOOKUP_00005;
     language MOL  ; 
-        lookup GSUB_LOOKUP_00003;
+        lookup GSUB_LOOKUP_00004;
     language ROM  ; 
-        lookup GSUB_LOOKUP_00002;
+        lookup GSUB_LOOKUP_00003;
 } locl;
 
 
