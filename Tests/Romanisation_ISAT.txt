@@ -13,7 +13,7 @@ Languages: Basic: Sanskrit + Kannada + Telugu
 (alt of 'ṛ' in ISO 15919:2001)
 r̥ - uni(0072+0325)  	R̥ - uni(0052+0325)	+ combining ring below - uni0325 	
 
-ṝ - uni135D		Ṝ - uni135C		+ combining dot below - uni0323 + combing macron - uni0304
+ṝ - uni1E5D		Ṝ - uni1E5C		+ combining dot below - uni0323 + combing macron - uni0304
 
 (alt of 'ṝ' in ISO 15919:2001)
 r̥̄- uni(0072+0325+0304) 	R̥̄- uni(0052+0325+0304)	+ combining ring below - uni0325 + combing macron - uni0304
