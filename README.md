@@ -4,7 +4,6 @@ Kannada + Latin
 ![alt tag](https://github.com/vaishnavimurthy/Akaya-Kannada/blob/master/Tests/%2B/Akaya_1.png)
 
 Akaya is a single weight experimental display typeface in Kannada, Telugu and Latin scripts. Akaya Kannada and 
-
 [Akaya Telugu](https://github.com/vaishnavimurthy/Akaya-Telugu) are made as two separate font files which share a common Latin.  
 
 **Language Support**
