@@ -1,5 +1,5 @@
 # Akaya-Kannada
-Kannada + Latin
+Designers: Vaishnavi Murthy & [Juan Luis Blanco](http://www.blancoletters.com)
 
 ![alt tag](https://github.com/vaishnavimurthy/Akaya-Kannada/blob/master/Tests/%2B/Akaya_1.png)
 
