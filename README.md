@@ -1,16 +1,16 @@
-# Akaya-Kannada
+# Akaya-Kanadaka
 Designers: Vaishnavi Murthy & [Juan Luis Blanco](http://www.blancoletters.com)
 
 ![alt tag](https://github.com/vaishnavimurthy/Akaya-Kannada/blob/master/Tests/%2B/Akaya_1.png)
 
-Akaya is a single weight experimental display typeface in Kannada, Telugu and Latin scripts. Akaya Kannada and   
-[Akaya Telugu](https://github.com/vaishnavimurthy/Akaya-Telugu) are made as two separate font files which share a common Latin.  
+Akaya is a single weight experimental display typeface in Kannada, Telugu and Latin scripts. Akaya Kanadaka and   
+[Akaya Tenetetta](https://github.com/vaishnavimurthy/Akaya-Telugu) are made as two separate font files which share a common Latin.  
 
 **Language Support**
 
-Akaya Kannada supports the reformed Kannada character set. The language support therefore extends to contemporary Kannada and basic Sanskrit. The peculiarities of minority scripts that use the Kannada script in contemporary use, like Tulu and Konkani, are not yet supported fully and Akaya will be extended once they are accepted and updated.
+Akaya Kanadaka supports the reformed Kannada character set. The language support therefore extends to contemporary Kannada and basic Sanskrit. The peculiarities of minority scripts that use the Kannada script in contemporary use, like Tulu and Konkani, are not yet supported fully and Akaya will be extended once they are accepted and updated.
 
-Akaya Latin supports Afrikaans, Basque, Breton, Catalan, Croatian (Latin), Czech, Danish, Dutch, English, Estonian, Faroese, Finnish, French, Gaelic, Gagauz (Latin), German, Hungarian, Icelandic, Indonesian, Irish, Italian, Javanese (Latin), Kashubian, Kannada, Latvian, Lithuanian, Malay (Latin), Moldovan (Latin), Norwegian, Polish, Portuguese, Romanian (Latin), Sami (Northern, Inari & Lule), Serbian (Latin), Silesian, Sorbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Telugu, Turkish and Walloon.
+Akaya's Latin supports Afrikaans, Basque, Breton, Catalan, Croatian (Latin), Czech, Danish, Dutch, English, Estonian, Faroese, Finnish, French, Gaelic, Gagauz (Latin), German, Hungarian, Icelandic, Indonesian, Irish, Italian, Javanese (Latin), Kashubian, Kannada, Latvian, Lithuanian, Malay (Latin), Moldovan (Latin), Norwegian, Polish, Portuguese, Romanian (Latin), Sami (Northern, Inari & Lule), Serbian (Latin), Silesian, Sorbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Telugu, Turkish and Walloon.
 
 **About Akaya**
 
