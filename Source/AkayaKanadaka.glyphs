@@ -641,18 +641,38 @@ capHeight = 613;
 customParameters = (
 {
 name = typoAscender;
-value = "750";
+value = "958";
 },
 {
 name = typoDescender;
-value = "-250";
+value = "-834";
 },
 {
 name = typoLineGap;
-value = "1000";
+value = "0";
+},
+{
+name = winAscent;
+value = "958";
+},
+{
+name = winDescent;
+value = "-834";
+},
+{
+name = hheaAscender;
+value = "958";
+},
+{
+name = hheaDescender;
+value = "-834";
+},
+{
+name = hheaLineGap;
+value = "0";
 }
 );
-descender = -1000;
+descender = -834;
 guideLines = (
 {
 angle = 45;
