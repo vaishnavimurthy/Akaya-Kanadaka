@@ -561,7 +561,7 @@ value = (
 );
 date = "2015-12-11 09:43:00 +0000";
 designer = "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
-familyName = "AkayaKanadaka";
+familyName = "Akaya Kanadaka";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012languagesystem knda dflt;\012languagesystem knd2 dflt;\012\012";
