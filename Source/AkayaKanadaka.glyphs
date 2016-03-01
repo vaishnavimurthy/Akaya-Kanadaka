@@ -107989,6 +107989,10 @@ customParameters = (
 {
 name = "Don\U2019t use Production Names";
 value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--detailed-info";
 }
 );
 interpolationWeight = 400;
