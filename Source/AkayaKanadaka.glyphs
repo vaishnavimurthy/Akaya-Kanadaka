@@ -5,7 +5,7 @@ DisplayStrings = (
 "/knKAc2     /knKHAc2    /knGAc2    /knGHAc2    /knNGAc2    /knCAc2    /knCHAc2    /knJAc2    /knJHAc2    /knNYAc2    /knTTAc2    /knTTHAc2    /knDDAc2    /knDDHAc2    /knNNAc2    /knTAc2    /knTHAc2    /knDAc2    /knDHAc2    /knNAc2    /knPAc2    /knPHAc2    /knBAc2    /knBHAc2    /knMAc2    /knYAc2    /knRAc2    /knLAc2    /knVAc2    /knSHAc2    /knSSAc2    /knSAc2    /knHAc2    /knLLAc2 \012/knmvR   /knAIlengthmark/knmvR.following/knAIlengthmark.following/knKAc2.following/knKHAc2.following/knGAc2.following/knGHAc2.following/knNGAc2.following/knCAc2.following/knCHAc2.following/knJAc2.following/knJHAc2.following/knNYAc2.following/knTTAc2.following/knTTHAc2.following/knDDAc2.following/knDDHAc2.following/knNNAc2.following/knTAc2.following/knTHAc2.following/knDAc2.following/knDHAc2.following/knNAc2.following/knPAc2.following/knPHAc2.following/knBAc2.following/knBHAc2.following/knMAc2.following   /knYAc2/knYAc2.following/knRAc2.following/knLAc2.following/knVAc2.following/knSHAc2.following/knSSAc2.following/knSAc2.following/knHAc2.following/knLLAc2.following/knKSSAc2.following \012 /knTAc2.01    /knTAc2.02     /knTAc2.03     /knRAc2.02     /knRAc2.03    /knRAc2.04    /knCHRAc2    /knDHRAc2    /knDRAc2    /knTRAc2     /knTRAc2.01     /knTRAc2.03     /knTTRAc2    /knTYAc2   /knDDHxA   /knPHxA/knTYAc2.following \012/knDE/Placeholder \012/knKA/knKHA/knGA/Placeholder/knGHA/knNGA/knCA/knCHA/knJA/knJHA/knNYA/knTTA/knTTHA/knDDA/Placeholder/knDDHA/knNNA/knYAc2/knTA/knTHA/knDA/Placeholder/knDHA/knNA/knPA/knPHA/knBA/knBHA/knMA/knYA/knRA \012/knLA/knReph/knVA/knSHA/knSSA/Placeholder/knSA/knHA/knRRA/knLLA",
 /knNYA/knYA/knNYAc2/knYAc2/knNYAA/knYAA/knNYI/knYI/knNYU/knYU/knNYUU/knYUU/knNYE/knYE/knNYO/knYO/knNYAU/knYAU/knNY/knY/knNYAc2.following/knYAc2.following
 );
-copyright = "Copyright \U00A9 Akaya Kanadaka 2015 Vaishnavi Murthy,  Juan Luis Blanco Aristondo ";
+copyright = "Copyright (c) 2015 Vaishnavi Murthy Yerkadithaya ( vaishnavimurthy@gmail.com ), Juan Luis Blanco Aristondo ( juan@blancoletters.com )";
 customParameters = (
 {
 name = licenseURL;
@@ -562,7 +562,7 @@ value = (
 }
 );
 date = "2016-03-01 05:27:20 +0000";
-designer = "Vaishnavi Murthy Yerkadithaya ( vaishnavimurthy@gmail.com ), Juan Luis Blanco Aristondo ( juan@blancoletters.com )";
+designer = "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
 familyName = "AkayaKanadaka";
 featurePrefixes = (
 {

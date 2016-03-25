@@ -6834,7 +6834,7 @@ feature mkmk {
 #ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 
 
-@SIMPLE = [ 
+@BASE = [ 
         \knA \knAA \knI \knII 
         \knU \knUU \knvR \knvRR \knvL 
         \knE \knEE \knAI \knO \knOO 
@@ -6905,7 +6905,7 @@ feature mkmk {
         \estimated \literSign \paragraph \registered \section 
         \trademark
         ];
-@LIGATURES = [
+@LIGA = [
         \fi \fl 
         \knK \knKH \knG \knGH 
         \knNG \knC \knCH \knJ \knJH 
@@ -6917,8 +6917,7 @@ feature mkmk {
         \knLL \knLLL
         \knKAA\knKHAA\knGAA\knGHAA\knNGAA\knCAA\knCHAA\knJAA\knJHAA\knNYAA\knTTAA\knTTHAA\knDDAA\knDDHAA\knNNAA\knTAA\knTHAA\knDAA\knDHAA\knNAA\knPAA\knPHAA\knBAA\knBHAA\knMAA\knYAA\knRAA\knLAA\knVAA\knSHAA\knSSAA\knSAA\knHAA\knLLAA\knKI\knKHI\knGI\knGHI\knNGI\knCI\knCHI\knJI\knJHI\knNYI\knTTI\knTTHI\knDDI\knDDHI\knNNI\knTI\knTHI\knDI\knDHI\knNI\knPI\knPHI\knBI\knBHI\knMI\knYI\knRI\knLI\knVI\knSHI\knSHRII\knSSI\knSI\knHI\knLLI\knKU\knKHU\knGU\knGHU\knNGU\knCU\knCHU\knJU\knJHU\knNYU\knTTU\knTTHU\knDDU\knDDHU\knNNU\knTU\knTHU\knDU\knDHU\knNU\knPU\knPHU\knBU\knBHU\knMU\knYU\knRU\knLU\knVU\knSHU\knSSU\knSU\knHU\knLLU\knKUU\knKHUU\knGUU\knGHUU\knNGUU\knCUU\knCHUU\knJUU\knJHUU\knNYUU\knTTUU\knTTHUU\knDDUU\knDDHUU\knNNUU\knTUU\knTHUU\knDUU\knDHUU\knNUU\knPUU\knPHUU\knBUU\knBHUU\knMUU\knYUU\knRUU\knLUU\knVUU\knSHUU\knSSUU\knSUU\knHUU\knLLUU\knKE\knKHE\knGE\knGHE\knNGE\knCE\knCHE\knJE\knJHE\knNYE\knTTE\knTTHE\knDDE\knDDHE\knNNE\knTE\knTHE\knDE\knDHE\knNE\knPE\knPHE\knBE\knBHE\knME\knYE\knRE\knLE\knVE\knSHE\knSSE\knSE\knHE\knLLE\knKO\knKHO\knGO\knGHO\knNGO\knCO\knCHO\knJO\knJHO\knNYO\knTTO\knTTHO\knDDO\knDDHO\knNNO\knTO\knTHO\knDO\knDHO\knNO\knPO\knPHO\knBO\knBHO\knMO\knYO\knRO\knLO\knVO\knSHO\knSSO\knSO\knHO\knLLO\knKAU\knKHAU\knGAU\knGHAU\knNGAU\knCAU\knCHAU\knJAU\knJHAU\knNYAU\knTTAU\knTTHAU\knDDAU\knDDHAU\knNNAU\knTAU\knTHAU\knDAU\knDHAU\knNAU\knPAU\knPHAU\knBAU\knBHAU\knMAU\knYAU\knRAU\knLAU\knVAU\knSHAU\knSSAU\knSAU\knHAU\knLLAU
         ];
-@MARKS = [
-
+@COMBINING_MARKS = [
         \knmAA \knmII \knmU \knmUU 
         \knmvR \knmEE \knmAI \knmO \knmOO 
         \knmAU \knLengthmark \knAIlengthmark \knAnusvara \knVisarga 
@@ -6931,9 +6930,9 @@ feature mkmk {
         ];
 
 table GDEF {
-
-    GlyphClassDef @SIMPLE, @LIGATURES, @MARKS, ;
-
+#       GlyphClassDef , , @COMBINING_MARKS, ;
+#       GlyphClassDef , @BASE, @LIGA, @COMBINING_MARKS;
+        GlyphClassDef @BASE, @LIGA, @COMBINING_MARKS, ;
 } GDEF;
 
 #ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
@@ -6941,113 +6940,40 @@ table GDEF {
 #ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
 
 table name {
-  nameid 0 1 0 0 "Copyright Akaya Kanadaka 2015 Vaishnavi Murthy,  Juan Luis Blanco Aristondo ";
-  nameid 1 1 0 0 "AkayaKanadaka";
+  # Copyright notice
+  nameid 0 1 0 0 "Copyright (c) 2015 Vaishnavi Murthy Yerkadithaya ( vaishnavimurthy@gmail.com ), Juan Luis Blanco Aristondo ( juan@blancoletters.com )";
+  
+  # Font Family name
+  nameid 1 1 0 0 "Akaya Kanadaka";
+  
+  # Font Subfamily name
   nameid 2 1 0 0 "Regular";
+  
+  # Unique font identifier
   nameid 3 1 0 0 "1.000;UKWN;AkayaKanadaka-Regular";
-  nameid 4 1 0 0 "AkayaKanadaka";
-  nameid 5 1 0 0 "Version 1.000";
-  nameid 6 1 0 0 "AkayaKanadaka-Regular";
-  nameid 8 1 0 0 "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
-  nameid 9 1 0 0 "Vaishnavi Murthy Yerkadithaya ( vaishnavimurthy@gmail.com ), Juan Luis Blanco Aristondo ( juan@blancoletters.com )";
-  nameid 13 1 0 0 "This Font Software is licensed under the SIL Open Font License, Version 1.1.
-                   This license is copied below, and is also available with a FAQ at:
-                   http://scripts.sil.org/OFL
 
-                   -----------------------------------------------------------
-                   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-                   -----------------------------------------------------------
-                   ----------
-                   PREAMBLE
-                   ----------
-                   The goals of the Open Font License (OFL) are to stimulate worldwide
-                   development of collaborative font projects, to support the font creation
-                   efforts of academic and linguistic communities, and to provide a free and
-                   open framework in which fonts may be shared and improved in partnership
-                   with others.
-                   
-                   The OFL allows the licensed fonts to be used, studied, modified and
-                   redistributed freely as long as they are not sold by themselves. The
-                   fonts, including any derivative works, can be bundled, embedded, 
-                   redistributed and/or sold with any software provided that any reserved
-                   names are not used by derivative works. The fonts and derivatives,
-                   however, cannot be released under any other type of license. The
-                   requirement for fonts to remain under this license does not apply
-                   to any document created using the fonts or their derivatives.
-                   
-                   ----------
-                   DEFINITIONS
-                   ----------
-                   \22Font Software\22 refers to the set of files released by the Copyright
-                   Holder(s) under this license and clearly marked as such. This may
-                   include source files, build scripts and documentation.
-                   
-                   \22Reserved Font Name\22 refers to any names specified as such after the
-                   copyright statement(s).
-                   
-                   \22Original Version\22 refers to the collection of Font Software components as
-                   distributed by the Copyright Holder(s).
-                   
-                   \22Modified Version\22 refers to any derivative made by adding to, deleting,
-                   or substituting -- in part or in whole -- any of the components of the
-                   Original Version, by changing formats or by porting the Font Software to a
-                   new environment.
-                   
-                   \22Author\22 refers to any designer, engineer, programmer, technical
-                   writer or other person who contributed to the Font Software.
-                   
-                   ----------
-                   PERMISSION & CONDITIONS
-                   ----------
-                   Permission is hereby granted, free of charge, to any person obtaining
-                   a copy of the Font Software, to use, study, copy, merge, embed, modify,
-                   redistribute, and sell modified and unmodified copies of the Font
-                   Software, subject to the following conditions:
-                   
-                   1) Neither the Font Software nor any of its individual components,
-                   in Original or Modified Versions, may be sold by itself.
-                   
-                   2) Original or Modified Versions of the Font Software may be bundled,
-                   redistributed and/or sold with any software, provided that each copy
-                   contains the above copyright notice and this license. These can be
-                   included either as stand-alone text files, human-readable headers or
-                   in the appropriate machine-readable metadata fields within text or
-                   binary files as long as those fields can be easily viewed by the user.
-                   
-                   3) No Modified Version of the Font Software may use the Reserved Font
-                   Name(s) unless explicit written permission is granted by the corresponding
-                   Copyright Holder. This restriction only applies to the primary font name as
-                   presented to the users.
-                   
-                   4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
-                   Software shall not be used to promote, endorse or advertise any
-                   Modified Version, except to acknowledge the contribution(s) of the
-                   Copyright Holder(s) and the Author(s) or with their explicit written
-                   permission.
-                   
-                   5) The Font Software, modified or unmodified, in part or in whole,
-                   must be distributed entirely under this license, and must not be
-                   distributed under any other license. The requirement for fonts to
-                   remain under this license does not apply to any document created
-                   using the Font Software.
-                   
-                   ----------
-                   TERMINATION
-                   ----------
-                   This license becomes null and void if any of the above conditions are
-                   not met.
-                   
-                   ----------
-                   DISCLAIMER
-                   ----------
-                   THE FONT SOFTWARE IS PROVIDED \22AS IS\22, WITHOUT WARRANTY OF ANY KIND,
-                   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-                   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
-                   OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
-                   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-                   INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
-                   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-                   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-                   OTHER DEALINGS IN THE FONT SOFTWARE.";
+  # Full font name
+  nameid 4 1 0 0 "Akaya Kanadaka";
+  
+  # Version string
+  nameid 5 1 0 0 "Version 1.000";
+  
+  # Postscript name for the font
+  nameid 6 1 0 0 "AkayaKanadaka-Regular";
+  
+  # Trademark
+  nameid 7 1 0 0 ".";
+  
+  # Manufacturer name
+  nameid 8 1 0 0 "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
+  
+  # Designer
+  nameid 9 1 0 0 "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
+  
+  # License description
+  nameid 13 1 0 0 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+  
+  # License info URL
+  nameid 14 1 0 0 "http://scripts.sil.org/OFL";
 } name;
                    
