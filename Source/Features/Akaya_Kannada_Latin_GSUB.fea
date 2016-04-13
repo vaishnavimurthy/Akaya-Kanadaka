@@ -4,431 +4,431 @@
 #————————————————————————————————————————————————————————————————————————————————————————
    	
 @BELOW_BASE_MARKS = [
- knmvR 
- knAIlengthmark 
- knKAc2 
- knKSSAc2 
- knKHAc2 
- knGAc2 
- knGHAc2 
- knNGAc2 
- knCAc2 
- knCHAc2 
- knJAc2 
- knJHAc2 
- knNYAc2 
- knTTAc2 
- knTTHAc2 
- knDDAc2 
- knDDHAc2 
- knNNAc2 
- knTAc2 
- knTYAc2 
- knTHAc2 
- knDAc2 
- knDHAc2 
- knNAc2 
- knPAc2 
- knPHAc2 
- knBAc2 
- knBHAc2 
- knMAc2 
- knYAc2 
- knRAc2 
- knLAc2 
- knVAc2 
- knSHAc2 
- knSSAc2 
- knSAc2 
- knHAc2 
- knLLAc2
+ rVocalicMatra-kannada 
+ ailength-kannada 
+ ka-kannada.below 
+ k_ssa-kannada.below 
+ kha-kannada.below 
+ ga-kannada.below 
+ gha-kannada.below 
+ nga-kannada.below 
+ ca-kannada.below 
+ cha-kannada.below 
+ ja-kannada.below 
+ jha-kannada.below 
+ nya-kannada.below 
+ tta-kannada.below 
+ ttha-kannada.below 
+ dda-kannada.below 
+ ddha-kannada.below 
+ nna-kannada.below 
+ ta-kannada.below 
+ t_ya-kannada.below 
+ tha-kannada.below 
+ da-kannada.below 
+ dha-kannada.below 
+ na-kannada.below 
+ pa-kannada.below 
+ pha-kannada.below 
+ ba-kannada.below 
+ bha-kannada.below 
+ ma-kannada.below 
+ ya-kannada.below 
+ ra-kannada.below 
+ la-kannada.below 
+ va-kannada.below 
+ sha-kannada.below 
+ ssa-kannada.below 
+ sa-kannada.below 
+ ha-kannada.below 
+ lla-kannada.below
 ];
 
 @BELOW_BASE_MARKS_FOLLOWING = [
- knmvR.following 
- knAIlengthmark.following 
- knKAc2.following 
- knKSSAc2.following 
- knKHAc2.following 
- knGAc2.following 
- knGHAc2.following 
- knNGAc2.following 
- knCAc2.following 
- knCHAc2.following 
- knJAc2.following 
- knJHAc2.following 
- knNYAc2.following 
- knTTAc2.following 
- knTTHAc2.following 
- knDDAc2.following 
- knDDHAc2.following 
- knNNAc2.following 
- knTAc2.following 
- knTYAc2.following 
- knTHAc2.following 
- knDAc2.following 
- knDHAc2.following 
- knNAc2.following 
- knPAc2.following 
- knPHAc2.following 
- knBAc2.following 
- knBHAc2.following 
- knMAc2.following 
- knYAc2.following 
- knRAc2.following 
- knLAc2.following 
- knVAc2.following 
- knSHAc2.following 
- knSSAc2.following 
- knSAc2.following 
- knHAc2.following 
- knLLAc2.following
+ rVocalicMatra-kannada.following 
+ ailength-kannada.following 
+ ka-kannada.below.following 
+ k_ssa-kannada.below.following 
+ kha-kannada.below.following 
+ ga-kannada.below.following 
+ gha-kannada.below.following 
+ nga-kannada.below.following 
+ ca-kannada.below.following 
+ cha-kannada.below.following 
+ ja-kannada.below.following 
+ jha-kannada.below.following 
+ nya-kannada.below.following 
+ tta-kannada.below.following 
+ ttha-kannada.below.following 
+ dda-kannada.below.following 
+ ddha-kannada.below.following 
+ nna-kannada.below.following 
+ ta-kannada.below.following 
+ t_ya-kannada.below.following 
+ tha-kannada.below.following 
+ da-kannada.below.following 
+ dha-kannada.below.following 
+ na-kannada.below.following 
+ pa-kannada.below.following 
+ pha-kannada.below.following 
+ ba-kannada.below.following 
+ bha-kannada.below.following 
+ ma-kannada.below.following 
+ ya-kannada.below.following 
+ ra-kannada.below.following 
+ la-kannada.below.following 
+ va-kannada.below.following 
+ sha-kannada.below.following 
+ ssa-kannada.below.following 
+ sa-kannada.below.following 
+ ha-kannada.below.following 
+ lla-kannada.below.following
 ];
 
 @C2_PRECOMPOSED = [
- knKSSAc2
- knCHRAc2
- knTTRAc2
- knDRAc2
- knDHRAc2
+ k_ssa-kannada.below
+ ch_ra-kannada.below
+ tt_ra-kannada.below
+ d_ra-kannada.below
+ dh_ra-kannada.below
 ];
 
 @COMBINING_MARKS = [
- knNukta
+ nukta-kannada
  @BELOW_BASE_MARKS
  @BELOW_BASE_MARKS_FOLLOWING
 ];
 
 @NARROW_LETTERS = [
- knKA
- knKHA
- knTTHA
- knNA
- knSA
- knKI
- knGI
- knRI
- knVI
- knKE
- knKHE
- knTTHE
- knRE
- knK
- knKAU
- knKHAU
- knTTHAU
- knRAU
+ ka-kannada
+ kha-kannada
+ ttha-kannada
+ na-kannada
+ sa-kannada
+ ki-kannada
+ gi-kannada
+ ri-kannada
+ vi-kannada
+ ke-kannada
+ khe-kannada
+ tthe-kannada
+ re-kannada
+ k-kannada
+ kau-kannada
+ khau-kannada
+ tthau-kannada
+ rau-kannada
 ];
 
 @MEDIUM_LETTERS = [
- knTA 
- knTAA 
- knTU 
- knTUU 
- knTHUU 
- knTE 
- knTO 
- knTAU 
- knT 
- knGA 
- knGE 
- knNGA 
- knJA 
- knTHA 
- knDA 
- knDHA 
- knRA 
- knVA 
- knKHI 
- knNGI 
- knJI 
- knTTHI 
- knTHI 
- knDI 
- knDHI 
- knNI 
- knSI 
- knSHI 
- knJE 
- knNE 
- knSE 
- knLA 
- knG 
- knTTH 
- knTH 
- knD 
- knDH 
- knN 
- knR 
- knL 
- knS 
- knGAU 
- knNGAU 
- knJAU 
- knTHAU 
- knDAU 
- knDHAU 
- knNAU 
- knLAU 
- knSAU
+ ta-kannada 
+ taa-kannada 
+ tu-kannada 
+ tuu-kannada 
+ thuu-kannada 
+ te-kannada 
+ to-kannada 
+ tau-kannada 
+ t-kannada 
+ ga-kannada 
+ ge-kannada 
+ nga-kannada 
+ ja-kannada 
+ tha-kannada 
+ da-kannada 
+ dha-kannada 
+ ra-kannada 
+ va-kannada 
+ khi-kannada 
+ ngi-kannada 
+ ji-kannada 
+ tthi-kannada 
+ thi-kannada 
+ di-kannada 
+ dhi-kannada 
+ ni-kannada 
+ si-kannada 
+ shi-kannada 
+ je-kannada 
+ ne-kannada 
+ se-kannada 
+ la-kannada 
+ g-kannada 
+ tth-kannada 
+ th-kannada 
+ d-kannada 
+ dh-kannada 
+ n-kannada 
+ r-kannada 
+ l-kannada 
+ s-kannada 
+ gau-kannada 
+ ngau-kannada 
+ jau-kannada 
+ thau-kannada 
+ dau-kannada 
+ dhau-kannada 
+ nau-kannada 
+ lau-kannada 
+ sau-kannada
 ];
 
 @WIDE_LETTERS = [
- knGHA 
- knCA 
- knCHA 
- knJHA 
- knNYA 
- knTTA 
- knDDA 
- knDDHA 
- knNNA 
- knPA 
- knPHA 
- knBA 
- knBHA 
- knMA 
- knYA 
- knSHA 
- knSSA 
- knHA 
- knRRA 
- knLLA 
- knLLLA 
- knKAA 
- knKHAA 
- knGAA 
- knGHAA 
- knNGAA 
- knCAA 
- knCHAA 
- knJAA 
- knJHAA 
- knNYAA 
- knTTAA 
- knTTHAA 
- knDDAA 
- knDDHAA 
- knNNAA 
- knTHAA 
- knDAA 
- knDHAA 
- knNAA 
- knPAA 
- knPHAA 
- knBAA 
- knBHAA 
- knMAA 
- knYAA 
- knRAA 
- knLAA 
- knVAA 
- knSHAA 
- knSSAA 
- knSAA 
- knHAA 
- knLLAA 
- knGHI 
- knCI 
- knCHI 
- knJHI 
- knNYI 
- knTTI 
- knDDI 
- knDDHI 
- knNNI 
- knTI 
- knPI 
- knPHI 
- knBI 
- knBHI 
- knMI 
- knYI 
- knLI 
- knSSI 
- knHI 
- knLLI 
- knKU 
- knKHU 
- knGU 
- knGHU 
- knNGU 
- knCU 
- knCHU 
- knJU 
- knJHU 
- knNYU 
- knTTU 
- knTTHU 
- knDDU 
- knDDHU 
- knNNU 
- knTHU 
- knDU 
- knDHU 
- knNU 
- knPU 
- knPHU 
- knBU 
- knBHU 
- knMU 
- knYU 
- knRU 
- knLU 
- knVU 
- knSHU 
- knSSU 
- knSU 
- knHU 
- knLLU 
- knKUU 
- knKHUU 
- knGUU 
- knGHUU 
- knNGUU 
- knCUU 
- knCHUU 
- knJUU 
- knJHUU 
- knNYUU 
- knTTUU 
- knTTHUU 
- knDDUU 
- knDDHUU 
- knNNUU 
- knDUU 
- knDHUU 
- knNUU 
- knPUU 
- knPHUU 
- knBUU 
- knBHUU 
- knMUU 
- knYUU 
- knRUU 
- knLUU 
- knVUU 
- knSHUU 
- knSSUU 
- knSUU 
- knHUU 
- knLLUU 
- knGHE 
- knNGE 
- knCE 
- knCHE 
- knJHE 
- knNYE 
- knTTE 
- knDDE 
- knDDHE 
- knNNE 
- knTHE 
- knDE 
- knDHE 
- knPE 
- knPHE 
- knBE 
- knBHE 
- knME 
- knYE 
- knLE 
- knVE 
- knSHE 
- knSSE 
- knHE 
- knLLE 
- knKO 
- knKHO 
- knGO 
- knGHO 
- knNGO 
- knCO 
- knCHO 
- knJO 
- knJHO 
- knNYO 
- knTTE 
- knTTO 
- knTTHO 
- knDDO 
- knDDHO 
- knNNO 
- knTHO 
- knDO 
- knDHO 
- knNO 
- knPO 
- knPHO 
- knBO 
- knBHO 
- knMO 
- knYO 
- knRO 
- knLO 
- knVO 
- knSHO 
- knSSO 
- knSO 
- knHO 
- knLLO 
- knGHAU 
- knCAU 
- knCHAU 
- knJHAU 
- knNYAU 
- knTTAU 
- knDDAU 
- knDDHAU 
- knNNAU 
- knPAU 
- knPHAU 
- knBAU 
- knBHAU 
- knMAU 
- knYAU 
- knVAU 
- knSHAU 
- knSSAU 
- knHAU 
- knLLAU 
- knKH 
- knGH 
- knNG 
- knC 
- knCH 
- knJ 
- knJH 
- knNY 
- knTT 
- knDD 
- knDDH 
- knNN 
- knP 
- knPH 
- knB 
- knBH 
- knM 
- knY 
- knV 
- knSH 
- knSS 
- knH 
- knLL 
- knDDHxA 
- knPHxA
+ gha-kannada 
+ ca-kannada 
+ cha-kannada 
+ jha-kannada 
+ nya-kannada 
+ tta-kannada 
+ dda-kannada 
+ ddha-kannada 
+ nna-kannada 
+ pa-kannada 
+ pha-kannada 
+ ba-kannada 
+ bha-kannada 
+ ma-kannada 
+ ya-kannada 
+ sha-kannada 
+ ssa-kannada 
+ ha-kannada 
+ rra-kannada 
+ lla-kannada 
+ fa-kannada 
+ kaa-kannada 
+ khaa-kannada 
+ gaa-kannada 
+ ghaa-kannada 
+ ngaa-kannada 
+ caa-kannada 
+ chaa-kannada 
+ jaa-kannada 
+ jhaa-kannada 
+ nyaa-kannada 
+ ttaa-kannada 
+ tthaa-kannada 
+ ddaa-kannada 
+ ddhaa-kannada 
+ nnaa-kannada 
+ thaa-kannada 
+ daa-kannada 
+ dhaa-kannada 
+ naa-kannada 
+ paa-kannada 
+ phaa-kannada 
+ baa-kannada 
+ bhaa-kannada 
+ maa-kannada 
+ yaa-kannada 
+ raa-kannada 
+ laa-kannada 
+ vaa-kannada 
+ shaa-kannada 
+ ssaa-kannada 
+ saa-kannada 
+ haa-kannada 
+ llaa-kannada 
+ ghi-kannada 
+ ci-kannada 
+ chi-kannada 
+ jhi-kannada 
+ nyi-kannada 
+ tti-kannada 
+ ddi-kannada 
+ ddhi-kannada 
+ nni-kannada 
+ ti-kannada 
+ pi-kannada 
+ phi-kannada 
+ bi-kannada 
+ bhi-kannada 
+ mi-kannada 
+ yi-kannada 
+ li-kannada 
+ ssi-kannada 
+ hi-kannada 
+ lli-kannada 
+ ku-kannada 
+ khu-kannada 
+ gu-kannada 
+ ghu-kannada 
+ ngu-kannada 
+ cu-kannada 
+ chu-kannada 
+ ju-kannada 
+ jhu-kannada 
+ nyu-kannada 
+ ttu-kannada 
+ tthu-kannada 
+ ddu-kannada 
+ ddhu-kannada 
+ nnu-kannada 
+ thu-kannada 
+ du-kannada 
+ dhu-kannada 
+ nu-kannada 
+ pu-kannada 
+ phu-kannada 
+ bu-kannada 
+ bhu-kannada 
+ mu-kannada 
+ yu-kannada 
+ ru-kannada 
+ lu-kannada 
+ vu-kannada 
+ shu-kannada 
+ ssu-kannada 
+ su-kannada 
+ hu-kannada 
+ llu-kannada 
+ kuu-kannada 
+ khuu-kannada 
+ guu-kannada 
+ ghuu-kannada 
+ nguu-kannada 
+ cuu-kannada 
+ chuu-kannada 
+ juu-kannada 
+ jhuu-kannada 
+ nyuu-kannada 
+ ttuu-kannada 
+ tthuu-kannada 
+ dduu-kannada 
+ ddhuu-kannada 
+ nnuu-kannada 
+ duu-kannada 
+ dhuu-kannada 
+ nuu-kannada 
+ puu-kannada 
+ phuu-kannada 
+ buu-kannada 
+ bhuu-kannada 
+ muu-kannada 
+ yuu-kannada 
+ ruu-kannada 
+ luu-kannada 
+ vuu-kannada 
+ shuu-kannada 
+ ssuu-kannada 
+ suu-kannada 
+ huu-kannada 
+ lluu-kannada 
+ ghe-kannada 
+ nge-kannada 
+ ce-kannada 
+ che-kannada 
+ jhe-kannada 
+ nye-kannada 
+ tte-kannada 
+ dde-kannada 
+ ddhe-kannada 
+ nne-kannada 
+ the-kannada 
+ de-kannada 
+ dhe-kannada 
+ pe-kannada 
+ phe-kannada 
+ be-kannada 
+ bhe-kannada 
+ me-kannada 
+ ye-kannada 
+ le-kannada 
+ ve-kannada 
+ she-kannada 
+ sse-kannada 
+ he-kannada 
+ lle-kannada 
+ ko-kannada 
+ kho-kannada 
+ go-kannada 
+ gho-kannada 
+ ngo-kannada 
+ co-kannada 
+ cho-kannada 
+ jo-kannada 
+ jho-kannada 
+ nyo-kannada 
+ tte-kannada 
+ tto-kannada 
+ ttho-kannada 
+ ddo-kannada 
+ ddho-kannada 
+ nno-kannada 
+ tho-kannada 
+ do-kannada 
+ dho-kannada 
+ no-kannada 
+ po-kannada 
+ pho-kannada 
+ bo-kannada 
+ bho-kannada 
+ mo-kannada 
+ yo-kannada 
+ ro-kannada 
+ lo-kannada 
+ vo-kannada 
+ sho-kannada 
+ sso-kannada 
+ so-kannada 
+ ho-kannada 
+ llo-kannada 
+ ghau-kannada 
+ cau-kannada 
+ chau-kannada 
+ jhau-kannada 
+ nyau-kannada 
+ ttau-kannada 
+ ddau-kannada 
+ ddhau-kannada 
+ nnau-kannada 
+ pau-kannada 
+ phau-kannada 
+ bau-kannada 
+ bhau-kannada 
+ mau-kannada 
+ yau-kannada 
+ vau-kannada 
+ shau-kannada 
+ ssau-kannada 
+ hau-kannada 
+ llau-kannada 
+ kh-kannada 
+ gh-kannada 
+ ng-kannada 
+ c-kannada 
+ ch-kannada 
+ j-kannada 
+ jh-kannada 
+ ny-kannada 
+ tt-kannada 
+ dd-kannada 
+ ddh-kannada 
+ nn-kannada 
+ p-kannada 
+ ph-kannada 
+ b-kannada 
+ bh-kannada 
+ m-kannada 
+ y-kannada 
+ v-kannada 
+ sh-kannada 
+ ss-kannada 
+ h-kannada 
+ ll-kannada 
+ ddha_nukta-kannada 
+ pha_nukta-kannada
 ];
 
 @TAC2 = [
- knTAc2.01
- knTAc2
- knTAc2.03
+ ta-kannada.below.01
+ ta-kannada.below
+ ta-kannada.below.03
 ];
 
 @RAC2 = [
- knRAc2
- knRAc2.02
- knRAc2.03
+ ra-kannada.below
+ ra-kannada.below.02
+ ra-kannada.below.03
 ];
 
 #————————————————————————————————————————————————————————————————————————————————————————
@@ -451,30 +451,30 @@ languagesystem knda dflt;
 
 lookup GSUB_LOOKUP_00015 {
  lookupflag 0;
-    sub \i by \idotless;
-    sub \j by \jdotless;
+    sub i by idotless;
+    sub j by jdotless;
 } GSUB_LOOKUP_00015;
 
 lookup GSUB_LOOKUP_00016 {
  lookupflag 0;
-    sub \L \periodcentered by \Ldot;
-    sub \l \periodcentered by \ldot;
+    sub L periodcentered by Ldot;
+    sub l periodcentered by ldot;
 } GSUB_LOOKUP_00016;
 
 lookup GSUB_LOOKUP_00017 {
  lookupflag 0;
-    sub \A by \ordfeminine;
-    sub \O by \ordmasculine;
-    sub \a by \ordfeminine;
-    sub \o by \ordmasculine;
+    sub A by ordfeminine;
+    sub O by ordmasculine;
+    sub a by ordfeminine;
+    sub o by ordmasculine;
 } GSUB_LOOKUP_00017;
 
 #————❮ CCMP ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00002 {
  lookupflag 0;
-    sub [\i \j ]' lookup GSUB_LOOKUP_00015 [\acutecomb \brevecomb \caroncomb \circumflexcomb \dieresiscomb \dotaccentcomb \gravecomb \hungarumlautcomb \macroncomb \ringcomb \tildecomb ] ;
-    sub [\i \j ]' lookup GSUB_LOOKUP_00015 [\cedillacomb \commaaccent \dotbelowcomb \ogonekcomb \ringbelowcomb ] [\acutecomb \brevecomb \caroncomb \circumflexcomb \dieresiscomb \dotaccentcomb \gravecomb \hungarumlautcomb \macroncomb \ringcomb \tildecomb ] ;
+    sub [i j ]' lookup GSUB_LOOKUP_00015 [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb ] ;
+    sub [i j ]' lookup GSUB_LOOKUP_00015 [cedillacomb commaaccentcomb dotbelowcomb ogonekcomb ringbelowcomb ] [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb ] ;
 } GSUB_LOOKUP_00002;
 
 
@@ -482,51 +482,51 @@ lookup GSUB_LOOKUP_00002 {
 
 lookup GSUB_LOOKUP_00003 {
  lookupflag 0;
-    sub \Scedilla by \Scommaaccent;
-    sub \Tcedilla by \Tcommaaccent;
-    sub \scedilla by \scommaaccent;
-    sub \tcedilla by \tcommaaccent;
+    sub Scedilla by Scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub scedilla by scommaaccent;
+    sub tcedilla by tcommaaccent;
 } GSUB_LOOKUP_00003;
 
 lookup GSUB_LOOKUP_00004 {
  lookupflag 0;
-    sub \Scedilla by \Scommaaccent;
-    sub \Tcedilla by \Tcommaaccent;
-    sub \scedilla by \scommaaccent;
-    sub \tcedilla by \tcommaaccent;
+    sub Scedilla by Scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub scedilla by scommaaccent;
+    sub tcedilla by tcommaaccent;
 } GSUB_LOOKUP_00004;
 
 lookup GSUB_LOOKUP_00005 {
  lookupflag 0;
-    sub [\l ]' lookup GSUB_LOOKUP_00016 [\periodcentered ]' [\l ] ;
-    sub [\L ]' lookup GSUB_LOOKUP_00016 [\periodcentered ]' [\L ] ;
+    sub [l ]' lookup GSUB_LOOKUP_00016 [periodcentered ]' [l ] ;
+    sub [L ]' lookup GSUB_LOOKUP_00016 [periodcentered ]' [L ] ;
 } GSUB_LOOKUP_00005;
 
 #————❮ SUPS ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00006 {
  lookupflag 0;
-    sub \four by \foursuperior;
-    sub \one by \onesuperior;
-    sub \three by \threesuperior;
-    sub \two by \twosuperior;
+    sub four by foursuperior;
+    sub one by onesuperior;
+    sub three by threesuperior;
+    sub two by twosuperior;
 } GSUB_LOOKUP_00006;
 
 #————❮ FRAC ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00007 {
  lookupflag 0;
-    sub \one \slash \four by \onequarter;
-    sub \one \slash \two by \onehalf;
-    sub \three \slash \four by \threequarters;
+    sub one slash four by onequarter;
+    sub one slash two by onehalf;
+    sub three slash four by threequarters;
 } GSUB_LOOKUP_00007;
 
 #————❮ ORDN ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00008 {
  lookupflag 0;
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\A \a ]' lookup GSUB_LOOKUP_00017 ;
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\O \o ]' lookup GSUB_LOOKUP_00017 ;
+    sub [eight five four nine one seven six three two zero ] [A a ]' lookup GSUB_LOOKUP_00017 ;
+    sub [eight five four nine one seven six three two zero ] [O o ]' lookup GSUB_LOOKUP_00017 ;
 } GSUB_LOOKUP_00008;
 
 
@@ -534,63 +534,63 @@ lookup GSUB_LOOKUP_00008 {
 
 lookup GSUB_LOOKUP_00009 {
  lookupflag 0;
-    sub \eight by \eight.lf;
-    sub \five by \five.lf;
-    sub \four by \four.lf;
-    sub \nine by \nine.lf;
-    sub \one by \one.lf;
-    sub \seven by \seven.lf;
-    sub \six by \six.lf;
-    sub \three by \three.lf;
-    sub \two by \two.lf;
-    sub \zero by \zero.lf;
+    sub eight by eight.lf;
+    sub five by five.lf;
+    sub four by four.lf;
+    sub nine by nine.lf;
+    sub one by one.lf;
+    sub seven by seven.lf;
+    sub six by six.lf;
+    sub three by three.lf;
+    sub two by two.lf;
+    sub zero by zero.lf;
 } GSUB_LOOKUP_00009;
 
 #————❮ ONUM ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00010 {
  lookupflag 0;
-    sub \eight.lf by \eight;
-    sub \five.lf by \five;
-    sub \four.lf by \four;
-    sub \nine.lf by \nine;
-    sub \one.lf by \one;
-    sub \seven.lf by \seven;
-    sub \six.lf by \six;
-    sub \three.lf by \three;
-    sub \two.lf by \two;
-    sub \zero.lf by \zero;
+    sub eight.lf by eight;
+    sub five.lf by five;
+    sub four.lf by four;
+    sub nine.lf by nine;
+    sub one.lf by one;
+    sub seven.lf by seven;
+    sub six.lf by six;
+    sub three.lf by three;
+    sub two.lf by two;
+    sub zero.lf by zero;
 } GSUB_LOOKUP_00010;
 
 #————❮ CASE ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00011 {
  lookupflag 0;
-    sub \eight by \eight.lf;
-    sub \five by \five.lf;
-    sub \four by \four.lf;
-    sub \nine by \nine.lf;
-    sub \one by \one.lf;
-    sub \seven by \seven.lf;
-    sub \six by \six.lf;
-    sub \three by \three.lf;
-    sub \two by \two.lf;
-    sub \zero by \zero.lf;
+    sub eight by eight.lf;
+    sub five by five.lf;
+    sub four by four.lf;
+    sub nine by nine.lf;
+    sub one by one.lf;
+    sub seven by seven.lf;
+    sub six by six.lf;
+    sub three by three.lf;
+    sub two by two.lf;
+    sub zero by zero.lf;
 } GSUB_LOOKUP_00011;
 
 #————❮ LIGA ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00012 {
  lookupflag 0;
-    sub \f \i by \fi;
-    sub \f \l by \fl;
+    sub f i by fi;
+    sub f l by fl;
 } GSUB_LOOKUP_00012;
 
 #————❮ SALT ❯———————————————————————————————————————————————————
 
 lookup GSUB_LOOKUP_00013 {
  lookupflag 0;
-    sub \ampersand by \ampersand.ss01;
+    sub ampersand by ampersand.ss01;
 } GSUB_LOOKUP_00013;
 
 #————❮ ss01": to 'ss20' Stylistic Set 1 to 20 ❯——————————————————
@@ -598,44 +598,44 @@ lookup GSUB_LOOKUP_00013 {
 
 lookup GSUB_LOOKUP_00014 {
  lookupflag 0;
-    sub \ampersand by \ampersand.ss01;
+    sub ampersand by ampersand.ss01;
 } GSUB_LOOKUP_00014;
 
 
 feature aalt {
 ### import of lookup GSUB_LOOKUP_00000;
-    sub \A by \ordfeminine;
-    sub \O by \ordmasculine;
-    sub \Scedilla by \Scommaaccent;
-    sub \Tcedilla by \Tcommaaccent;
-    sub \a by \ordfeminine;
-    sub \i by \idotless;
-    sub \j by \jdotless;
-    sub \o by \ordmasculine;
-    sub \scedilla by \scommaaccent;
-    sub \tcedilla by \tcommaaccent;
-    sub \eight by \eight.lf;
-    sub \eight.lf by \eight;
-    sub \five by \five.lf;
-    sub \five.lf by \five;
-    sub \nine by \nine.lf;
-    sub \nine.lf by \nine;
-    sub \seven by \seven.lf;
-    sub \seven.lf by \seven;
-    sub \six by \six.lf;
-    sub \six.lf by \six;
-    sub \zero by \zero.lf;
-    sub \zero.lf by \zero;
-    sub \ampersand by \ampersand.ss01;
+    sub A by ordfeminine;
+    sub O by ordmasculine;
+    sub Scedilla by Scommaaccent;
+    sub Tcedilla by Tcommaaccent;
+    sub a by ordfeminine;
+    sub i by idotless;
+    sub j by jdotless;
+    sub o by ordmasculine;
+    sub scedilla by scommaaccent;
+    sub tcedilla by tcommaaccent;
+    sub eight by eight.lf;
+    sub eight.lf by eight;
+    sub five by five.lf;
+    sub five.lf by five;
+    sub nine by nine.lf;
+    sub nine.lf by nine;
+    sub seven by seven.lf;
+    sub seven.lf by seven;
+    sub six by six.lf;
+    sub six.lf by six;
+    sub zero by zero.lf;
+    sub zero.lf by zero;
+    sub ampersand by ampersand.ss01;
 ### import of lookup GSUB_LOOKUP_00001;
-    sub \four from [\foursuperior \four.lf];
-    sub \four.lf from [\four];
-    sub \one from [\onesuperior \one.lf];
-    sub \one.lf from [\one];
-    sub \three from [\threesuperior \three.lf];
-    sub \three.lf from [\three];
-    sub \two from [\twosuperior \two.lf];
-    sub \two.lf from [\two];
+    sub four from [foursuperior four.lf];
+    sub four.lf from [four];
+    sub one from [onesuperior one.lf];
+    sub one.lf from [one];
+    sub three from [threesuperior three.lf];
+    sub three.lf from [three];
+    sub two from [twosuperior two.lf];
+    sub two.lf from [two];
 } aalt;
 
 #=== K A N N A D A ====================================================================
@@ -643,377 +643,377 @@ feature aalt {
 #————❮ RPHF ❯———————————————————————————————————————————————————
 
 lookup rphf {
-    sub knRA knVirama by knReph;
+    sub ra-kannada halant-kannada by reph-kannada;
 } rphf;
 
 #————❮ NUKT ❯———————————————————————————————————————————————————
 
 lookup nukt {
-    sub knDDHA knNukta by knDDHxA; 
-    sub knPHA knNukta by knPHxA;
+    sub ddha-kannada nukta-kannada by ddha_nukta-kannada; 
+    sub pha-kannada nukta-kannada by pha_nukta-kannada;
  } nukt;
 
 #————❮ BLWF ❯———————————————————————————————————————————————————
 
 lookup blwf_knd2 {
-    sub knVirama knKA by knKAc2;
-    sub knVirama knKHA by knKHAc2;
-    sub knVirama knGA by knGAc2;
-    sub knVirama knGHA by knGHAc2;
-    sub knVirama knNGA by knNGAc2;
-    sub knVirama knCA by knCAc2;
-    sub knVirama knCHA by knCHAc2;
-    sub knVirama knJA by knJAc2;
-    sub knVirama knJHA by knJHAc2;
-    sub knVirama knNYA by knNYAc2;
-    sub knVirama knTTA by knTTAc2;
-    sub knVirama knTTHA by knTTHAc2;
-    sub knVirama knDDA by knDDAc2;
-    sub knVirama knDDHA by knDDHAc2;
-    sub knVirama knNNA by knNNAc2;
-    sub knVirama knTA by knTAc2;
-    sub knVirama knTHA by knTHAc2;
-    sub knVirama knDA by knDAc2;
-    sub knVirama knDHA by knDHAc2;
-    sub knVirama knNA by knNAc2;
-    sub knVirama knPA by knPAc2;
-    sub knVirama knPHA by knPHAc2;
-    sub knVirama knBA by knBAc2;
-    sub knVirama knBHA by knBHAc2;
-    sub knVirama knMA by knMAc2;
-    sub knVirama knYA by knYAc2;
-    sub knVirama knRA by knRAc2;
-    sub knVirama knLA by knLAc2;
-    sub knVirama knVA by knVAc2;
-    sub knVirama knSHA by knSHAc2;
-    sub knVirama knSSA by knSSAc2;
-    sub knVirama knSA by knSAc2;
-    sub knVirama knHA by knHAc2;
-    sub knVirama knLLA by knLLAc2;
+    sub halant-kannada ka-kannada by ka-kannada.below;
+    sub halant-kannada kha-kannada by kha-kannada.below;
+    sub halant-kannada ga-kannada by ga-kannada.below;
+    sub halant-kannada gha-kannada by gha-kannada.below;
+    sub halant-kannada nga-kannada by nga-kannada.below;
+    sub halant-kannada ca-kannada by ca-kannada.below;
+    sub halant-kannada cha-kannada by cha-kannada.below;
+    sub halant-kannada ja-kannada by ja-kannada.below;
+    sub halant-kannada jha-kannada by jha-kannada.below;
+    sub halant-kannada nya-kannada by nya-kannada.below;
+    sub halant-kannada tta-kannada by tta-kannada.below;
+    sub halant-kannada ttha-kannada by ttha-kannada.below;
+    sub halant-kannada dda-kannada by dda-kannada.below;
+    sub halant-kannada ddha-kannada by ddha-kannada.below;
+    sub halant-kannada nna-kannada by nna-kannada.below;
+    sub halant-kannada ta-kannada by ta-kannada.below;
+    sub halant-kannada tha-kannada by tha-kannada.below;
+    sub halant-kannada da-kannada by da-kannada.below;
+    sub halant-kannada dha-kannada by dha-kannada.below;
+    sub halant-kannada na-kannada by na-kannada.below;
+    sub halant-kannada pa-kannada by pa-kannada.below;
+    sub halant-kannada pha-kannada by pha-kannada.below;
+    sub halant-kannada ba-kannada by ba-kannada.below;
+    sub halant-kannada bha-kannada by bha-kannada.below;
+    sub halant-kannada ma-kannada by ma-kannada.below;
+    sub halant-kannada ya-kannada by ya-kannada.below;
+    sub halant-kannada ra-kannada by ra-kannada.below;
+    sub halant-kannada la-kannada by la-kannada.below;
+    sub halant-kannada va-kannada by va-kannada.below;
+    sub halant-kannada sha-kannada by sha-kannada.below;
+    sub halant-kannada ssa-kannada by ssa-kannada.below;
+    sub halant-kannada sa-kannada by sa-kannada.below;
+    sub halant-kannada ha-kannada by ha-kannada.below;
+    sub halant-kannada lla-kannada by lla-kannada.below;
 } blwf_knd2;
 
 lookup blwf_knda {
-    sub knKA knVirama by knKAc2;
-    sub knKHA knVirama by knKHAc2;
-    sub knGA knVirama by knGAc2;
-    sub knGHA knVirama by knGHAc2;
-    sub knNGA knVirama by knNGAc2;
-    sub knCA knVirama by knCAc2;
-    sub knCHA knVirama by knCHAc2;
-    sub knJA knVirama by knJAc2;
-    sub knJHA knVirama by knJHAc2;
-    sub knNYA knVirama by knNYAc2;
-    sub knTTA knVirama by knTTAc2;
-    sub knTTHA knVirama by knTTHAc2;
-    sub knDDA knVirama by knDDAc2;
-    sub knDDHA knVirama by knDDHAc2;
-    sub knNNA knVirama by knNNAc2;
-    sub knTA knVirama by knTAc2;
-    sub knTHA knVirama by knTHAc2;
-    sub knDA knVirama by knDAc2;
-    sub knDHA knVirama by knDHAc2;
-    sub knNA knVirama by knNAc2;
-    sub knPA knVirama by knPAc2;
-    sub knPHA knVirama by knPHAc2;
-    sub knBA knVirama by knBAc2;
-    sub knBHA knVirama by knBHAc2;
-    sub knMA knVirama by knMAc2;
-    sub knYA knVirama by knYAc2;
-    sub knRA knVirama by knRAc2;
-    sub knLA knVirama by knLAc2;
-    sub knVA knVirama by knVAc2;
-    sub knSHA knVirama by knSHAc2;
-    sub knSSA knVirama by knSSAc2;
-    sub knSA knVirama by knSAc2;
-    sub knHA knVirama by knHAc2;
-    sub knLLA knVirama by knLLAc2;
+    sub ka-kannada halant-kannada by ka-kannada.below;
+    sub kha-kannada halant-kannada by kha-kannada.below;
+    sub ga-kannada halant-kannada by ga-kannada.below;
+    sub gha-kannada halant-kannada by gha-kannada.below;
+    sub nga-kannada halant-kannada by nga-kannada.below;
+    sub ca-kannada halant-kannada by ca-kannada.below;
+    sub cha-kannada halant-kannada by cha-kannada.below;
+    sub ja-kannada halant-kannada by ja-kannada.below;
+    sub jha-kannada halant-kannada by jha-kannada.below;
+    sub nya-kannada halant-kannada by nya-kannada.below;
+    sub tta-kannada halant-kannada by tta-kannada.below;
+    sub ttha-kannada halant-kannada by ttha-kannada.below;
+    sub dda-kannada halant-kannada by dda-kannada.below;
+    sub ddha-kannada halant-kannada by ddha-kannada.below;
+    sub nna-kannada halant-kannada by nna-kannada.below;
+    sub ta-kannada halant-kannada by ta-kannada.below;
+    sub tha-kannada halant-kannada by tha-kannada.below;
+    sub da-kannada halant-kannada by da-kannada.below;
+    sub dha-kannada halant-kannada by dha-kannada.below;
+    sub na-kannada halant-kannada by na-kannada.below;
+    sub pa-kannada halant-kannada by pa-kannada.below;
+    sub pha-kannada halant-kannada by pha-kannada.below;
+    sub ba-kannada halant-kannada by ba-kannada.below;
+    sub bha-kannada halant-kannada by bha-kannada.below;
+    sub ma-kannada halant-kannada by ma-kannada.below;
+    sub ya-kannada halant-kannada by ya-kannada.below;
+    sub ra-kannada halant-kannada by ra-kannada.below;
+    sub la-kannada halant-kannada by la-kannada.below;
+    sub va-kannada halant-kannada by va-kannada.below;
+    sub sha-kannada halant-kannada by sha-kannada.below;
+    sub ssa-kannada halant-kannada by ssa-kannada.below;
+    sub sa-kannada halant-kannada by sa-kannada.below;
+    sub ha-kannada halant-kannada by ha-kannada.below;
+    sub lla-kannada halant-kannada by lla-kannada.below;
 } blwf_knda;
 
 #————❮ BLWS ❯———————————————————————————————————————————————————
 
 lookup blws_1 {
-    sub knKAc2 knSSAc2 by knKSSAc2;
-    sub knCHAc2 knRAc2 by knCHRAc2;
-    sub knTTAc2 knRAc2 by knTTRAc2;
-    sub knDAc2 knRAc2 by knDRAc2;
-    sub knDHAc2 knRAc2 by knDHRAc2;
+    sub ka-kannada.below ssa-kannada.below by k_ssa-kannada.below;
+    sub cha-kannada.below ra-kannada.below by ch_ra-kannada.below;
+    sub tta-kannada.below ra-kannada.below by tt_ra-kannada.below;
+    sub da-kannada.below ra-kannada.below by d_ra-kannada.below;
+    sub dha-kannada.below ra-kannada.below by dh_ra-kannada.below;
 } blws_1;
 
 #————❮ PSTS ❯———————————————————————————————————————————————————
 
 lookup psts_1 {
-    sub knKA knmAA by knKAA;
-    sub knKHA knmAA by knKHAA;
-    sub knGA knmAA by knGAA;
-    sub knGHA knmAA by knGHAA;
-    sub knNGA knmAA by knNGAA;
-    sub knCA knmAA by knCAA;
-    sub knCHA knmAA by knCHAA;
-    sub knJA knmAA by knJAA;
-    sub knJHA knmAA by knJHAA;
-    sub knNYA knmAA by knNYAA;
-    sub knTTA knmAA by knTTAA;
-    sub knTTHA knmAA by knTTHAA;
-    sub knDDA knmAA by knDDAA;
-    sub knDDHA knmAA by knDDHAA;
-    sub knNNA knmAA by knNNAA;
-    sub knTA knmAA by knTAA;
-    sub knTHA knmAA by knTHAA;
-    sub knDA knmAA by knDAA;
-    sub knDHA knmAA by knDHAA;
-    sub knNA knmAA by knNAA;
-    sub knPA knmAA by knPAA;
-    sub knPHA knmAA by knPHAA;
-    sub knBA knmAA by knBAA;
-    sub knBHA knmAA by knBHAA;
-    sub knMA knmAA by knMAA;
-    sub knYA knmAA by knYAA;
-    sub knRA knmAA by knRAA;
-    sub knLA knmAA by knLAA;
-    sub knVA knmAA by knVAA;
-    sub knSHA knmAA by knSHAA;
-    sub knSSA knmAA by knSSAA;
-    sub knSA knmAA by knSAA;
-    sub knHA knmAA by knHAA;
-    sub knLLA knmAA by knLLAA; 
+    sub ka-kannada aaMatra-kannada by kaa-kannada;
+    sub kha-kannada aaMatra-kannada by khaa-kannada;
+    sub ga-kannada aaMatra-kannada by gaa-kannada;
+    sub gha-kannada aaMatra-kannada by ghaa-kannada;
+    sub nga-kannada aaMatra-kannada by ngaa-kannada;
+    sub ca-kannada aaMatra-kannada by caa-kannada;
+    sub cha-kannada aaMatra-kannada by chaa-kannada;
+    sub ja-kannada aaMatra-kannada by jaa-kannada;
+    sub jha-kannada aaMatra-kannada by jhaa-kannada;
+    sub nya-kannada aaMatra-kannada by nyaa-kannada;
+    sub tta-kannada aaMatra-kannada by ttaa-kannada;
+    sub ttha-kannada aaMatra-kannada by tthaa-kannada;
+    sub dda-kannada aaMatra-kannada by ddaa-kannada;
+    sub ddha-kannada aaMatra-kannada by ddhaa-kannada;
+    sub nna-kannada aaMatra-kannada by nnaa-kannada;
+    sub ta-kannada aaMatra-kannada by taa-kannada;
+    sub tha-kannada aaMatra-kannada by thaa-kannada;
+    sub da-kannada aaMatra-kannada by daa-kannada;
+    sub dha-kannada aaMatra-kannada by dhaa-kannada;
+    sub na-kannada aaMatra-kannada by naa-kannada;
+    sub pa-kannada aaMatra-kannada by paa-kannada;
+    sub pha-kannada aaMatra-kannada by phaa-kannada;
+    sub ba-kannada aaMatra-kannada by baa-kannada;
+    sub bha-kannada aaMatra-kannada by bhaa-kannada;
+    sub ma-kannada aaMatra-kannada by maa-kannada;
+    sub ya-kannada aaMatra-kannada by yaa-kannada;
+    sub ra-kannada aaMatra-kannada by raa-kannada;
+    sub la-kannada aaMatra-kannada by laa-kannada;
+    sub va-kannada aaMatra-kannada by vaa-kannada;
+    sub sha-kannada aaMatra-kannada by shaa-kannada;
+    sub ssa-kannada aaMatra-kannada by ssaa-kannada;
+    sub sa-kannada aaMatra-kannada by saa-kannada;
+    sub ha-kannada aaMatra-kannada by haa-kannada;
+    sub lla-kannada aaMatra-kannada by llaa-kannada; 
  } psts_1;
  
 lookup psts_2 {
-    sub knKA knmI by knKI;
-    sub knKHA knmI by knKHI;
-    sub knGA knmI by knGI;
-    sub knGHA knmI by knGHI;
-    sub knNGA knmI by knNGI;
-    sub knCA knmI by knCI;
-    sub knCHA knmI by knCHI;
-    sub knJA knmI by knJI;
-    sub knJHA knmI by knJHI;
-    sub knNYA knmI by knNYI;
-    sub knTTA knmI by knTTI;
-    sub knTTHA knmI by knTTHI;
-    sub knDDA knmI by knDDI;
-    sub knDDHA knmI by knDDHI;
-    sub knNNA knmI by knNNI;
-    sub knTA knmI by knTI;
-    sub knTHA knmI by knTHI;
-    sub knDA knmI by knDI;
-    sub knDHA knmI by knDHI;
-    sub knNA knmI by knNI;
-    sub knPA knmI by knPI;
-    sub knPHA knmI by knPHI;
-    sub knBA knmI by knBI;
-    sub knBHA knmI by knBHI;
-    sub knMA knmI by knMI;
-    sub knYA knmI by knYI;
-    sub knRA knmI by knRI;
-    sub knLA knmI by knLI;
-    sub knVA knmI by knVI;
-    sub knSHA knmI by knSHI;
-    sub knSSA knmI by knSSI;
-    sub knSA knmI by knSI;
-    sub knHA knmI by knHI;
-    sub knLLA knmI by knLLI;
+    sub ka-kannada iMatra-kannada by ki-kannada;
+    sub kha-kannada iMatra-kannada by khi-kannada;
+    sub ga-kannada iMatra-kannada by gi-kannada;
+    sub gha-kannada iMatra-kannada by ghi-kannada;
+    sub nga-kannada iMatra-kannada by ngi-kannada;
+    sub ca-kannada iMatra-kannada by ci-kannada;
+    sub cha-kannada iMatra-kannada by chi-kannada;
+    sub ja-kannada iMatra-kannada by ji-kannada;
+    sub jha-kannada iMatra-kannada by jhi-kannada;
+    sub nya-kannada iMatra-kannada by nyi-kannada;
+    sub tta-kannada iMatra-kannada by tti-kannada;
+    sub ttha-kannada iMatra-kannada by tthi-kannada;
+    sub dda-kannada iMatra-kannada by ddi-kannada;
+    sub ddha-kannada iMatra-kannada by ddhi-kannada;
+    sub nna-kannada iMatra-kannada by nni-kannada;
+    sub ta-kannada iMatra-kannada by ti-kannada;
+    sub tha-kannada iMatra-kannada by thi-kannada;
+    sub da-kannada iMatra-kannada by di-kannada;
+    sub dha-kannada iMatra-kannada by dhi-kannada;
+    sub na-kannada iMatra-kannada by ni-kannada;
+    sub pa-kannada iMatra-kannada by pi-kannada;
+    sub pha-kannada iMatra-kannada by phi-kannada;
+    sub ba-kannada iMatra-kannada by bi-kannada;
+    sub bha-kannada iMatra-kannada by bhi-kannada;
+    sub ma-kannada iMatra-kannada by mi-kannada;
+    sub ya-kannada iMatra-kannada by yi-kannada;
+    sub ra-kannada iMatra-kannada by ri-kannada;
+    sub la-kannada iMatra-kannada by li-kannada;
+    sub va-kannada iMatra-kannada by vi-kannada;
+    sub sha-kannada iMatra-kannada by shi-kannada;
+    sub ssa-kannada iMatra-kannada by ssi-kannada;
+    sub sa-kannada iMatra-kannada by si-kannada;
+    sub ha-kannada iMatra-kannada by hi-kannada;
+    sub lla-kannada iMatra-kannada by lli-kannada;
 } psts_2;
 
 lookup psts_3 {
-    sub knKA knmU by knKU;
-    sub knKHA knmU by knKHU;
-    sub knGA knmU by knGU;
-    sub knGHA knmU by knGHU;
-    sub knNGA knmU by knNGU;
-    sub knCA knmU by knCU;
-    sub knCHA knmU by knCHU;
-    sub knJA knmU by knJU;
-    sub knJHA knmU by knJHU;
-    sub knNYA knmU by knNYU;
-    sub knTTA knmU by knTTU;
-    sub knTTHA knmU by knTTHU;
-    sub knDDA knmU by knDDU;
-    sub knDDHA knmU by knDDHU;
-    sub knNNA knmU by knNNU;
-    sub knTA knmU by knTU;
-    sub knTHA knmU by knTHU;
-    sub knDA knmU by knDU;
-    sub knDHA knmU by knDHU;
-    sub knNA knmU by knNU;
-    sub knPA knmU by knPU;
-    sub knPHA knmU by knPHU;
-    sub knBA knmU by knBU;
-    sub knBHA knmU by knBHU;
-    sub knMA knmU by knMU;
-    sub knYA knmU by knYU;
-    sub knRA knmU by knRU;
-    sub knLA knmU by knLU;
-    sub knVA knmU by knVU;
-    sub knSHA knmU by knSHU;
-    sub knSSA knmU by knSSU;
-    sub knSA knmU by knSU;
-    sub knHA knmU by knHU;
-    sub knLLA knmU by knLLU;
+    sub ka-kannada uMatra-kannada by ku-kannada;
+    sub kha-kannada uMatra-kannada by khu-kannada;
+    sub ga-kannada uMatra-kannada by gu-kannada;
+    sub gha-kannada uMatra-kannada by ghu-kannada;
+    sub nga-kannada uMatra-kannada by ngu-kannada;
+    sub ca-kannada uMatra-kannada by cu-kannada;
+    sub cha-kannada uMatra-kannada by chu-kannada;
+    sub ja-kannada uMatra-kannada by ju-kannada;
+    sub jha-kannada uMatra-kannada by jhu-kannada;
+    sub nya-kannada uMatra-kannada by nyu-kannada;
+    sub tta-kannada uMatra-kannada by ttu-kannada;
+    sub ttha-kannada uMatra-kannada by tthu-kannada;
+    sub dda-kannada uMatra-kannada by ddu-kannada;
+    sub ddha-kannada uMatra-kannada by ddhu-kannada;
+    sub nna-kannada uMatra-kannada by nnu-kannada;
+    sub ta-kannada uMatra-kannada by tu-kannada;
+    sub tha-kannada uMatra-kannada by thu-kannada;
+    sub da-kannada uMatra-kannada by du-kannada;
+    sub dha-kannada uMatra-kannada by dhu-kannada;
+    sub na-kannada uMatra-kannada by nu-kannada;
+    sub pa-kannada uMatra-kannada by pu-kannada;
+    sub pha-kannada uMatra-kannada by phu-kannada;
+    sub ba-kannada uMatra-kannada by bu-kannada;
+    sub bha-kannada uMatra-kannada by bhu-kannada;
+    sub ma-kannada uMatra-kannada by mu-kannada;
+    sub ya-kannada uMatra-kannada by yu-kannada;
+    sub ra-kannada uMatra-kannada by ru-kannada;
+    sub la-kannada uMatra-kannada by lu-kannada;
+    sub va-kannada uMatra-kannada by vu-kannada;
+    sub sha-kannada uMatra-kannada by shu-kannada;
+    sub ssa-kannada uMatra-kannada by ssu-kannada;
+    sub sa-kannada uMatra-kannada by su-kannada;
+    sub ha-kannada uMatra-kannada by hu-kannada;
+    sub lla-kannada uMatra-kannada by llu-kannada;
 } psts_3;
 
 lookup psts_4 {
-    sub knKA knmUU by knKUU;
-    sub knKHA knmUU by knKHUU;
-    sub knGA knmUU by knGUU;
-    sub knGHA knmUU by knGHUU;
-    sub knNGA knmUU by knNGUU;
-    sub knCA knmUU by knCUU;
-    sub knCHA knmUU by knCHUU;
-    sub knJA knmUU by knJUU;
-    sub knJHA knmUU by knJHUU;
-    sub knNYA knmUU by knNYUU;
-    sub knTTA knmUU by knTTUU;
-    sub knTTHA knmUU by knTTHUU;
-    sub knDDA knmUU by knDDUU;
-    sub knDDHA knmUU by knDDHUU;
-    sub knNNA knmUU by knNNUU;
-    sub knTA knmUU by knTUU;
-    sub knTHA knmUU by knTHUU;
-    sub knDA knmUU by knDUU;
-    sub knDHA knmUU by knDHUU;
-    sub knNA knmUU by knNUU;
-    sub knPA knmUU by knPUU;
-    sub knPHA knmUU by knPHUU;
-    sub knBA knmUU by knBUU;
-    sub knBHA knmUU by knBHUU;
-    sub knMA knmUU by knMUU;
-    sub knYA knmUU by knYUU;
-    sub knRA knmUU by knRUU;
-    sub knLA knmUU by knLUU;
-    sub knVA knmUU by knVUU;
-    sub knSHA knmUU by knSHUU;
-    sub knSSA knmUU by knSSUU;
-    sub knSA knmUU by knSUU;
-    sub knHA knmUU by knHUU;
-    sub knLLA knmUU by knLLUU;
+    sub ka-kannada uuMatra-kannada by kuu-kannada;
+    sub kha-kannada uuMatra-kannada by khuu-kannada;
+    sub ga-kannada uuMatra-kannada by guu-kannada;
+    sub gha-kannada uuMatra-kannada by ghuu-kannada;
+    sub nga-kannada uuMatra-kannada by nguu-kannada;
+    sub ca-kannada uuMatra-kannada by cuu-kannada;
+    sub cha-kannada uuMatra-kannada by chuu-kannada;
+    sub ja-kannada uuMatra-kannada by juu-kannada;
+    sub jha-kannada uuMatra-kannada by jhuu-kannada;
+    sub nya-kannada uuMatra-kannada by nyuu-kannada;
+    sub tta-kannada uuMatra-kannada by ttuu-kannada;
+    sub ttha-kannada uuMatra-kannada by tthuu-kannada;
+    sub dda-kannada uuMatra-kannada by dduu-kannada;
+    sub ddha-kannada uuMatra-kannada by ddhuu-kannada;
+    sub nna-kannada uuMatra-kannada by nnuu-kannada;
+    sub ta-kannada uuMatra-kannada by tuu-kannada;
+    sub tha-kannada uuMatra-kannada by thuu-kannada;
+    sub da-kannada uuMatra-kannada by duu-kannada;
+    sub dha-kannada uuMatra-kannada by dhuu-kannada;
+    sub na-kannada uuMatra-kannada by nuu-kannada;
+    sub pa-kannada uuMatra-kannada by puu-kannada;
+    sub pha-kannada uuMatra-kannada by phuu-kannada;
+    sub ba-kannada uuMatra-kannada by buu-kannada;
+    sub bha-kannada uuMatra-kannada by bhuu-kannada;
+    sub ma-kannada uuMatra-kannada by muu-kannada;
+    sub ya-kannada uuMatra-kannada by yuu-kannada;
+    sub ra-kannada uuMatra-kannada by ruu-kannada;
+    sub la-kannada uuMatra-kannada by luu-kannada;
+    sub va-kannada uuMatra-kannada by vuu-kannada;
+    sub sha-kannada uuMatra-kannada by shuu-kannada;
+    sub ssa-kannada uuMatra-kannada by ssuu-kannada;
+    sub sa-kannada uuMatra-kannada by suu-kannada;
+    sub ha-kannada uuMatra-kannada by huu-kannada;
+    sub lla-kannada uuMatra-kannada by lluu-kannada;
 } psts_4;
 
 lookup psts_5 {
-    sub knKA knmE by knKE;
-    sub knKHA knmE by knKHE;
-    sub knGA knmE by knGE;
-    sub knGHA knmE by knGHE;
-    sub knNGA knmE by knNGE;
-    sub knCA knmE by knCE;
-    sub knCHA knmE by knCHE;
-    sub knJA knmE by knJE;
-    sub knJHA knmE by knJHE;
-    sub knNYA knmE by knNYE;
-    sub knTTA knmE by knTTE;
-    sub knTTHA knmE by knTTHE;
-    sub knDDA knmE by knDDE;
-    sub knDDHA knmE by knDDHE;
-    sub knNNA knmE by knNNE;
-    sub knTA knmE by knTE;
-    sub knTHA knmE by knTHE;
-    sub knDA knmE by knDE;
-    sub knDHA knmE by knDHE;
-    sub knNA knmE by knNE;
-    sub knPA knmE by knPE;
-    sub knPHA knmE by knPHE;
-    sub knBA knmE by knBE;
-    sub knBHA knmE by knBHE;
-    sub knMA knmE by knME;
-    sub knYA knmE by knYE;
-    sub knRA knmE by knRE;
-    sub knLA knmE by knLE;
-    sub knVA knmE by knVE;
-    sub knSHA knmE by knSHE;
-    sub knSSA knmE by knSSE;
-    sub knSA knmE by knSE;
-    sub knHA knmE by knHE;
-    sub knLLA knmE by knLLE;
+    sub ka-kannada eMatra-kannada by ke-kannada;
+    sub kha-kannada eMatra-kannada by khe-kannada;
+    sub ga-kannada eMatra-kannada by ge-kannada;
+    sub gha-kannada eMatra-kannada by ghe-kannada;
+    sub nga-kannada eMatra-kannada by nge-kannada;
+    sub ca-kannada eMatra-kannada by ce-kannada;
+    sub cha-kannada eMatra-kannada by che-kannada;
+    sub ja-kannada eMatra-kannada by je-kannada;
+    sub jha-kannada eMatra-kannada by jhe-kannada;
+    sub nya-kannada eMatra-kannada by nye-kannada;
+    sub tta-kannada eMatra-kannada by tte-kannada;
+    sub ttha-kannada eMatra-kannada by tthe-kannada;
+    sub dda-kannada eMatra-kannada by dde-kannada;
+    sub ddha-kannada eMatra-kannada by ddhe-kannada;
+    sub nna-kannada eMatra-kannada by nne-kannada;
+    sub ta-kannada eMatra-kannada by te-kannada;
+    sub tha-kannada eMatra-kannada by the-kannada;
+    sub da-kannada eMatra-kannada by de-kannada;
+    sub dha-kannada eMatra-kannada by dhe-kannada;
+    sub na-kannada eMatra-kannada by ne-kannada;
+    sub pa-kannada eMatra-kannada by pe-kannada;
+    sub pha-kannada eMatra-kannada by phe-kannada;
+    sub ba-kannada eMatra-kannada by be-kannada;
+    sub bha-kannada eMatra-kannada by bhe-kannada;
+    sub ma-kannada eMatra-kannada by me-kannada;
+    sub ya-kannada eMatra-kannada by ye-kannada;
+    sub ra-kannada eMatra-kannada by re-kannada;
+    sub la-kannada eMatra-kannada by le-kannada;
+    sub va-kannada eMatra-kannada by ve-kannada;
+    sub sha-kannada eMatra-kannada by she-kannada;
+    sub ssa-kannada eMatra-kannada by sse-kannada;
+    sub sa-kannada eMatra-kannada by se-kannada;
+    sub ha-kannada eMatra-kannada by he-kannada;
+    sub lla-kannada eMatra-kannada by lle-kannada;
 } psts_5;
 
 lookup psts_6 {
-    sub knKE knmUU by knKO;
-    sub knKHE knmUU by knKHO;
-    sub knGE knmUU by knGO;
-    sub knGHE knmUU by knGHO;
-    sub knNGE knmUU by knNGO;
-    sub knCE knmUU by knCO;
-    sub knCHE knmUU by knCHO;
-    sub knJE knmUU by knJO;
-    sub knJHE knmUU by knJHO;
-    sub knNYE knmUU by knNYO;
-    sub knTTE knmUU by knTTO;
-    sub knTTHE knmUU by knTTHO;
-    sub knDDE knmUU by knDDO;
-    sub knDDHE knmUU by knDDHO;
-    sub knNNE knmUU by knNNO;
-    sub knTE knmUU by knTO;
-    sub knTHE knmUU by knTHO;
-    sub knDE knmUU by knDO;
-    sub knDHE knmUU by knDHO;
-    sub knNE knmUU by knNO;
-    sub knPE knmUU by knPO;
-    sub knPHE knmUU by knPHO;
-    sub knBE knmUU by knBO;
-    sub knBHE knmUU by knBHO;
-    sub knME knmUU by knMO;
-    sub knYE knmUU by knYO;
-    sub knRE knmUU by knRO;
-    sub knLE knmUU by knLO;
-    sub knVE knmUU by knVO;
-    sub knSHE knmUU by knSHO;
-    sub knSSE knmUU by knSSO;
-    sub knSE knmUU by knSO;
-    sub knHE knmUU by knHO;
-    sub knLLE knmUU by knLLO; 
+    sub ke-kannada uuMatra-kannada by ko-kannada;
+    sub khe-kannada uuMatra-kannada by kho-kannada;
+    sub ge-kannada uuMatra-kannada by go-kannada;
+    sub ghe-kannada uuMatra-kannada by gho-kannada;
+    sub nge-kannada uuMatra-kannada by ngo-kannada;
+    sub ce-kannada uuMatra-kannada by co-kannada;
+    sub che-kannada uuMatra-kannada by cho-kannada;
+    sub je-kannada uuMatra-kannada by jo-kannada;
+    sub jhe-kannada uuMatra-kannada by jho-kannada;
+    sub nye-kannada uuMatra-kannada by nyo-kannada;
+    sub tte-kannada uuMatra-kannada by tto-kannada;
+    sub tthe-kannada uuMatra-kannada by ttho-kannada;
+    sub dde-kannada uuMatra-kannada by ddo-kannada;
+    sub ddhe-kannada uuMatra-kannada by ddho-kannada;
+    sub nne-kannada uuMatra-kannada by nno-kannada;
+    sub te-kannada uuMatra-kannada by to-kannada;
+    sub the-kannada uuMatra-kannada by tho-kannada;
+    sub de-kannada uuMatra-kannada by do-kannada;
+    sub dhe-kannada uuMatra-kannada by dho-kannada;
+    sub ne-kannada uuMatra-kannada by no-kannada;
+    sub pe-kannada uuMatra-kannada by po-kannada;
+    sub phe-kannada uuMatra-kannada by pho-kannada;
+    sub be-kannada uuMatra-kannada by bo-kannada;
+    sub bhe-kannada uuMatra-kannada by bho-kannada;
+    sub me-kannada uuMatra-kannada by mo-kannada;
+    sub ye-kannada uuMatra-kannada by yo-kannada;
+    sub re-kannada uuMatra-kannada by ro-kannada;
+    sub le-kannada uuMatra-kannada by lo-kannada;
+    sub ve-kannada uuMatra-kannada by vo-kannada;
+    sub she-kannada uuMatra-kannada by sho-kannada;
+    sub sse-kannada uuMatra-kannada by sso-kannada;
+    sub se-kannada uuMatra-kannada by so-kannada;
+    sub he-kannada uuMatra-kannada by ho-kannada;
+    sub lle-kannada uuMatra-kannada by llo-kannada; 
 } psts_6;
  
 lookup psts_7 {
-    sub knKA knmAU by knKAU;
-    sub knKHA knmAU by knKHAU;
-    sub knGA knmAU by knGAU;
-    sub knGHA knmAU by knGHAU;
-    sub knNGA knmAU by knNGAU;
-    sub knCA knmAU by knCAU;
-    sub knCHA knmAU by knCHAU;
-    sub knJA knmAU by knJAU;
-    sub knJHA knmAU by knJHAU;
-    sub knNYA knmAU by knNYAU;
-    sub knTTA knmAU by knTTAU;
-    sub knTTHA knmAU by knTTHAU;
-    sub knDDA knmAU by knDDAU;
-    sub knDDHA knmAU by knDDHAU;
-    sub knNNA knmAU by knNNAU;
-    sub knTA knmAU by knTAU;
-    sub knTHA knmAU by knTHAU;
-    sub knDA knmAU by knDAU;
-    sub knDHA knmAU by knDHAU;
-    sub knNA knmAU by knNAU;
-    sub knPA knmAU by knPAU;
-    sub knPHA knmAU by knPHAU;
-    sub knBA knmAU by knBAU;
-    sub knBHA knmAU by knBHAU;
-    sub knMA knmAU by knMAU;
-    sub knYA knmAU by knYAU;
-    sub knRA knmAU by knRAU;
-    sub knLA knmAU by knLAU;
-    sub knVA knmAU by knVAU;
-    sub knSHA knmAU by knSHAU;
-    sub knSSA knmAU by knSSAU;
-    sub knSA knmAU by knSAU;
-    sub knHA knmAU by knHAU;
-    sub knLLA knmAU by knLLAU; 
+    sub ka-kannada auMatra-kannada by kau-kannada;
+    sub kha-kannada auMatra-kannada by khau-kannada;
+    sub ga-kannada auMatra-kannada by gau-kannada;
+    sub gha-kannada auMatra-kannada by ghau-kannada;
+    sub nga-kannada auMatra-kannada by ngau-kannada;
+    sub ca-kannada auMatra-kannada by cau-kannada;
+    sub cha-kannada auMatra-kannada by chau-kannada;
+    sub ja-kannada auMatra-kannada by jau-kannada;
+    sub jha-kannada auMatra-kannada by jhau-kannada;
+    sub nya-kannada auMatra-kannada by nyau-kannada;
+    sub tta-kannada auMatra-kannada by ttau-kannada;
+    sub ttha-kannada auMatra-kannada by tthau-kannada;
+    sub dda-kannada auMatra-kannada by ddau-kannada;
+    sub ddha-kannada auMatra-kannada by ddhau-kannada;
+    sub nna-kannada auMatra-kannada by nnau-kannada;
+    sub ta-kannada auMatra-kannada by tau-kannada;
+    sub tha-kannada auMatra-kannada by thau-kannada;
+    sub da-kannada auMatra-kannada by dau-kannada;
+    sub dha-kannada auMatra-kannada by dhau-kannada;
+    sub na-kannada auMatra-kannada by nau-kannada;
+    sub pa-kannada auMatra-kannada by pau-kannada;
+    sub pha-kannada auMatra-kannada by phau-kannada;
+    sub ba-kannada auMatra-kannada by bau-kannada;
+    sub bha-kannada auMatra-kannada by bhau-kannada;
+    sub ma-kannada auMatra-kannada by mau-kannada;
+    sub ya-kannada auMatra-kannada by yau-kannada;
+    sub ra-kannada auMatra-kannada by rau-kannada;
+    sub la-kannada auMatra-kannada by lau-kannada;
+    sub va-kannada auMatra-kannada by vau-kannada;
+    sub sha-kannada auMatra-kannada by shau-kannada;
+    sub ssa-kannada auMatra-kannada by ssau-kannada;
+    sub sa-kannada auMatra-kannada by sau-kannada;
+    sub ha-kannada auMatra-kannada by hau-kannada;
+    sub lla-kannada auMatra-kannada by llau-kannada; 
 } psts_7;
 
 lookup psts_8 {
-  sub @MEDIUM_LETTERS knRAc2' by knRAc2.02;
-  sub @WIDE_LETTERS knRAc2' by kanRAc2.04;
+  sub @MEDIUM_LETTERS ra-kannada.below' by ra-kannada.below.02;
+  sub @WIDE_LETTERS ra-kannada.below' by ra-kannada.below.04;
 } psts_8;
 
 lookup psts_9 {
-  sub @NARROW_LETTERS knTAc2' by knTAc2.01;
-  sub @WIDE_LETTERS knTAc2' by knTAc2.03;
+  sub @NARROW_LETTERS ta-kannada.below' by ta-kannada.below.01;
+  sub @WIDE_LETTERS ta-kannada.below' by ta-kannada.below.03;
 } psts_9;
 
 lookup psts_10 {
-  sub @NARROW_LETTERS @TAC2' @RAC2' by knTRAc2.01;
-  sub @MEDIUM_LETTERS @TAC2' @RAC2' by knTRAc2;
-  sub @WIDE_LETTERS @TAC2' @RAC2' by knTRAc2.03;
+  sub @NARROW_LETTERS @TAC2' @RAC2' by t_ra-kannada.below.01;
+  sub @MEDIUM_LETTERS @TAC2' @RAC2' by t_ra-kannada.below;
+  sub @WIDE_LETTERS @TAC2' @RAC2' by t_ra-kannada.below.03;
 } psts_10;
 
 lookup psts_11 {
@@ -1027,40 +1027,40 @@ lookup psts_11 {
 
 lookup haln {
 #lookupflag IgnoreMarks;
-  sub knKA knVirama by knK;
-  sub knKHA knVirama by knKH;
-  sub knGA knVirama by knG;
-  sub knGHA knVirama by knGH;
-  sub knNGA knVirama by knNG;
-  sub knCA knVirama by knC;
-  sub knCHA knVirama by knCH;
-  sub knJA knVirama by knJ;
-  sub knJHA knVirama by knJH;
-  sub knNYA knVirama by knNY;
-  sub knTTA knVirama by knTT;
-  sub knTTHA knVirama by knTTH;
-  sub knDDA knVirama by knDD;
-  sub knDDHA knVirama by knDDH;
-  sub knNNA knVirama by knNN;
-  sub knTA knVirama by knT;
-  sub knTHA knVirama by knTH;
-  sub knDA knVirama by knD;
-  sub knDHA knVirama by knDH;
-  sub knNA knVirama by knN;
-  sub knPA knVirama by knP;
-  sub knPHA knVirama by knPH;
-  sub knBA knVirama by knB;
-  sub knBHA knVirama by knBH;
-  sub knMA knVirama by knM;
-  sub knYA knVirama by knY;
-  sub knRA knVirama by knR;
-  sub knLA knVirama by knL;
-  sub knVA knVirama by knV;
-  sub knSHA knVirama by knSH;
-  sub knSSA knVirama by knSS;
-  sub knSA knVirama by knS;
-  sub knHA knVirama by knH;
-  sub knLLA knVirama by knLL;
+  sub ka-kannada halant-kannada by k-kannada;
+  sub kha-kannada halant-kannada by kh-kannada;
+  sub ga-kannada halant-kannada by g-kannada;
+  sub gha-kannada halant-kannada by gh-kannada;
+  sub nga-kannada halant-kannada by ng-kannada;
+  sub ca-kannada halant-kannada by c-kannada;
+  sub cha-kannada halant-kannada by ch-kannada;
+  sub ja-kannada halant-kannada by j-kannada;
+  sub jha-kannada halant-kannada by jh-kannada;
+  sub nya-kannada halant-kannada by ny-kannada;
+  sub tta-kannada halant-kannada by tt-kannada;
+  sub ttha-kannada halant-kannada by tth-kannada;
+  sub dda-kannada halant-kannada by dd-kannada;
+  sub ddha-kannada halant-kannada by ddh-kannada;
+  sub nna-kannada halant-kannada by nn-kannada;
+  sub ta-kannada halant-kannada by t-kannada;
+  sub tha-kannada halant-kannada by th-kannada;
+  sub da-kannada halant-kannada by d-kannada;
+  sub dha-kannada halant-kannada by dh-kannada;
+  sub na-kannada halant-kannada by n-kannada;
+  sub pa-kannada halant-kannada by p-kannada;
+  sub pha-kannada halant-kannada by ph-kannada;
+  sub ba-kannada halant-kannada by b-kannada;
+  sub bha-kannada halant-kannada by bh-kannada;
+  sub ma-kannada halant-kannada by m-kannada;
+  sub ya-kannada halant-kannada by y-kannada;
+  sub ra-kannada halant-kannada by r-kannada;
+  sub la-kannada halant-kannada by l-kannada;
+  sub va-kannada halant-kannada by v-kannada;
+  sub sha-kannada halant-kannada by sh-kannada;
+  sub ssa-kannada halant-kannada by ss-kannada;
+  sub sa-kannada halant-kannada by s-kannada;
+  sub ha-kannada halant-kannada by h-kannada;
+  sub lla-kannada halant-kannada by ll-kannada;
 #lookupflag 0;
 } haln;
 
