@@ -78,7 +78,7 @@ designer = "Vaishnavi Murthy Yerkadithaya, Juan Luis Blanco Aristondo";
 familyName = "Akaya Kanadaka";
 featurePrefixes = (
 {
-code = "#----------------------------------------------------------------------------------------\012#   Language Systems \012#----------------------------------------------------------------------------------------\012\012languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT ;\012languagesystem latn MOL ;\012languagesystem latn ROM ;\012languagesystem knd2 dflt;\012languagesystem knda dflt;\012";
+code = "#----------------------------------------------------------------------------------------\012#   Language Systems \012#----------------------------------------------------------------------------------------\012\012languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT ;\012languagesystem latn MOL ;\012languagesystem latn ROM ;\012languagesystem knd2 dflt;\012languagesystem knda dflt;\012";
 name = Prefix;
 }
 );
