@@ -38,7 +38,7 @@ code = "\012 ra-kannada.below\012 ra-kannada.below.02\012 ra-kannada.below.03\01
 name = RAC2;
 }
 );
-copyright = "Copyright 2015 The Akaya Kanadaka Project Authors.";
+copyright = "Copyright 2015 The Akaya Kanadaka Project Authors (https://github.com/vaishnavimurthy/Akaya-Kanadaka)";
 customParameters = (
 {
 name = license;
