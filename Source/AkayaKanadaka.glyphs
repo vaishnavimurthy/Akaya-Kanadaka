@@ -1,5 +1,5 @@
 {
-.appVersion = "875";
+.appVersion = "1342";
 classes = (
 {
 code = "\012 rVocalicMatra-kannada \012 ailength-kannada \012 ka-kannada.below \012 k_ssa-kannada.below \012 kha-kannada.below \012 ga-kannada.below \012 gha-kannada.below \012 nga-kannada.below \012 ca-kannada.below \012 cha-kannada.below \012 ja-kannada.below \012 jha-kannada.below \012 nya-kannada.below \012 tta-kannada.below \012 ttha-kannada.below \012 dda-kannada.below \012 ddha-kannada.below \012 nna-kannada.below \012 ta-kannada.below \012 t_ya-kannada.below \012 tha-kannada.below \012 da-kannada.below \012 dha-kannada.below \012 na-kannada.below \012 pa-kannada.below \012 pha-kannada.below \012 ba-kannada.below \012 bha-kannada.below \012 ma-kannada.below \012 ya-kannada.below \012 ra-kannada.below \012 la-kannada.below \012 va-kannada.below \012 sha-kannada.below \012 ssa-kannada.below \012 sa-kannada.below \012 ha-kannada.below \012 lla-kannada.below\012";
@@ -163,35 +163,35 @@ capHeight = 634;
 customParameters = (
 {
 name = typoAscender;
-value = "958";
+value = 920;
 },
 {
 name = typoDescender;
-value = "-834";
+value = -276;
 },
 {
 name = typoLineGap;
-value = "0";
+value = 0;
 },
 {
 name = winAscent;
-value = "958";
+value = 1011;
 },
 {
 name = winDescent;
-value = "-834";
+value = 834;
 },
 {
 name = hheaAscender;
-value = "958";
+value = 920;
 },
 {
 name = hheaDescender;
-value = "-834";
+value = -276;
 },
 {
 name = hheaLineGap;
-value = "0";
+value = 0;
 }
 );
 descender = -834;
@@ -34063,7 +34063,7 @@ unicode = 0CAA;
 {
 color = 4;
 glyphname = "pha-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 10:46:30 +0000";
 layers = (
 {
 anchors = (
@@ -34233,7 +34233,7 @@ name = "drop-kannada";
 }
 );
 layerId = "59118767-2CA9-48AA-9373-694D24C960D8";
-width = 669;
+width = 679;
 }
 );
 leftKerningGroup = knPA;
@@ -96447,12 +96447,11 @@ width = 831;
 );
 }
 );
-keepAlternatesTogether = 1;
 instances = (
 {
 customParameters = (
 {
-name = "Don’t use Production Names";
+name = "Don't use Production Names";
 value = 1;
 },
 {
@@ -96468,6 +96467,7 @@ instanceInterpolations = {
 name = Regular;
 }
 );
+keepAlternatesTogether = 1;
 kerning = {
 "59118767-2CA9-48AA-9373-694D24C960D8" = {
 "@MMK_L_150c2" = {
