@@ -12743,7 +12743,7 @@ rightMetricsKey = "j-kannada";
 {
 color = 4;
 glyphname = "bho-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:16:28 +0000";
 layers = (
 {
 anchors = (
@@ -12963,7 +12963,11 @@ nodes = (
 };
 components = (
 {
-name = "bhe-kannada";
+name = "be-kannada";
+},
+{
+name = "drop-kannada";
+transform = "{1, 0, 0, 1, -2, 0}";
 },
 {
 name = "uuMatra-kannada";
@@ -18312,7 +18316,7 @@ rightMetricsKey = "d-kannada";
 {
 color = 4;
 glyphname = "ddho-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:16:46 +0000";
 layers = (
 {
 anchors = (
@@ -18527,7 +18531,11 @@ nodes = (
 };
 components = (
 {
-name = "ddo-kannada";
+name = "dde-kannada";
+},
+{
+name = "uuMatra-kannada";
+transform = "{1, 0, 0, 1, 709, 0}";
 },
 {
 name = "drop-kannada";
@@ -18731,7 +18739,7 @@ rightMetricsKey = "j-kannada";
 {
 color = 4;
 glyphname = "ddhuu-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:17:10 +0000";
 layers = (
 {
 anchors = (
@@ -18928,7 +18936,11 @@ nodes = (
 };
 components = (
 {
-name = "dduu-kannada";
+name = "dda-kannada";
+},
+{
+name = "uuMatra-kannada";
+transform = "{1, 0, 0, 1, 710, 0}";
 },
 {
 name = "drop-kannada";
@@ -20379,13 +20391,17 @@ rightMetricsKey = "d-kannada";
 {
 color = 4;
 glyphname = "dho-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:17:49 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{1186, -70}";
+},
+{
+name = center;
+position = "{348, 256}";
 }
 );
 background = {
@@ -20575,7 +20591,11 @@ nodes = (
 };
 components = (
 {
-name = "do-kannada";
+name = "de-kannada";
+},
+{
+name = "uuMatra-kannada";
+transform = "{1, 0, 0, 1, 677, 0}";
 },
 {
 name = "drop-kannada";
@@ -20761,13 +20781,17 @@ rightMetricsKey = "l-kannada";
 {
 color = 4;
 glyphname = "dhuu-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:17:49 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{1235, -71}";
+},
+{
+name = center;
+position = "{357, 249}";
 }
 );
 background = {
@@ -20940,7 +20964,11 @@ nodes = (
 };
 components = (
 {
-name = "duu-kannada";
+name = "da-kannada";
+},
+{
+name = "uuMatra-kannada";
+transform = "{1, 0, 0, 1, 678, 0}";
 },
 {
 name = "drop-kannada";
@@ -26866,13 +26894,21 @@ rightMetricsKey = "uu-kannada";
 {
 color = 4;
 glyphname = "jhu-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:20:38 +0000";
 layers = (
 {
 anchors = (
 {
+name = "#exit";
+position = "{963, 0}";
+},
+{
 name = bottom;
 position = "{1328, -71}";
+},
+{
+name = center;
+position = "{275, 219}";
 }
 );
 background = {
@@ -27052,15 +27088,27 @@ nodes = (
 };
 components = (
 {
-name = "jha-kannada";
+name = "ra-kannada";
 },
 {
 name = "uMatra-kannada";
-transform = "{1, 0, 0, 1, 1099, 0}";
+transform = "{1, 0, 0, 1, 563, 0}";
+},
+{
+name = "drop-kannada";
+transform = "{1, 0, 0, 1, 334, 0}";
+},
+{
+name = "uMatra-kannada";
+transform = "{1, 0, 0, 1, 849, 0}";
+},
+{
+name = "uMatra-kannada";
+transform = "{1, 0, 0, 1, 1135, 0}";
 }
 );
 layerId = "59118767-2CA9-48AA-9373-694D24C960D8";
-width = 1353;
+width = 1389;
 }
 );
 leftKerningGroup = knRA;
@@ -27071,13 +27119,21 @@ rightMetricsKey = "j-kannada";
 {
 color = 4;
 glyphname = "jhuu-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:19:18 +0000";
 layers = (
 {
 anchors = (
 {
+name = "#exit";
+position = "{963, 0}";
+},
+{
 name = bottom;
 position = "{1626, -70}";
+},
+{
+name = center;
+position = "{275, 219}";
 }
 );
 background = {
@@ -27295,15 +27351,27 @@ nodes = (
 };
 components = (
 {
-name = "jha-kannada";
+name = "ra-kannada";
+},
+{
+name = "uMatra-kannada";
+transform = "{1, 0, 0, 1, 563, 0}";
+},
+{
+name = "drop-kannada";
+transform = "{1, 0, 0, 1, 334, 0}";
+},
+{
+name = "uMatra-kannada";
+transform = "{1, 0, 0, 1, 849, 0}";
 },
 {
 name = "uuMatra-kannada";
-transform = "{1, 0, 0, 1, 1059, 0}";
+transform = "{1, 0, 0, 1, 1095, 0}";
 }
 );
 layerId = "59118767-2CA9-48AA-9373-694D24C960D8";
-width = 1622;
+width = 1658;
 }
 );
 leftKerningGroup = knRA;
@@ -42906,9 +42974,19 @@ rightMetricsKey = "j-kannada";
 {
 color = 4;
 glyphname = "muu-kannada";
-lastChange = "2016-04-12 21:02:10 +0000";
+lastChange = "2020-12-17 11:19:43 +0000";
 layers = (
 {
+anchors = (
+{
+name = "#exit";
+position = "{887, 0}";
+},
+{
+name = bottom;
+position = "{827, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -43101,7 +43179,11 @@ nodes = (
 };
 components = (
 {
-name = "ma-kannada";
+name = "va-kannada";
+},
+{
+name = "uMatra-kannada";
+transform = "{1, 0, 0, 1, 737, 0}";
 },
 {
 name = "uuMatra-kannada";
@@ -58571,13 +58653,17 @@ rightMetricsKey = "d-kannada";
 {
 color = 4;
 glyphname = "tho-kannada";
-lastChange = "2016-04-14 09:17:42 +0000";
+lastChange = "2020-12-17 11:19:57 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{1191, -70}";
+},
+{
+name = center;
+position = "{348, 256}";
 }
 );
 background = {
@@ -58784,7 +58870,11 @@ nodes = (
 };
 components = (
 {
-name = "do-kannada";
+name = "de-kannada";
+},
+{
+name = "uuMatra-kannada";
+transform = "{1, 0, 0, 1, 677, 0}";
 },
 {
 name = "drop-kannada";
@@ -60592,9 +60682,15 @@ rightMetricsKey = "a-kannada";
 {
 color = 4;
 glyphname = "ttho-kannada";
-lastChange = "2016-04-12 19:00:29 +0000";
+lastChange = "2020-12-17 11:20:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = center;
+position = "{255, 225}";
+}
+);
 background = {
 paths = (
 {
@@ -60764,7 +60860,11 @@ nodes = (
 };
 components = (
 {
-name = "tthe-kannada";
+name = "re-kannada";
+},
+{
+name = "dot-kannada";
+transform = "{1, 0, 0, 1, 183, -26}";
 },
 {
 name = "uuMatra-kannada";
@@ -60783,9 +60883,23 @@ rightMetricsKey = "uu-kannada";
 {
 color = 4;
 glyphname = "tthu-kannada";
-lastChange = "2016-04-12 21:15:47 +0000";
+lastChange = "2020-12-17 11:20:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = "#exit";
+position = "{713, 0}";
+},
+{
+name = bottom;
+position = "{653, 0}";
+},
+{
+name = center;
+position = "{275, 219}";
+}
+);
 background = {
 paths = (
 {
@@ -60903,7 +61017,11 @@ nodes = (
 };
 components = (
 {
-name = "ru-kannada";
+name = "ra-kannada";
+},
+{
+name = "uMatra-kannada";
+transform = "{1, 0, 0, 1, 563, 0}";
 },
 {
 name = "dot-kannada";
@@ -60922,9 +61040,15 @@ rightMetricsKey = "j-kannada";
 {
 color = 4;
 glyphname = "tthuu-kannada";
-lastChange = "2016-04-12 21:21:10 +0000";
+lastChange = "2020-12-17 11:20:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = center;
+position = "{275, 219}";
+}
+);
 background = {
 paths = (
 {
@@ -61080,7 +61204,11 @@ nodes = (
 };
 components = (
 {
-name = "ruu-kannada";
+name = "ra-kannada";
+},
+{
+name = "uuMatra-kannada";
+transform = "{1, 0, 0, 1, 523, 0}";
 },
 {
 name = "dot-kannada";
